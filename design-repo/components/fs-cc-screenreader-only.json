@@ -1,0 +1,10 @@
+{
+  "id": "fs-cc-screenreader-only",
+  "name": "fs-cc-screenreader-only",
+  "occurrences": 91,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

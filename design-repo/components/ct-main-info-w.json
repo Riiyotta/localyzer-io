@@ -1,0 +1,15 @@
+{
+  "id": "ct-main-info-w",
+  "name": "ct-main-info-w",
+  "occurrences": 2,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/contact"
+  }
+}

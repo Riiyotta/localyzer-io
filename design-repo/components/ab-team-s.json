@@ -1,0 +1,14 @@
+{
+  "id": "ab-team-s",
+  "name": "ab-team-s",
+  "occurrences": 2,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/about"
+  }
+}

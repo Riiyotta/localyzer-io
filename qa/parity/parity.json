@@ -1,0 +1,422 @@
+{
+  "gate": 0.8,
+  "average": 0.981,
+  "rows": [
+    {
+      "route": "/",
+      "reference": "original crawl screenshot",
+      "sections": 10,
+      "compared": 10,
+      "sectionsInClone": 10,
+      "mirrorPageHeight": 14238,
+      "clonePageHeight": 9739,
+      "score": 0.968,
+      "below": [],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "GlobalHeaderC",
+          "mirrorHeight": 99,
+          "cloneHeight": 99,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "component": "HpHeroC",
+          "mirrorHeight": 673,
+          "cloneHeight": 673,
+          "pixelMatch": 0.998,
+          "score": 0.998,
+          "pinned": true
+        },
+        {
+          "idx": 2,
+          "component": "HpHeroImgC",
+          "mirrorHeight": 782,
+          "cloneHeight": 782,
+          "pixelMatch": 0.907,
+          "score": 0.907,
+          "pinned": true
+        },
+        {
+          "idx": 3,
+          "component": "HpPlatformS",
+          "mirrorHeight": 900,
+          "cloneHeight": 900,
+          "pixelMatch": 0.807,
+          "score": 0.807,
+          "pinned": true
+        },
+        {
+          "idx": 4,
+          "component": "HpTrustS",
+          "mirrorHeight": 1330,
+          "cloneHeight": 1330,
+          "pixelMatch": 0.994,
+          "score": 0.994
+        },
+        {
+          "idx": 5,
+          "component": "HpMarketingSectionTitle",
+          "mirrorHeight": 284,
+          "cloneHeight": 284,
+          "pixelMatch": 0.972,
+          "score": 0.972
+        },
+        {
+          "idx": 6,
+          "component": "WLayoutGrid",
+          "mirrorHeight": 1622,
+          "cloneHeight": 1622,
+          "pixelMatch": 0.999,
+          "score": 0.999
+        },
+        {
+          "idx": 7,
+          "component": "HpCustomerS",
+          "mirrorHeight": 1240,
+          "cloneHeight": 1240,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 8,
+          "component": "HpInsightsS",
+          "mirrorHeight": 1048,
+          "cloneHeight": 1048,
+          "pixelMatch": 0.978,
+          "score": 0.978
+        },
+        {
+          "idx": 9,
+          "component": "FooterS",
+          "mirrorHeight": 1074,
+          "cloneHeight": 1074,
+          "pixelMatch": 0.999,
+          "score": 0.999
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "/blog/tradespeople-online-availability-germany",
+      "reference": "original crawl screenshot",
+      "sections": 7,
+      "compared": 7,
+      "sectionsInClone": 7,
+      "mirrorPageHeight": 6579,
+      "clonePageHeight": 6565,
+      "score": 0.967,
+      "below": [],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "GlobalHeaderC15",
+          "mirrorHeight": 99,
+          "cloneHeight": 99,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "component": "ArtHeaderW8",
+          "mirrorHeight": 370,
+          "cloneHeight": 370,
+          "pixelMatch": 0.999,
+          "score": 0.999
+        },
+        {
+          "idx": 2,
+          "component": "ArtImageW8",
+          "mirrorHeight": 648,
+          "cloneHeight": 648,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "component": "ArtContentW8",
+          "mirrorHeight": 2634,
+          "cloneHeight": 2620,
+          "pixelMatch": 0.937,
+          "score": 0.937
+        },
+        {
+          "idx": 4,
+          "component": "ArtNewsletterS",
+          "mirrorHeight": 491,
+          "cloneHeight": 491,
+          "pixelMatch": 0.994,
+          "score": 0.994
+        },
+        {
+          "idx": 5,
+          "component": "ArtRelatedS6",
+          "mirrorHeight": 622,
+          "cloneHeight": 622,
+          "pixelMatch": 0.982,
+          "score": 0.982
+        },
+        {
+          "idx": 6,
+          "component": "FooterS8",
+          "mirrorHeight": 1074,
+          "cloneHeight": 1074,
+          "pixelMatch": 0.988,
+          "score": 0.988
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer",
+      "reference": "original crawl screenshot",
+      "sections": 7,
+      "compared": 7,
+      "sectionsInClone": 7,
+      "mirrorPageHeight": 5062,
+      "clonePageHeight": 5062,
+      "score": 0.992,
+      "below": [],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "GlobalHeaderC30",
+          "mirrorHeight": 99,
+          "cloneHeight": 99,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "component": "ArtHeaderW23",
+          "mirrorHeight": 312,
+          "cloneHeight": 312,
+          "pixelMatch": 0.999,
+          "score": 0.999
+        },
+        {
+          "idx": 2,
+          "component": "ArtImageW23",
+          "mirrorHeight": 648,
+          "cloneHeight": 648,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "component": "ArtContentW23",
+          "mirrorHeight": 1175,
+          "cloneHeight": 1175,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "component": "ArtNewsletterS",
+          "mirrorHeight": 491,
+          "cloneHeight": 491,
+          "pixelMatch": 0.994,
+          "score": 0.994
+        },
+        {
+          "idx": 5,
+          "component": "ArtRelatedS15",
+          "mirrorHeight": 622,
+          "cloneHeight": 622,
+          "pixelMatch": 0.983,
+          "score": 0.983
+        },
+        {
+          "idx": 6,
+          "component": "FooterS8",
+          "mirrorHeight": 1074,
+          "cloneHeight": 1074,
+          "pixelMatch": 0.98,
+          "score": 0.98
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "/category/product-update",
+      "reference": "original crawl screenshot",
+      "sections": 3,
+      "compared": 3,
+      "sectionsInClone": 3,
+      "mirrorPageHeight": 3095,
+      "clonePageHeight": 3095,
+      "score": 0.987,
+      "below": [],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "BlCategoryHeroS4",
+          "mirrorHeight": 536,
+          "cloneHeight": 536,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "component": "BlCategoryMainS4",
+          "mirrorHeight": 1306,
+          "cloneHeight": 1306,
+          "pixelMatch": 0.989,
+          "score": 0.989
+        },
+        {
+          "idx": 2,
+          "component": "FooterS15",
+          "mirrorHeight": 1074,
+          "cloneHeight": 1074,
+          "pixelMatch": 0.979,
+          "score": 0.979
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "/de/blog/social-media-analyse-die-top-100-mittelstaendler",
+      "reference": "original crawl screenshot",
+      "sections": 7,
+      "compared": 7,
+      "sectionsInClone": 7,
+      "mirrorPageHeight": 9711,
+      "clonePageHeight": 9697,
+      "score": 0.977,
+      "below": [],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "GlobalHeaderC55",
+          "mirrorHeight": 99,
+          "cloneHeight": 99,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "component": "ArtHeaderW40",
+          "mirrorHeight": 370,
+          "cloneHeight": 370,
+          "pixelMatch": 0.999,
+          "score": 0.999
+        },
+        {
+          "idx": 2,
+          "component": "ArtImageW11",
+          "mirrorHeight": 648,
+          "cloneHeight": 648,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "component": "ArtContentW40",
+          "mirrorHeight": 5718,
+          "cloneHeight": 5704,
+          "pixelMatch": 0.969,
+          "score": 0.969
+        },
+        {
+          "idx": 4,
+          "component": "ArtNewsletterS2",
+          "mirrorHeight": 506,
+          "cloneHeight": 506,
+          "pixelMatch": 0.993,
+          "score": 0.993
+        },
+        {
+          "idx": 5,
+          "component": "ArtRelatedS26",
+          "mirrorHeight": 622,
+          "cloneHeight": 622,
+          "pixelMatch": 0.984,
+          "score": 0.984
+        },
+        {
+          "idx": 6,
+          "component": "FooterS18",
+          "mirrorHeight": 1107,
+          "cloneHeight": 1107,
+          "pixelMatch": 0.988,
+          "score": 0.988
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "/de/blog/hyperlocalisation-ads-localyzer-fuehrt-neues-tool-zur-massenbuchung-von-tausenden-lokalen-online-kampagnen-ein",
+      "reference": "original crawl screenshot",
+      "sections": 7,
+      "compared": 7,
+      "sectionsInClone": 7,
+      "mirrorPageHeight": 6017,
+      "clonePageHeight": 6017,
+      "score": 0.997,
+      "below": [],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "GlobalHeaderC70",
+          "mirrorHeight": 99,
+          "cloneHeight": 99,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "component": "ArtHeaderW55",
+          "mirrorHeight": 427,
+          "cloneHeight": 427,
+          "pixelMatch": 0.999,
+          "score": 0.999
+        },
+        {
+          "idx": 2,
+          "component": "ArtImageW26",
+          "mirrorHeight": 648,
+          "cloneHeight": 648,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "component": "ArtContentW55",
+          "mirrorHeight": 1938,
+          "cloneHeight": 1938,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "component": "ArtNewsletterS2",
+          "mirrorHeight": 506,
+          "cloneHeight": 506,
+          "pixelMatch": 0.993,
+          "score": 0.993
+        },
+        {
+          "idx": 5,
+          "component": "ArtRelatedS34",
+          "mirrorHeight": 651,
+          "cloneHeight": 651,
+          "pixelMatch": 0.982,
+          "score": 0.982
+        },
+        {
+          "idx": 6,
+          "component": "FooterS18",
+          "mirrorHeight": 1107,
+          "cloneHeight": 1107,
+          "pixelMatch": 0.999,
+          "score": 0.999
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "pass": true
+}

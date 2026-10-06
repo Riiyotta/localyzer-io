@@ -1,0 +1,13 @@
+{
+  "id": "global-header-w",
+  "name": "global-header-w",
+  "occurrences": 89,
+  "composedOf": [
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

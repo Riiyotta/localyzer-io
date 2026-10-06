@@ -1,0 +1,12 @@
+{
+  "id": "sl-hero-ft-icon",
+  "name": "sl-hero-ft-icon",
+  "occurrences": 6,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/solutions"
+  }
+}

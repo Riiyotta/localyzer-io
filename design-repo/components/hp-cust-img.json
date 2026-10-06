@@ -1,0 +1,10 @@
+{
+  "id": "hp-cust-img",
+  "name": "hp-cust-img",
+  "occurrences": 16,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

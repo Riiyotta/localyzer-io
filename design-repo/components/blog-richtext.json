@@ -1,0 +1,14 @@
+{
+  "id": "blog-richtext",
+  "name": "blog-richtext",
+  "occurrences": 63,
+  "composedOf": [
+    "embed",
+    "heading",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/world-cup-2026-sponsor-stocks-analysis"
+  }
+}

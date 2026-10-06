@@ -1,0 +1,12 @@
+{
+  "id": "fs-cc-modal-description",
+  "name": "fs-cc-modal_description",
+  "occurrences": 91,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

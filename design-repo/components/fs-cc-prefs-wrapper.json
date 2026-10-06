@@ -1,0 +1,12 @@
+{
+  "id": "fs-cc-prefs-wrapper",
+  "name": "fs-cc-prefs_wrapper",
+  "occurrences": 91,
+  "composedOf": [
+    "input"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

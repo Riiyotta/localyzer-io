@@ -1,0 +1,12 @@
+{
+  "id": "global-newsletter-form-w",
+  "name": "global-newsletter-form-w",
+  "occurrences": 69,
+  "composedOf": [
+    "input"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog"
+  }
+}

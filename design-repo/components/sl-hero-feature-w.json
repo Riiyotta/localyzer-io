@@ -1,0 +1,14 @@
+{
+  "id": "sl-hero-feature-w",
+  "name": "sl-hero-feature-w",
+  "occurrences": 6,
+  "composedOf": [
+    "heading",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/solutions"
+  }
+}

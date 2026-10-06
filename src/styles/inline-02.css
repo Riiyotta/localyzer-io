@@ -1,0 +1,24 @@
+
+  :root {
+    --swiper-pagination-color: var(--localyzer-jungle-500);
+    --swiper-pagination-bullet-size: 8px;
+    --swiper-pagination-bullet-width: 8px;
+    --swiper-pagination-bullet-height: 8px;
+    --swiper-pagination-bullet-inactive-color: var(--localyzer-jungle-500);
+    --swiper-pagination-bullet-horizontal-gap: 4px;
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active{
+    width:36px;
+    border-radius:10px;
+  }
+  .swiper-button-next:after, .swiper-button-prev:after{
+    content:unset!important;
+  }
+  .swiper-button-prev, .swiper-button-next{
+    width:unset!important;
+    height:unset!important;
+    margin:unset!important;
+  }
+  .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    width:unset!important;
+  }

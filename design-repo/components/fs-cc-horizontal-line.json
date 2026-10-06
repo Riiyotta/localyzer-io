@@ -1,0 +1,10 @@
+{
+  "id": "fs-cc-horizontal-line",
+  "name": "fs-cc-horizontal-line",
+  "occurrences": 91,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

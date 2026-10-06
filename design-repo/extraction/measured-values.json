@@ -1,0 +1,6724 @@
+{
+  "version": "0.1.0",
+  "sourceProject": {
+    "url": "https://www.localyzer.io/",
+    "framework": "Webflow+GSAP",
+    "scrapedAt": "2026-10-05T12:33:59Z",
+    "snapshotFolder": "recon/mirror/src/"
+  },
+  "note": "Citation ledger. `lines` are line ranges in the rendered-HTML snapshots under recon/mirror/src/; verify_all.py resolves them and degrades to a warning when src/ is absent.",
+  "viewport": {
+    "desktop": "1440x900",
+    "mobile": "390x844"
+  },
+  "histograms": {
+    "colors": [
+      [
+        "rgba(0,0,0,0)",
+        36109
+      ],
+      [
+        "rgb(0,63,58)",
+        34558
+      ],
+      [
+        "rgb(255,255,255)",
+        8279
+      ],
+      [
+        "rgb(0,0,0)",
+        2545
+      ],
+      [
+        "rgb(0,63,57)",
+        1483
+      ],
+      [
+        "rgb(77,121,117)",
+        1339
+      ],
+      [
+        "rgba(255,255,255,0.95)",
+        825
+      ],
+      [
+        "rgba(0,63,58,0.12)",
+        743
+      ],
+      [
+        "rgb(240,244,243)",
+        738
+      ],
+      [
+        "rgb(0,217,204)",
+        396
+      ],
+      [
+        "rgb(95,95,95)",
+        273
+      ],
+      [
+        "rgb(238,238,238)",
+        192
+      ],
+      [
+        "rgb(204,204,204)",
+        180
+      ],
+      [
+        "rgba(20,20,30,0.7)",
+        160
+      ],
+      [
+        "rgb(0,78,72)",
+        138
+      ],
+      [
+        "rgb(51,51,51)",
+        107
+      ],
+      [
+        "rgb(255,139,106)",
+        103
+      ],
+      [
+        "rgba(0,63,58,0.1)",
+        60
+      ],
+      [
+        "rgb(0,122,255)",
+        24
+      ],
+      [
+        "rgb(255,139,105)",
+        24
+      ],
+      [
+        "rgba(0,63,58,0.5)",
+        24
+      ],
+      [
+        "rgb(250,250,69)",
+        18
+      ],
+      [
+        "rgb(181,128,255)",
+        14
+      ],
+      [
+        "rgb(217,217,217)",
+        14
+      ],
+      [
+        "rgb(241,245,245)",
+        12
+      ],
+      [
+        "rgb(0,62,57)",
+        10
+      ],
+      [
+        "rgb(241,231,255)",
+        10
+      ],
+      [
+        "rgb(198,255,247)",
+        8
+      ],
+      [
+        "rgb(249,253,196)",
+        6
+      ],
+      [
+        "rgb(255,120,82)",
+        6
+      ],
+      [
+        "rgb(255,232,225)",
+        6
+      ],
+      [
+        "rgb(9,84,78)",
+        6
+      ],
+      [
+        "rgb(205,205,19)",
+        4
+      ],
+      [
+        "rgb(234,67,53)",
+        4
+      ],
+      [
+        "rgb(250,187,5)",
+        4
+      ],
+      [
+        "rgb(52,168,82)",
+        4
+      ],
+      [
+        "rgb(66,133,244)",
+        4
+      ],
+      [
+        "rgb(0,216,203)",
+        2
+      ],
+      [
+        "rgb(0,223,210)",
+        2
+      ],
+      [
+        "rgb(142,255,241)",
+        2
+      ],
+      [
+        "rgb(146,84,232)",
+        2
+      ],
+      [
+        "rgb(210,178,255)",
+        2
+      ],
+      [
+        "rgb(212,248,243)",
+        2
+      ],
+      [
+        "rgb(23,119,241)",
+        2
+      ],
+      [
+        "rgb(233,75,53)",
+        2
+      ],
+      [
+        "rgb(236,29,35)",
+        2
+      ],
+      [
+        "rgb(242,197,0)",
+        2
+      ],
+      [
+        "rgb(247,252,140)",
+        2
+      ],
+      [
+        "rgb(255,0,0)",
+        2
+      ],
+      [
+        "rgb(255,138,106)",
+        2
+      ],
+      [
+        "rgb(255,180,160)",
+        2
+      ],
+      [
+        "rgb(255,181,160)",
+        2
+      ],
+      [
+        "rgb(56,192,184)",
+        2
+      ]
+    ],
+    "radii": [
+      [
+        "20px",
+        1096
+      ],
+      [
+        "50px",
+        1075
+      ],
+      [
+        "100px",
+        1037
+      ],
+      [
+        "8px",
+        544
+      ],
+      [
+        "1440px",
+        273
+      ],
+      [
+        "12.5px",
+        182
+      ],
+      [
+        "2px",
+        180
+      ],
+      [
+        "7.5px",
+        91
+      ],
+      [
+        "16px",
+        12
+      ],
+      [
+        "200px",
+        12
+      ],
+      [
+        "12px",
+        8
+      ],
+      [
+        "10px",
+        2
+      ],
+      [
+        "30px",
+        2
+      ]
+    ],
+    "spacing": [
+      [
+        "16px",
+        5156
+      ],
+      [
+        "32px",
+        2876
+      ],
+      [
+        "15px",
+        2718
+      ],
+      [
+        "8px",
+        2534
+      ],
+      [
+        "40px",
+        2163
+      ],
+      [
+        "24px",
+        2028
+      ],
+      [
+        "29px",
+        1398
+      ],
+      [
+        "10px",
+        1312
+      ],
+      [
+        "5px",
+        1088
+      ],
+      [
+        "21px",
+        1030
+      ],
+      [
+        "20px",
+        857
+      ],
+      [
+        "48px",
+        554
+      ],
+      [
+        "16.25px",
+        546
+      ],
+      [
+        "25px",
+        546
+      ],
+      [
+        "3.75px",
+        546
+      ],
+      [
+        "6px",
+        360
+      ],
+      [
+        "56px",
+        349
+      ],
+      [
+        "9px",
+        276
+      ],
+      [
+        "60px",
+        243
+      ],
+      [
+        "128px",
+        228
+      ],
+      [
+        "120px",
+        220
+      ],
+      [
+        "42px",
+        214
+      ],
+      [
+        "4px",
+        196
+      ],
+      [
+        "90px",
+        194
+      ],
+      [
+        "22px",
+        186
+      ],
+      [
+        "200px",
+        162
+      ],
+      [
+        "96px",
+        138
+      ],
+      [
+        "7.5px",
+        91
+      ],
+      [
+        "190px",
+        89
+      ],
+      [
+        "76px",
+        89
+      ],
+      [
+        "74px",
+        69
+      ],
+      [
+        "23.04px",
+        48
+      ],
+      [
+        "106px",
+        36
+      ],
+      [
+        "160px",
+        30
+      ],
+      [
+        "62px",
+        28
+      ],
+      [
+        "18px",
+        27
+      ],
+      [
+        "18.72px",
+        24
+      ],
+      [
+        "21.1562px",
+        24
+      ],
+      [
+        "23px",
+        24
+      ],
+      [
+        "100px",
+        20
+      ]
+    ],
+    "breakpoints": [
+      [
+        "991px",
+        449
+      ],
+      [
+        "479px",
+        445
+      ],
+      [
+        "767px",
+        358
+      ],
+      [
+        "769px",
+        178
+      ],
+      [
+        "1920px",
+        89
+      ],
+      [
+        "768px",
+        89
+      ]
+    ],
+    "durations": [
+      [
+        "0.3s",
+        2717
+      ],
+      [
+        "0.175s",
+        728
+      ],
+      [
+        "0.15s",
+        613
+      ],
+      [
+        "30s",
+        380
+      ],
+      [
+        "0.5s",
+        278
+      ],
+      [
+        "0.25s",
+        32
+      ],
+      [
+        "0.8s",
+        24
+      ],
+      [
+        "5s",
+        4
+      ]
+    ],
+    "easings": [
+      [
+        "ease",
+        2529
+      ],
+      [
+        "ease-in-out",
+        1037
+      ],
+      [
+        "linear",
+        544
+      ],
+      [
+        "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+        364
+      ],
+      [
+        "cubic-bezier(0.39, 0.575, 0.565, 1)",
+        278
+      ],
+      [
+        "cubic-bezier(0.15, 0.85, 0.3, 1)",
+        24
+      ]
+    ],
+    "cssVariables": {
+      "--localyzer-jungle-500": "rgb(0,63,58)",
+      "--transparent": "rgba(0,0,0,0)",
+      "--white": "rgb(255,255,255)",
+      "--localyzer-turquoise-500": "rgb(0,217,204)",
+      "--padding-l": "12rem",
+      "--padding-m": "9rem",
+      "--padding-s": "6rem",
+      "--padding-xs": "4rem",
+      "--padding-xl": "16rem",
+      "--padding-xxl": "20rem",
+      "--corner-radius-l": "2rem",
+      "--padding-0": "0rem",
+      "--localyzer-lemon-500": "rgb(250,250,69)",
+      "--localyzer-peach-300": "rgb(255,181,160)",
+      "--localyzer-turquoise-300": "rgb(142,255,241)",
+      "--localyzer-lemon-300": "rgb(247,252,140)",
+      "--localyzer-violet-300": "rgb(210,178,255)",
+      "--localyzer-peach-500": "rgb(255,139,106)",
+      "--localyzer-jungle-300": "rgb(77,121,117)",
+      "--hero-title-width": "92rem",
+      "--localyzer-lemon-100": "rgb(249,253,196)",
+      "--localyzer-peach-100": "rgb(255,232,225)",
+      "--localyzer-turquoise-100": "rgb(198,255,247)",
+      "--localyzer-violet-100": "rgb(241,231,255)",
+      "--localyzer-jungle-100": "rgb(153,178,176)",
+      "--emok-header": "rgb(142,0,56)",
+      "--emok-text": "rgb(51,51,51)",
+      "--localyzer-violet-500": "rgb(181,128,255)",
+      "--corner-radius-m": "16px",
+      "--swiper-pagination-color": "rgb(0,63,58)",
+      "--swiper-pagination-bullet-size": "8px",
+      "--swiper-pagination-bullet-width": "8px",
+      "--swiper-pagination-bullet-height": "8px",
+      "--swiper-pagination-bullet-inactive-color": "rgb(0,63,58)",
+      "--swiper-pagination-bullet-horizontal-gap": "4px",
+      "--swiper-theme-color": "rgb(0,122,255)",
+      "--swiper-navigation-size": "44px"
+    }
+  },
+  "routes": [
+    {
+      "route": "/",
+      "title": "Localyzer | The Brand-to-Local System for Co-op Marketing",
+      "h1": "Local Marketing That Your Locations Actually Use",
+      "template": "template.group",
+      "file": "src/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            363,
+            527
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.hp-hero-c",
+          "tag": "div",
+          "anchor": "hp-hero-c",
+          "lines": [
+            528,
+            628
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "hero.hp-hero-img-c",
+          "tag": "div",
+          "anchor": "hp-hero-img-c",
+          "lines": [
+            629,
+            687
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "support.hp-platform-s",
+          "tag": "section",
+          "anchor": "hp-platform-s",
+          "lines": [
+            688,
+            884
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.hp-trust-s",
+          "tag": "section",
+          "anchor": "hp-trust-s",
+          "lines": [
+            885,
+            989
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.hp-marketing-section-title-c",
+          "tag": "div",
+          "anchor": "hp-marketing-section-title-c",
+          "lines": [
+            990,
+            998
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.hp-marketing-perks",
+          "tag": "div",
+          "anchor": "w-layout-grid",
+          "lines": [
+            999,
+            6751
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "proof.hp-customer-s",
+          "tag": "section",
+          "anchor": "hp-customer-s",
+          "lines": [
+            6752,
+            7074
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "content.hp-insights-s",
+          "tag": "section",
+          "anchor": "hp-insights-s",
+          "lines": [
+            7075,
+            7848
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            7849,
+            8254
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/solutions",
+      "title": "Local Marketing Platform for Distributed Networks | Localyzer",
+      "h1": "Run Local Marketing Across All Locations",
+      "template": "template.group-2",
+      "file": "src/solutions/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            234,
+            398
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.nsl-hero-title-w",
+          "tag": "div",
+          "anchor": "nsl-hero-title-w",
+          "lines": [
+            399,
+            404
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "hero.sl-hero-img-w",
+          "tag": "div",
+          "anchor": "sl-hero-img-w",
+          "lines": [
+            405,
+            473
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "hero.sl-hero-features-c",
+          "tag": "div",
+          "anchor": "sl-hero-features-c",
+          "lines": [
+            474,
+            532
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.sl-feat-main-s",
+          "tag": "section",
+          "anchor": "sl-feat-main-s",
+          "lines": [
+            533,
+            672
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.sl-feat-common-s",
+          "tag": "section",
+          "anchor": "sl-feat-common-s",
+          "lines": [
+            673,
+            753
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.sl-feat-templ-s",
+          "tag": "section",
+          "anchor": "sl-feat-templ-s",
+          "lines": [
+            754,
+            784
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "content.nsl-local-s",
+          "tag": "section",
+          "anchor": "nsl-local-s",
+          "lines": [
+            785,
+            892
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "content.nsol-manage-s",
+          "tag": "section",
+          "anchor": "nsol-manage-s",
+          "lines": [
+            893,
+            921
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            922,
+            1207
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/about",
+      "title": "About Localyzer: Innovating the Future of Digital Marketing Since 2017",
+      "h1": "Building the future of digital marketing",
+      "template": "template.group-3",
+      "file": "src/about/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            240,
+            401
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.ab-hero-s",
+          "tag": "section",
+          "anchor": "ab-hero-s",
+          "lines": [
+            402,
+            520
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.ab-founded-s",
+          "tag": "section",
+          "anchor": "ab-founded-s",
+          "lines": [
+            521,
+            547
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.ab-team-s",
+          "tag": "section",
+          "anchor": "ab-team-s",
+          "lines": [
+            548,
+            566
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.ab-timeline-s",
+          "tag": "section",
+          "anchor": "ab-timeline-s",
+          "lines": [
+            567,
+            1045
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.ab-openjobs-s",
+          "tag": "section",
+          "anchor": "ab-openjobs-s",
+          "lines": [
+            1046,
+            1077
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            1078,
+            1376
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog",
+      "title": "Localyzer Blog: Insights and Updates on Local Marketing Strategies",
+      "h1": "Curated marketing contENt for you",
+      "template": "template.group-4",
+      "file": "src/blog/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            241,
+            402
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.blog-hero-s",
+          "tag": "section",
+          "anchor": "blog-hero-s",
+          "lines": [
+            403,
+            536
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.blog-newsletter-s",
+          "tag": "section",
+          "anchor": "blog-newsletter-s",
+          "lines": [
+            537,
+            567
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.blog-main-s",
+          "tag": "section",
+          "anchor": "blog-main-s",
+          "lines": [
+            568,
+            753
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            754,
+            1039
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/careers",
+      "title": "Join the Localyzer Team: Careers in Online Marketing",
+      "h1": "Jobs with impact! in online marketing",
+      "template": "template.group-5",
+      "file": "src/careers/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            235,
+            396
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.cr-main-s",
+          "tag": "section",
+          "anchor": "cr-main-s",
+          "lines": [
+            397,
+            432
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            433,
+            718
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/contact",
+      "title": "Contact",
+      "h1": "Let's get in touch",
+      "template": "template.group-6",
+      "file": "src/contact/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            230,
+            391
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "support.ct-main-s",
+          "tag": "section",
+          "anchor": "ct-main-s",
+          "lines": [
+            392,
+            480
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            481,
+            766
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de",
+      "title": "Localyzer | Das Brand-to-Local-System für Co-op-Marketing",
+      "h1": "Lokales Marketing, das Ihre Standorte wirklich nutzen",
+      "template": "template.group",
+      "file": "src/de/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            363,
+            527
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.hp-hero-c",
+          "tag": "div",
+          "anchor": "hp-hero-c",
+          "lines": [
+            528,
+            628
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "hero.hp-hero-img-c",
+          "tag": "div",
+          "anchor": "hp-hero-img-c",
+          "lines": [
+            629,
+            687
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "support.hp-platform-s",
+          "tag": "section",
+          "anchor": "hp-platform-s",
+          "lines": [
+            688,
+            884
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.hp-trust-s",
+          "tag": "section",
+          "anchor": "hp-trust-s",
+          "lines": [
+            885,
+            989
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.hp-marketing-section-title-c",
+          "tag": "div",
+          "anchor": "hp-marketing-section-title-c",
+          "lines": [
+            990,
+            998
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.hp-marketing-perks",
+          "tag": "div",
+          "anchor": "w-layout-grid",
+          "lines": [
+            999,
+            7323
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "proof.hp-customer-s",
+          "tag": "section",
+          "anchor": "hp-customer-s",
+          "lines": [
+            7324,
+            7647
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "content.hp-insights-s",
+          "tag": "section",
+          "anchor": "hp-insights-s",
+          "lines": [
+            7648,
+            8449
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            8450,
+            8855
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/world-cup-2026-sponsor-stocks-analysis",
+      "title": "World Cup 2026: Sponsor Stocks Between +11% and -39%",
+      "h1": "Stock Analysis: The Winners and Losers of the 2026 FIFA World Cup – Sponsors",
+      "template": "template.group-7",
+      "file": "src/blog/world-cup-2026-sponsor-stocks-analysis/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            512
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            513,
+            543
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            544,
+            636
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            637,
+            922
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/click-and-collect-fashion-retail-study-germany",
+      "title": "Click & Collect in Fashion Retail: Study on Adoption & Visibility Across 20 German Cities",
+      "h1": "Click & Collect in Fashion Retail: More Than Every Second Fashion Retailer Offers the Service",
+      "template": "template.group-7",
+      "file": "src/blog/click-and-collect-fashion-retail-study-germany/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            514
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            515,
+            545
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            546,
+            638
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            639,
+            924
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/valentines-day-index-2026-city-ranking-supply-demand-germany",
+      "title": "Valentine’s Day Index 2026: Frankfurt Tops Supply and Demand",
+      "h1": "Valentine’s Day Analysis: This City Offers the Widest Selection - and the Highest Demand",
+      "template": "template.group-7",
+      "file": "src/blog/valentines-day-index-2026-city-ranking-supply-demand-germany/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            522
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            523,
+            553
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            554,
+            646
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            647,
+            932
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/christmas-market-analysis-germany-2025",
+      "title": "Christmas Market Analysis 2025: Berlin Leads, Nuremberg Densest",
+      "h1": "Christmas market analysis: Here are the most in Germany",
+      "template": "template.group-7",
+      "file": "src/blog/christmas-market-analysis-germany-2025/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            499
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            500,
+            530
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            531,
+            623
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            624,
+            909
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/ctrl-a-ai-online-marketing-tool-for-small-businesses",
+      "title": "Ctrl+A – AI-Powered Online Marketing Made Simple for Small Businesses",
+      "h1": "Ctrl+A: AI is making Online-Marketing easier than ever for small businesses",
+      "template": "template.group-7",
+      "file": "src/blog/ctrl-a-ai-online-marketing-tool-for-small-businesses/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            499
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            500,
+            530
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            531,
+            623
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            624,
+            909
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/bundesliga-advent-calendars-prices-2025",
+      "title": "Bundesliga Advent Calendars 2025: Price Comparison & Online Demand",
+      "h1": "Advent Calendar Comparison: This Bundesliga Club charges the most for its Chocolate Advent Calendar",
+      "template": "template.group-7",
+      "file": "src/blog/bundesliga-advent-calendars-prices-2025/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            506
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            507,
+            537
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            538,
+            630
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            631,
+            916
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/digital-visibility-east-vs-west-how-germanys-federal-states-perform-online",
+      "title": "Social Media Visibility & Google Search Performance of German States | Localyzer Study",
+      "h1": "Digital Visibility: East vs. West – How Germany’s Federal States Perform Online",
+      "template": "template.group-7",
+      "file": "src/blog/digital-visibility-east-vs-west-how-germanys-federal-states-perform-online/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            522
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            523,
+            553
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            554,
+            646
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            647,
+            932
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/tradespeople-online-availability-germany",
+      "title": "Skilled Trades in Germany: Online Visibility Gaps in Big Cities vs. Small Towns",
+      "h1": "Skilled Trades in Germany: Online Visibility Gaps in Big Cities vs. Small Towns",
+      "template": "template.group-7",
+      "file": "src/blog/tradespeople-online-availability-germany/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            497
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            498,
+            528
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            529,
+            621
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            622,
+            907
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/from-print-to-pixels-local-online-marketing",
+      "title": "Digital First Local Marketing for Decentralized Brands",
+      "h1": "From Print to Pixels: How brands win in decentralized sales networks",
+      "template": "template.group-7",
+      "file": "src/blog/from-print-to-pixels-local-online-marketing/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            566
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            567,
+            597
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            598,
+            690
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            691,
+            976
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/subaru-addressable-tv-localyzer-campaign-success",
+      "title": "Subaru Boosts CTR by 54% with Addressable TV & SEA",
+      "h1": "Optimized Addressable TV Campaign Performance with Dealer Marketing Tool",
+      "template": "template.group-7",
+      "file": "src/blog/subaru-addressable-tv-localyzer-campaign-success/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            494
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            495,
+            525
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            526,
+            618
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            619,
+            904
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/social-media-analysis-top-100-sme",
+      "title": "Social media analysis: Top 100 SMEs - who is succeeding and who is wasting potential",
+      "h1": "Social media analysis: Top 100 SMEs - who is succeeding and who is wasting potential",
+      "template": "template.group-7",
+      "file": "src/blog/social-media-analysis-top-100-sme/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            503
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            504,
+            534
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            535,
+            627
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            628,
+            913
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/city-center-check-germany",
+      "title": "Store Analysis: How Strong Are Brands in Big Cities?",
+      "h1": "City center check: What German shopping streets offer in terms of shopping experience",
+      "template": "template.group-7",
+      "file": "src/blog/city-center-check-germany/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            501
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            502,
+            532
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            533,
+            625
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            626,
+            911
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/why-local-video-ads-outperform-traditional-display-ads",
+      "title": "Why Local Video Ads Outperform Display Campaigns",
+      "h1": "Why Local Video Ads Outperform Traditional Display Ads",
+      "template": "template.group-7",
+      "file": "src/blog/why-local-video-ads-outperform-traditional-display-ads/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            511
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            512,
+            542
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            543,
+            635
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            636,
+            921
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/germany-business-analysis",
+      "title": "Germany Business Analysis: Local Market Hotspots",
+      "h1": "Germany-wide business analysis: Cologne is booming, Wuppertal is stagnating",
+      "template": "template.group-7",
+      "file": "src/blog/germany-business-analysis/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            243,
+            407
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            408,
+            461
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            462,
+            464
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            465,
+            488
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            489,
+            519
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            520,
+            612
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            613,
+            898
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/70-000-local-online-campaigns-how-insurance-companies-car-brands-and-retailers-reach-customers-locally-online",
+      "title": "70,000 Local Campaigns: How Brands Win Customers Online",
+      "h1": "70,000+ Local Online Campaigns: How insurance companies, car brands and retailers Reach Customers Locally & Online",
+      "template": "template.group-7",
+      "file": "src/blog/70-000-local-online-campaigns-how-insurance-companies-car-brands-and-retailers-reach-customers-locally-online/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            487
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            488,
+            518
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            519,
+            557
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            558,
+            843
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/data-analysis-for-multinational-corporations",
+      "title": "Holiday Check: The Most Popular Travel Destinations",
+      "h1": "Data Analysis for Multinational Corporations – A Double-Edged Sword",
+      "template": "template.group-7",
+      "file": "src/blog/data-analysis-for-multinational-corporations/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            243,
+            407
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            408,
+            461
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            462,
+            464
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            465,
+            485
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            486,
+            516
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            517,
+            609
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            610,
+            895
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/vacation-check-these-are-the-germans-most-popular-travel-destinations",
+      "title": "",
+      "h1": "Vacation check: These are the Germans' most popular travel destinations",
+      "template": "template.group-7",
+      "file": "src/blog/vacation-check-these-are-the-germans-most-popular-travel-destinations/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            503
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            504,
+            534
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            535,
+            627
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            628,
+            913
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/location-analysis-german-cardealership-hotspots",
+      "title": "Location Analysis: Germany’s Car Dealer Hotspots",
+      "h1": "Location Analysis: Germany's Car Dealership Hotspots",
+      "template": "template.group-7",
+      "file": "src/blog/location-analysis-german-cardealership-hotspots/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            243,
+            407
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            408,
+            461
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            462,
+            464
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            465,
+            496
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            497,
+            527
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            528,
+            620
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            621,
+            906
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation",
+      "title": "Triple-A Architecture for Marketing Automation",
+      "h1": "Welcome to The Triple A: Software Architecture for Online Marketing Automation",
+      "template": "template.group-7",
+      "file": "src/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            497
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            498,
+            528
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            529,
+            594
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            595,
+            880
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/online-marketing-without-an-agency",
+      "title": "Online Marketing Without an Agency: Here’s How",
+      "h1": "Online Marketing without an Agency? For many, it's only a matter of time",
+      "template": "template.group-7",
+      "file": "src/blog/online-marketing-without-an-agency/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            484
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            485,
+            515
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            516,
+            581
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            582,
+            867
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/these-textile-retailers-dominate-germany",
+      "title": "These Fashion Retailers Dominate the German Market",
+      "h1": "Branch Analysis: These Textile Retailers Dominate Germany's Major Cities",
+      "template": "template.group-7",
+      "file": "src/blog/these-textile-retailers-dominate-germany/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            243,
+            407
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            408,
+            461
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            462,
+            464
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            465,
+            501
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            502,
+            532
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            533,
+            625
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            626,
+            911
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/takko-analysis-these-countries-achieve-the-highest-click-through-rates-in-local-online-campaigns",
+      "title": "Takko Analysis: Countries with Top Local CTRs",
+      "h1": "Takko Analysis: These Countries Achieve the Highest Click-Through Rates in Local Online Campaigns",
+      "template": "template.group-7",
+      "file": "src/blog/takko-analysis-these-countries-achieve-the-highest-click-through-rates-in-local-online-campaigns/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            503
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            504,
+            534
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            535,
+            627
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            628,
+            913
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer",
+      "title": "",
+      "h1": "Workation in Cape Town – productivity killer or performance enhancer?",
+      "template": "template.group-7",
+      "file": "src/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            245,
+            409
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            410,
+            463
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            464,
+            466
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            467,
+            485
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            486,
+            516
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            517,
+            609
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            610,
+            895
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/what-are-the-benefits-of-local-online-marketing-for-retail-chains-with-a-decentralized-store-structure",
+      "title": "Local Online Marketing for Retail Chains: Key Benefits",
+      "h1": "What Are the Benefits of Local Online Marketing for Retail Chains with a Decentralized Store Structure?",
+      "template": "template.group-7",
+      "file": "src/blog/what-are-the-benefits-of-local-online-marketing-for-retail-chains-with-a-decentralized-store-structure/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            528
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            529,
+            559
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            560,
+            652
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            653,
+            938
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/local-online-marketing-these-cities-lead-in-advertising-reach",
+      "title": "Top Cities in Local Online Ads: Who Leads the Way?",
+      "h1": "Local Online Marketing: These Cities Lead in Advertising Reach",
+      "template": "template.group-7",
+      "file": "src/blog/local-online-marketing-these-cities-lead-in-advertising-reach/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            496
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            497,
+            527
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            528,
+            620
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            621,
+            906
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/hyperlocalization-ads---localyzer-launches-new-tool-for-mass-booking-of-thousands-of-local-online-campaigns---at-the-push-of-a-button",
+      "title": "Hyperlocal Ads: Localyzer Launches Campaign Tool",
+      "h1": "Hyperlocalization Ads – Localyzer Launches New Tool for Mass Booking of Thousands of Local Online Campaigns – At the Push of a Button!",
+      "template": "template.group-7",
+      "file": "src/blog/hyperlocalization-ads---localyzer-launches-new-tool-for-mass-booking-of-thousands-of-local-online-campaigns---at-the-push-of-a-button/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            485
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            486,
+            516
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            517,
+            582
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            583,
+            868
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/2022-omkb-digital-business-conference",
+      "title": "",
+      "h1": "2022 OMKB Digital Business Conference",
+      "template": "template.group-7",
+      "file": "src/blog/2022-omkb-digital-business-conference/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            245,
+            409
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            410,
+            463
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            464,
+            466
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            467,
+            492
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            493,
+            523
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            524,
+            562
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            563,
+            848
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/local-regional-online-advertising-for-chain-stores",
+      "title": "Local & Regional Online Ads for Chain Stores",
+      "h1": "Local & Regional Online Advertising for Chain Stores",
+      "template": "template.group-7",
+      "file": "src/blog/local-regional-online-advertising-for-chain-stores/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            546
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            547,
+            577
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            578,
+            670
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            671,
+            956
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/legal/imprint",
+      "title": "Localyzer",
+      "h1": "Imprint",
+      "template": "template.group-8",
+      "file": "src/legal/imprint/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            226,
+            387
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.legal-s",
+          "tag": "section",
+          "anchor": "legal-s",
+          "lines": [
+            388,
+            415
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            416,
+            701
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/legal/terms-conditions",
+      "title": "Localyzer",
+      "h1": "Terms & Conditions",
+      "template": "template.group-8",
+      "file": "src/legal/terms-conditions/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            226,
+            387
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.legal-s",
+          "tag": "section",
+          "anchor": "legal-s",
+          "lines": [
+            388,
+            458
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            459,
+            744
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/legal/privacy-policy",
+      "title": "Localyzer",
+      "h1": "Privacy policy",
+      "template": "template.group-8",
+      "file": "src/legal/privacy-policy/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            226,
+            387
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.legal-s",
+          "tag": "section",
+          "anchor": "legal-s",
+          "lines": [
+            388,
+            593
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            594,
+            879
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/solutions",
+      "title": "Lokales Marketing für dezentrale Vertriebsnetze | Localyzer",
+      "h1": "LOKALES MARKETING. FÜR JEDEN STANDORT.",
+      "template": "template.group-2",
+      "file": "src/de/solutions/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            234,
+            398
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.nsl-hero-title-w",
+          "tag": "div",
+          "anchor": "nsl-hero-title-w",
+          "lines": [
+            399,
+            404
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "hero.sl-hero-img-w",
+          "tag": "div",
+          "anchor": "sl-hero-img-w",
+          "lines": [
+            405,
+            473
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "hero.sl-hero-features-c",
+          "tag": "div",
+          "anchor": "sl-hero-features-c",
+          "lines": [
+            474,
+            532
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.sl-feat-main-s",
+          "tag": "section",
+          "anchor": "sl-feat-main-s",
+          "lines": [
+            533,
+            672
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.sl-feat-common-s",
+          "tag": "section",
+          "anchor": "sl-feat-common-s",
+          "lines": [
+            673,
+            753
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.sl-feat-templ-s",
+          "tag": "section",
+          "anchor": "sl-feat-templ-s",
+          "lines": [
+            754,
+            784
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "content.nsl-local-s",
+          "tag": "section",
+          "anchor": "nsl-local-s",
+          "lines": [
+            785,
+            891
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "content.nsol-manage-s",
+          "tag": "section",
+          "anchor": "nsol-manage-s",
+          "lines": [
+            892,
+            920
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            921,
+            1206
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/about",
+      "title": "Über Localyzer: Wir innovieren seit 2017 die Zukunft des digitalen Marketings",
+      "h1": "SEIT 2017 MACHEN WIR LOKALES MARKETING WIRKSAM.",
+      "template": "template.group-3",
+      "file": "src/de/about/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            240,
+            401
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.ab-hero-s",
+          "tag": "section",
+          "anchor": "ab-hero-s",
+          "lines": [
+            402,
+            520
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.ab-founded-s",
+          "tag": "section",
+          "anchor": "ab-founded-s",
+          "lines": [
+            521,
+            547
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.ab-team-s",
+          "tag": "section",
+          "anchor": "ab-team-s",
+          "lines": [
+            548,
+            566
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.ab-timeline-s",
+          "tag": "section",
+          "anchor": "ab-timeline-s",
+          "lines": [
+            567,
+            1044
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.ab-openjobs-s",
+          "tag": "section",
+          "anchor": "ab-openjobs-s",
+          "lines": [
+            1045,
+            1076
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            1077,
+            1375
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog",
+      "title": "Localyzer Blog: Einblicke und Updates zu lokalen Marketingstrategien",
+      "h1": "Neuste Marketing Insights",
+      "template": "template.group-4",
+      "file": "src/de/blog/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            241,
+            402
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.blog-hero-s",
+          "tag": "section",
+          "anchor": "blog-hero-s",
+          "lines": [
+            403,
+            536
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.blog-newsletter-s",
+          "tag": "section",
+          "anchor": "blog-newsletter-s",
+          "lines": [
+            537,
+            569
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.blog-main-s",
+          "tag": "section",
+          "anchor": "blog-main-s",
+          "lines": [
+            570,
+            755
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            756,
+            1041
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/category/events",
+      "title": "Localyzer",
+      "h1": "Curated marketing contENt for you",
+      "template": "template.group-9",
+      "file": "src/category/events/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.bl-category-hero-s",
+          "tag": "section",
+          "anchor": "bl-category-hero-s",
+          "lines": [
+            238,
+            474
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "support.bl-category-main-s",
+          "tag": "section",
+          "anchor": "bl-category-main-s",
+          "lines": [
+            475,
+            568
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            569,
+            867
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/category/company-news",
+      "title": "Localyzer",
+      "h1": "Curated marketing contENt for you",
+      "template": "template.group-9",
+      "file": "src/category/company-news/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.bl-category-hero-s",
+          "tag": "section",
+          "anchor": "bl-category-hero-s",
+          "lines": [
+            238,
+            474
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "support.bl-category-main-s",
+          "tag": "section",
+          "anchor": "bl-category-main-s",
+          "lines": [
+            475,
+            622
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            623,
+            921
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/category/report",
+      "title": "Localyzer",
+      "h1": "Curated marketing contENt for you",
+      "template": "template.group-9",
+      "file": "src/category/report/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.bl-category-hero-s",
+          "tag": "section",
+          "anchor": "bl-category-hero-s",
+          "lines": [
+            238,
+            474
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "support.bl-category-main-s",
+          "tag": "section",
+          "anchor": "bl-category-main-s",
+          "lines": [
+            475,
+            687
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            688,
+            986
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/category/product-update",
+      "title": "Localyzer",
+      "h1": "Curated marketing contENt for you",
+      "template": "template.group-9",
+      "file": "src/category/product-update/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.bl-category-hero-s",
+          "tag": "section",
+          "anchor": "bl-category-hero-s",
+          "lines": [
+            238,
+            474
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "support.bl-category-main-s",
+          "tag": "section",
+          "anchor": "bl-category-main-s",
+          "lines": [
+            475,
+            595
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            596,
+            894
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/category/article",
+      "title": "Localyzer",
+      "h1": "Curated marketing contENt for you",
+      "template": "template.group-9",
+      "file": "src/category/article/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.bl-category-hero-s",
+          "tag": "section",
+          "anchor": "bl-category-hero-s",
+          "lines": [
+            238,
+            474
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "support.bl-category-main-s",
+          "tag": "section",
+          "anchor": "bl-category-main-s",
+          "lines": [
+            475,
+            687
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            688,
+            986
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/careers",
+      "title": "Werde Teil des Localyzer-Teams: Karriere im Online-Marketing",
+      "h1": "Jobs mit einem impact! im online marketing",
+      "template": "template.group-5",
+      "file": "src/de/careers/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            235,
+            396
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.cr-main-s",
+          "tag": "section",
+          "anchor": "cr-main-s",
+          "lines": [
+            397,
+            432
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            433,
+            718
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/contact",
+      "title": "Kontakt",
+      "h1": "Nehmen wir Kontakt auf",
+      "template": "template.group-6",
+      "file": "src/de/contact/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            230,
+            391
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "support.ct-main-s",
+          "tag": "section",
+          "anchor": "ct-main-s",
+          "lines": [
+            392,
+            481
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            482,
+            767
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/wm-2026-sponsoren-aktien-analyse",
+      "title": "WM 2026: Aktien der Sponsoren zwischen +11 % und -39 %",
+      "h1": "WM-Sponsoren im Börsencheck: Diese Unternehmen legten während des Turniers zu – diese verloren",
+      "template": "template.group-7",
+      "file": "src/de/blog/wm-2026-sponsoren-aktien-analyse/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            518
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            519,
+            551
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            552,
+            644
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            645,
+            930
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/mitsubishi-dealer-cockpit-local-marketing",
+      "title": "Plattform für lokales Marketing in Händlernetzwerken",
+      "h1": "Neue Localyzer-Plattform: Mitsubishi Motors Deutschland startet mit über 700 Kampagnen und über 70 Prozent aktiven Handelspartnern",
+      "template": "template.group-7",
+      "file": "src/de/blog/mitsubishi-dealer-cockpit-local-marketing/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            242,
+            406
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            407,
+            460
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            461,
+            463
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            464,
+            500
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            501,
+            533
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            534,
+            626
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            627,
+            912
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/click-and-collect-modehandel-studie-deutschland",
+      "title": "Click & Collect im Modehandel: Studie zu Verbreitung & Sichtbarkeit in 20 deutschen Städten",
+      "h1": "Click & Collect im Fashion‑Handel: Mehr als jeder zweite Modehändler bietet den Service an",
+      "template": "template.group-7",
+      "file": "src/de/blog/click-and-collect-modehandel-studie-deutschland/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            517
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            518,
+            550
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            551,
+            643
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            644,
+            929
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/valentinstag-index-2026-staedte-ranking-angebot-nachfrage",
+      "title": "Valentinstag Index 2026: Frankfurt führt bei Angebot und Nachfrage",
+      "h1": "Valentinstag-Analyse: Diese Stadt hat das größte Angebot - und die höchste Nachfrage",
+      "template": "template.group-7",
+      "file": "src/de/blog/valentinstag-index-2026-staedte-ranking-angebot-nachfrage/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            522
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            523,
+            555
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            556,
+            648
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            649,
+            934
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/weihnachtsmark-analyse-deutschland-2025",
+      "title": "Weihnachtsmarkt-Analyse 2025: Berlin führt, Nürnberg am dichtesten",
+      "h1": "Weihnachtsmarkt-Analyse: Hier gibt es die meisten in Deutschland",
+      "template": "template.group-7",
+      "file": "src/de/blog/weihnachtsmark-analyse-deutschland-2025/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            500
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            501,
+            533
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            534,
+            626
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            627,
+            912
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/ctrl-a-ki-online-marketing-tool-fuer-kleine-unternehmen",
+      "title": "Ctrl+A – KI macht Online-Marketing für kleine Unternehmen wirklich einfach",
+      "h1": "Ctrl+A: KI macht Online-Marketing für kleine Unternehmen so einfach wie nie zuvor",
+      "template": "template.group-7",
+      "file": "src/de/blog/ctrl-a-ki-online-marketing-tool-fuer-kleine-unternehmen/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            509
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            510,
+            542
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            543,
+            635
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            636,
+            921
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/bundesliga-adventskalender-preise-2025",
+      "title": "Adventskalender der Bundesliga 2025: Preisvergleich & Online-Interesse",
+      "h1": "Adventskalender-Vergleich: Dieser Erstligist verlangt am meisten für seinen Schokoladen-Adventskalender",
+      "template": "template.group-7",
+      "file": "src/de/blog/bundesliga-adventskalender-preise-2025/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            506
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            507,
+            539
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            540,
+            632
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            633,
+            918
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/digitale-sichtbarkeit-so-performen-die-bundeslaender",
+      "title": "Digitale Sichtbarkeit der Bundesländer | Localyzer Studie 2025 zu Social Media & Suchvolumen",
+      "h1": "Digitale Sichtbarkeit: Ost vs. West – so performen die Bundesländer im Netz",
+      "template": "template.group-7",
+      "file": "src/de/blog/digitale-sichtbarkeit-so-performen-die-bundeslaender/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            503
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            504,
+            536
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            537,
+            629
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            630,
+            915
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/handwerker-online-sichtbarkeit",
+      "title": "Handwerker:innen in Deutschland: Digitale Sichtbarkeit in Groß- und Kleinstädten im Vergleich",
+      "h1": "Handwerker:innen gesucht: In welchen Städten wird man eher online fündig",
+      "template": "template.group-7",
+      "file": "src/de/blog/handwerker-online-sichtbarkeit/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            498
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            499,
+            531
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            532,
+            624
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            625,
+            910
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/von-print-zu-pixel-lokales-online-marketing-fuer-vertriebspartner",
+      "title": "Digital First: Leitfaden für lokales Online-Marketing in dezentralen Vertriebsnetzwerken",
+      "h1": "Von Print zu Pixeln: Lokales Marketing in dezentralen Vertriebsstrukturen",
+      "template": "template.group-7",
+      "file": "src/de/blog/von-print-zu-pixel-lokales-online-marketing-fuer-vertriebspartner/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            524
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            525,
+            557
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            558,
+            650
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            651,
+            936
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/subaru-addressable-tv-localyzer-campaign-success",
+      "title": "Addressable TV steigert Subaru-SEA um 54 %",
+      "h1": "Optimierte Addressable TV-Kampagnenwirkung mit Händlermarketing-Tool",
+      "template": "template.group-7",
+      "file": "src/de/blog/subaru-addressable-tv-localyzer-campaign-success/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            490
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            491,
+            523
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            524,
+            616
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            617,
+            902
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/social-media-analyse-die-top-100-mittelstaendler",
+      "title": "Social-Media-Analyse: Die Top 100 Mittelständler – Wer erfolgreich ist und wer Potenziale verschenkt",
+      "h1": "Social-Media-Analyse: Die Top 100 Mittelständler – Wer erfolgreich ist und wer Potenziale verschenkt",
+      "template": "template.group-7",
+      "file": "src/de/blog/social-media-analyse-die-top-100-mittelstaendler/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            511
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            512,
+            544
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            545,
+            637
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            638,
+            923
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/innenstadt-check-was-deutsche-einkaufsstrassen-an-shoppingerlebnis-bieten-",
+      "title": "Filial-Analyse: So stark sind Marken in Großstädten",
+      "h1": "Innenstadt-Check: Was deutsche Einkaufsstraßen an Shoppingerlebnis bieten",
+      "template": "template.group-7",
+      "file": "src/de/blog/innenstadt-check-was-deutsche-einkaufsstrassen-an-shoppingerlebnis-bieten-/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            499
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            500,
+            532
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            533,
+            625
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            626,
+            911
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/warum-lokale-videoanzeigen-herkoemmliche-display-anzeigen-uebertreffen",
+      "title": "Warum lokale Videoanzeigen besser performen als Display",
+      "h1": "Warum lokale Videoanzeigen herkömmliche Display-Anzeigen übertreffen",
+      "template": "template.group-7",
+      "file": "src/de/blog/warum-lokale-videoanzeigen-herkoemmliche-display-anzeigen-uebertreffen/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            510
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            511,
+            543
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            544,
+            636
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            637,
+            922
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/deutschlandweite-gewerbe-analyse",
+      "title": "Diese Textilhändler dominieren den deutschen Markt",
+      "h1": "Deutschlandweite Gewerbe-Analyse: Köln boomt, Wuppertal stagniert​",
+      "template": "template.group-7",
+      "file": "src/de/blog/deutschlandweite-gewerbe-analyse/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            242,
+            406
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            407,
+            460
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            461,
+            463
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            464,
+            487
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            488,
+            520
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            521,
+            613
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            614,
+            899
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/70000-lokale-online-kampagnen-wie-versicherungen-automarken-und-retailer-lokal-online-kund-innen-erreichen",
+      "title": "70.000 lokale Online-Kampagnen: Best Practices & Insights",
+      "h1": "70.000+ lokale Online-Kampagnen: Wie Versicherungen, Automarken und Retailer lokal & online Kund*innen erreichen",
+      "template": "template.group-7",
+      "file": "src/de/blog/70000-lokale-online-kampagnen-wie-versicherungen-automarken-und-retailer-lokal-online-kund-innen-erreichen/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            485
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            486,
+            518
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            519,
+            557
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            558,
+            843
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/datenanalysen-fuer-multinationale-unternehmen",
+      "title": "",
+      "h1": "Datenanalyse für multinationale Unternehmen - ein mehrschneidiges Schwert",
+      "template": "template.group-7",
+      "file": "src/de/blog/datenanalysen-fuer-multinationale-unternehmen/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            243,
+            407
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            408,
+            461
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            462,
+            464
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            465,
+            478
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            479,
+            511
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            512,
+            604
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            605,
+            890
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/urlaubs-check-die-beliebtesten-reiseziele",
+      "title": "Urlaubs-Check: Die beliebtesten Reiseziele im Überblick",
+      "h1": "Urlaubs-Check: Das sind die beliebtesten Reiseziele der Deutschen",
+      "template": "template.group-7",
+      "file": "src/de/blog/urlaubs-check-die-beliebtesten-reiseziele/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            242,
+            406
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            407,
+            460
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            461,
+            463
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            464,
+            495
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            496,
+            528
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            529,
+            621
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            622,
+            907
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/standort-analyse-das-sind-deutschlands-autohaus-hochburgen",
+      "title": "Standort-Analyse: Deutschlands Autohaus-Hochburgen",
+      "h1": "Standort-Analyse: Das sind Deutschlands Autohaus-Hochburgen",
+      "template": "template.group-7",
+      "file": "src/de/blog/standort-analyse-das-sind-deutschlands-autohaus-hochburgen/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            242,
+            406
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            407,
+            460
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            461,
+            463
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            464,
+            493
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            494,
+            526
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            527,
+            619
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            620,
+            905
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation",
+      "title": "Triple-A-Architektur: Online-Marketing automatisieren",
+      "h1": "Willkommen bei The Triple A: Softwarearchitektur für Online-Marketing-Automatisierung",
+      "template": "template.group-7",
+      "file": "src/de/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            487
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            488,
+            520
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            521,
+            613
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            614,
+            899
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/online-marketing-ohne-agentur",
+      "title": "Online-Marketing ohne Agentur: So geht’s effizient",
+      "h1": "Online Marketing ohne Agentur? Für viele nur eine Frage der Zeit",
+      "template": "template.group-7",
+      "file": "src/de/blog/online-marketing-ohne-agentur/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            483
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            484,
+            516
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            517,
+            609
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            610,
+            895
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/filial-analyse-deutschlands-grossstadte",
+      "title": "Business-Analyse: So wirtschaftet Deutschland lokal",
+      "h1": "Filial-Analyse: Diese Textilhändler dominieren Deutschlands Großstädte",
+      "template": "template.group-7",
+      "file": "src/de/blog/filial-analyse-deutschlands-grossstadte/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            242,
+            406
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            407,
+            460
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            461,
+            463
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            464,
+            500
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            501,
+            533
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            534,
+            626
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            627,
+            912
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/takko-analyse-in-diesen-laendern-erzielen-lokale-online-kampagnen-die-hoechsten-klickraten",
+      "title": "Takko-Analyse: Länder mit Top-Klickraten im Vergleich",
+      "h1": "Takko-Analyse: In diesen Ländern erzielen lokale Online-Kampagnen die höchsten Klickraten",
+      "template": "template.group-7",
+      "file": "src/de/blog/takko-analyse-in-diesen-laendern-erzielen-lokale-online-kampagnen-die-hoechsten-klickraten/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            503
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            504,
+            536
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            537,
+            629
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            630,
+            915
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer",
+      "title": "",
+      "h1": "Workation in Kapstadt – Produktivitätskiller oder Leistungstreiber?",
+      "template": "template.group-7",
+      "file": "src/de/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            245,
+            409
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            410,
+            463
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            464,
+            466
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            467,
+            486
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            487,
+            519
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            520,
+            612
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            613,
+            898
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/welche-vorteile-bietet-lokales-online-marketing-fuer-filialisten-mit-einer-dezentralen-filialstruktur",
+      "title": "Lokales Online-Marketing für Filialen: Vorteile & Chancen",
+      "h1": "Welche Vorteile bietet lokales Online-Marketing für Filialisten mit einer dezentralen Filialstruktur?",
+      "template": "template.group-7",
+      "file": "src/de/blog/welche-vorteile-bietet-lokales-online-marketing-fuer-filialisten-mit-einer-dezentralen-filialstruktur/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            518
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            519,
+            551
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            552,
+            644
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            645,
+            930
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/lokales-online-marketing-in-diesen-staedten-ist-werbung-am-verbreitetsten",
+      "title": "Top-Städte im lokalen Online-Marketing: Wer führt?",
+      "h1": "Lokales Online-Marketing: In diesen Städten ist Werbung am verbreitetsten",
+      "template": "template.group-7",
+      "file": "src/de/blog/lokales-online-marketing-in-diesen-staedten-ist-werbung-am-verbreitetsten/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            492
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            493,
+            525
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            526,
+            618
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            619,
+            904
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/hyperlocalisation-ads-localyzer-fuehrt-neues-tool-zur-massenbuchung-von-tausenden-lokalen-online-kampagnen-ein",
+      "title": "Hyperlokale Ads: Localyzer launcht Kampagnen-Tool",
+      "h1": "Hyperlocalisation Ads - Localyzer führt neues Tool zur Massenbuchung von tausenden lokalen Online-Kampagnen ein – auf Knopfdruck",
+      "template": "template.group-7",
+      "file": "src/de/blog/hyperlocalisation-ads-localyzer-fuehrt-neues-tool-zur-massenbuchung-von-tausenden-lokalen-online-kampagnen-ein/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            492
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            493,
+            525
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            526,
+            618
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            619,
+            904
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/2022-omkb-digital-business-conference",
+      "title": "",
+      "h1": "2022 OMKB Digital Business Conference",
+      "template": "template.group-7",
+      "file": "src/de/blog/2022-omkb-digital-business-conference/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            245,
+            409
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            410,
+            463
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            464,
+            466
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            467,
+            488
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            489,
+            521
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            522,
+            560
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            561,
+            846
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/blog/lokale-online-werbung-fuer-filialisten",
+      "title": "Lokale & regionale Online-Werbung für Filialisten",
+      "h1": "Lokale & regionale Online-Werbung für Filialisten",
+      "template": "template.group-7",
+      "file": "src/de/blog/lokale-online-werbung-fuer-filialisten/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            244,
+            408
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.art-header-w",
+          "tag": "div",
+          "anchor": "art-header-w",
+          "lines": [
+            409,
+            462
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.art-image-w",
+          "tag": "div",
+          "anchor": "art-image-w",
+          "lines": [
+            463,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.art-content-w",
+          "tag": "div",
+          "anchor": "art-content-w",
+          "lines": [
+            466,
+            536
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.art-newsletter-s",
+          "tag": "section",
+          "anchor": "art-newsletter-s",
+          "lines": [
+            537,
+            569
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.art-related-s",
+          "tag": "section",
+          "anchor": "art-related-s",
+          "lines": [
+            570,
+            662
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            663,
+            948
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/legal/imprint",
+      "title": "Localyzer",
+      "h1": "Impressum",
+      "template": "template.group-8",
+      "file": "src/de/legal/imprint/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            226,
+            387
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.legal-s",
+          "tag": "section",
+          "anchor": "legal-s",
+          "lines": [
+            388,
+            413
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            414,
+            699
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/legal/terms-conditions",
+      "title": "Localyzer",
+      "h1": "AGB",
+      "template": "template.group-8",
+      "file": "src/de/legal/terms-conditions/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            226,
+            387
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.legal-s",
+          "tag": "section",
+          "anchor": "legal-s",
+          "lines": [
+            388,
+            458
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            459,
+            744
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/legal/privacy-policy",
+      "title": "Localyzer",
+      "h1": "Datenschutz",
+      "template": "template.group-8",
+      "file": "src/de/legal/privacy-policy/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            226,
+            387
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.legal-s",
+          "tag": "section",
+          "anchor": "legal-s",
+          "lines": [
+            388,
+            637
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            638,
+            923
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/category/events",
+      "title": "Localyzer",
+      "h1": "Curated marketing contENt for you",
+      "template": "template.group-9",
+      "file": "src/de/category/events/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.bl-category-hero-s",
+          "tag": "section",
+          "anchor": "bl-category-hero-s",
+          "lines": [
+            238,
+            474
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "support.bl-category-main-s",
+          "tag": "section",
+          "anchor": "bl-category-main-s",
+          "lines": [
+            475,
+            570
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            571,
+            869
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/category/company-news",
+      "title": "Localyzer",
+      "h1": "Curated marketing contENt for you",
+      "template": "template.group-9",
+      "file": "src/de/category/company-news/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.bl-category-hero-s",
+          "tag": "section",
+          "anchor": "bl-category-hero-s",
+          "lines": [
+            238,
+            474
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "support.bl-category-main-s",
+          "tag": "section",
+          "anchor": "bl-category-main-s",
+          "lines": [
+            475,
+            624
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            625,
+            923
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/category/report",
+      "title": "Localyzer",
+      "h1": "Curated marketing contENt for you",
+      "template": "template.group-9",
+      "file": "src/de/category/report/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.bl-category-hero-s",
+          "tag": "section",
+          "anchor": "bl-category-hero-s",
+          "lines": [
+            238,
+            474
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "support.bl-category-main-s",
+          "tag": "section",
+          "anchor": "bl-category-main-s",
+          "lines": [
+            475,
+            689
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            690,
+            988
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/category/product-update",
+      "title": "Localyzer",
+      "h1": "Curated marketing contENt for you",
+      "template": "template.group-9",
+      "file": "src/de/category/product-update/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.bl-category-hero-s",
+          "tag": "section",
+          "anchor": "bl-category-hero-s",
+          "lines": [
+            238,
+            474
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "support.bl-category-main-s",
+          "tag": "section",
+          "anchor": "bl-category-main-s",
+          "lines": [
+            475,
+            624
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            625,
+            923
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/category/article",
+      "title": "Localyzer",
+      "h1": "Curated marketing contENt for you",
+      "template": "template.group-9",
+      "file": "src/de/category/article/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.bl-category-hero-s",
+          "tag": "section",
+          "anchor": "bl-category-hero-s",
+          "lines": [
+            238,
+            474
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "support.bl-category-main-s",
+          "tag": "section",
+          "anchor": "bl-category-main-s",
+          "lines": [
+            475,
+            689
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            690,
+            988
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/open-positions/senior-sales-consultant",
+      "title": "Localyzer",
+      "h1": "(Senior) Sales Consultant (all genders)",
+      "template": "template.group-10",
+      "file": "src/open-positions/senior-sales-consultant/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            226,
+            387
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.job-main-s",
+          "tag": "section",
+          "anchor": "job-main-s",
+          "lines": [
+            388,
+            489
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            490,
+            775
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/open-positions/senior-sales-consultant",
+      "title": "Localyzer",
+      "h1": "(Senior) Sales Consultant (all genders)",
+      "template": "template.group-10",
+      "file": "src/de/open-positions/senior-sales-consultant/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            226,
+            387
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.job-main-s",
+          "tag": "section",
+          "anchor": "job-main-s",
+          "lines": [
+            388,
+            479
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            480,
+            765
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/open-positions/software-developer-php-python",
+      "title": "Localyzer",
+      "h1": "Software Developer PHP / Python (m/f/d)",
+      "template": "template.group-10",
+      "file": "src/open-positions/software-developer-php-python/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            226,
+            387
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.job-main-s",
+          "tag": "section",
+          "anchor": "job-main-s",
+          "lines": [
+            388,
+            461
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            462,
+            747
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/de/open-positions/software-developer-php-python",
+      "title": "Localyzer",
+      "h1": "Software Developer PHP / Python (m/f/d)",
+      "template": "template.group-10",
+      "file": "src/de/open-positions/software-developer-php-python/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "support.global-header-c",
+          "tag": "div",
+          "anchor": "global-header-c",
+          "lines": [
+            226,
+            387
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.job-main-s",
+          "tag": "section",
+          "anchor": "job-main-s",
+          "lines": [
+            388,
+            478
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-s",
+          "tag": "section",
+          "anchor": "footer-s",
+          "lines": [
+            479,
+            764
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "$description": "Foundation typography tokens: the values observed on the site, ordered by usage. Not referenced directly by generators; semantic tokens reference these.",
+  "tokens": {
+    "fontFamily.01": {
+      "$type": "fontFamily",
+      "$value": "Open Sauce One",
+      "usage": 6042
+    },
+    "fontFamily.02": {
+      "$type": "fontFamily",
+      "$value": "National 2 Condensed",
+      "usage": 3963
+    },
+    "fontFamily.03": {
+      "$type": "fontFamily",
+      "$value": "Open Sauce",
+      "usage": 293
+    },
+    "fontSize.10": {
+      "$type": "dimension",
+      "$value": "10px",
+      "usage": 138
+    },
+    "fontSize.11_52": {
+      "$type": "dimension",
+      "$value": "11.52px",
+      "usage": 12
+    },
+    "fontSize.14": {
+      "$type": "dimension",
+      "$value": "14px",
+      "usage": 1668
+    },
+    "fontSize.15": {
+      "$type": "dimension",
+      "$value": "15px",
+      "usage": 910
+    },
+    "fontSize.16": {
+      "$type": "dimension",
+      "$value": "16px",
+      "usage": 586
+    },
+    "fontSize.18": {
+      "$type": "dimension",
+      "$value": "18px",
+      "usage": 2608
+    },
+    "fontSize.18_75": {
+      "$type": "dimension",
+      "$value": "18.75px",
+      "usage": 364
+    },
+    "fontSize.20": {
+      "$type": "dimension",
+      "$value": "20px",
+      "usage": 1886
+    },
+    "fontSize.20_16": {
+      "$type": "dimension",
+      "$value": "20.16px",
+      "usage": 12
+    },
+    "fontSize.22": {
+      "$type": "dimension",
+      "$value": "22px",
+      "usage": 182
+    },
+    "fontSize.24": {
+      "$type": "dimension",
+      "$value": "24px",
+      "usage": 280
+    },
+    "fontSize.27_5": {
+      "$type": "dimension",
+      "$value": "27.5px",
+      "usage": 91
+    },
+    "fontSize.32": {
+      "$type": "dimension",
+      "$value": "32px",
+      "usage": 80
+    },
+    "fontSize.40": {
+      "$type": "dimension",
+      "$value": "40px",
+      "usage": 16
+    },
+    "fontSize.44": {
+      "$type": "dimension",
+      "$value": "44px",
+      "usage": 710
+    },
+    "fontSize.64": {
+      "$type": "dimension",
+      "$value": "64px",
+      "usage": 329
+    },
+    "fontSize.82": {
+      "$type": "dimension",
+      "$value": "82px",
+      "usage": 32
+    },
+    "fontSize.246": {
+      "$type": "dimension",
+      "$value": "246px",
+      "usage": 356
+    },
+    "fontWeight.400": {
+      "$type": "fontWeight",
+      "$value": "400",
+      "usage": 4814
+    },
+    "fontWeight.500": {
+      "$type": "fontWeight",
+      "$value": "500",
+      "usage": 5007
+    },
+    "fontWeight.600": {
+      "$type": "fontWeight",
+      "$value": "600",
+      "usage": 288
+    },
+    "fontWeight.700": {
+      "$type": "fontWeight",
+      "$value": "700",
+      "usage": 189
+    },
+    "lineHeight.15": {
+      "$type": "dimension",
+      "$value": "15px",
+      "usage": 138
+    },
+    "lineHeight.18": {
+      "$type": "dimension",
+      "$value": "18px",
+      "usage": 979
+    },
+    "lineHeight.18_75": {
+      "$type": "dimension",
+      "$value": "18.75px",
+      "usage": 364
+    },
+    "lineHeight.19_95": {
+      "$type": "dimension",
+      "$value": "19.95px",
+      "usage": 910
+    },
+    "lineHeight.20": {
+      "$type": "dimension",
+      "$value": "20px",
+      "usage": 515
+    },
+    "lineHeight.21": {
+      "$type": "dimension",
+      "$value": "21px",
+      "usage": 1668
+    },
+    "lineHeight.22": {
+      "$type": "dimension",
+      "$value": "22px",
+      "usage": 109
+    },
+    "lineHeight.23_94": {
+      "$type": "dimension",
+      "$value": "23.94px",
+      "usage": 91
+    },
+    "lineHeight.24": {
+      "$type": "dimension",
+      "$value": "24px",
+      "usage": 586
+    },
+    "lineHeight.27": {
+      "$type": "dimension",
+      "$value": "27px",
+      "usage": 2482
+    },
+    "lineHeight.28_8": {
+      "$type": "dimension",
+      "$value": "28.8px",
+      "usage": 278
+    },
+    "lineHeight.30": {
+      "$type": "dimension",
+      "$value": "30px",
+      "usage": 392
+    },
+    "lineHeight.36_575": {
+      "$type": "dimension",
+      "$value": "36.575px",
+      "usage": 91
+    },
+    "lineHeight.44": {
+      "$type": "dimension",
+      "$value": "44px",
+      "usage": 710
+    },
+    "lineHeight.64": {
+      "$type": "dimension",
+      "$value": "64px",
+      "usage": 268
+    },
+    "lineHeight.246": {
+      "$type": "dimension",
+      "$value": "246px",
+      "usage": 356
+    },
+    "lineHeight.57_6": {
+      "$type": "dimension",
+      "$value": "57.6px",
+      "usage": 0,
+      "addedFor": "semantic role"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "hp-platf-card-inner",
+  "name": "hp-platf-card-inner",
+  "occurrences": 12,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

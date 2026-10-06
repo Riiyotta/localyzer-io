@@ -1,0 +1,86 @@
+{
+  "id": "content.job-main-s",
+  "category": "CONTENT",
+  "label": "job-main-s",
+  "tag": "section",
+  "purpose": "Carries the substantive content of the page. Example headline: \"(SENIOR) SALES CONSULTANT (ALL GENDERS)\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 4,
+    "routes": 4,
+    "measuredFrom": [
+      "src/de/open-positions/senior-sales-consultant/index.html:388-479",
+      "src/de/open-positions/software-developer-php-python/index.html:388-478",
+      "src/open-positions/senior-sales-consultant/index.html:388-489",
+      "src/open-positions/software-developer-php-python/index.html:388-461"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 6
+      },
+      "subheading": {
+        "type": "string",
+        "required": false,
+        "maxWords": 1
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 16,
+        "maxWords": 68
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 3
+      },
+      "items": {
+        "type": "item[]",
+        "required": false,
+        "maxItems": 6,
+        "titleMaxWords": 8,
+        "bodyMaxWords": 0
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 2062,
+      "columns": 2
+    },
+    "mobile": {
+      "heightPx": 3343,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "2 columns collapse to a single column",
+      "grows taller on mobile (content stacks)"
+    ]
+  },
+  "assetRoles": [],
+  "implementedBy": "src/sections/JobMainS.jsx"
+}

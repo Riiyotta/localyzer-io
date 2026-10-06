@@ -1,0 +1,88 @@
+{
+  "id": "support.bl-category-main-s",
+  "category": "SUPPORT",
+  "label": "bl-category-main-s",
+  "tag": "section",
+  "purpose": "Answers questions or collects a message. Example headline: \"ARTICLE\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 10,
+    "routes": 10,
+    "measuredFrom": [
+      "src/category/article/index.html:475-687",
+      "src/category/company-news/index.html:475-622",
+      "src/category/events/index.html:475-568",
+      "src/category/product-update/index.html:475-595",
+      "src/category/report/index.html:475-687"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 2
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": false,
+        "maxItems": 2,
+        "maxWords": 2
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 6,
+        "titleMaxWords": 16,
+        "bodyMaxWords": 83
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 6,
+        "assetRoles": [
+          "content-image",
+          "hero-image"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 1884,
+      "columns": 3
+    },
+    "mobile": {
+      "heightPx": 2595,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "3 columns collapse to a single column",
+      "grows taller on mobile (content stacks)"
+    ]
+  },
+  "assetRoles": [
+    "content-image",
+    "hero-image"
+  ],
+  "implementedBy": "src/sections/BlCategoryMainS.jsx"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "hp-ctr-left-w",
+  "name": "hp-ctr-left-w",
+  "occurrences": 2,
+  "composedOf": [
+    "heading"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

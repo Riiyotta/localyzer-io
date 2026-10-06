@@ -1,0 +1,13 @@
+{
+  "id": "local-dropdown",
+  "name": "local-dropdown",
+  "occurrences": 89,
+  "composedOf": [
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "global-footer-nav-social",
+  "name": "global-footer-nav-social",
+  "occurrences": 89,
+  "composedOf": [
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

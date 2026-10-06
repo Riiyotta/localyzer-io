@@ -1,0 +1,10 @@
+{
+  "id": "global-nav-link",
+  "name": "global-nav-link",
+  "occurrences": 445,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ct-form-checkbox-label",
+  "name": "ct-form-checkbox-label",
+  "occurrences": 180,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

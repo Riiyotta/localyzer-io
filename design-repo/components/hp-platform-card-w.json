@@ -1,0 +1,13 @@
+{
+  "id": "hp-platform-card-w",
+  "name": "hp-platform-card-w",
+  "occurrences": 12,
+  "composedOf": [
+    "image",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

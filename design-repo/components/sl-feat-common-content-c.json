@@ -1,0 +1,15 @@
+{
+  "id": "sl-feat-common-content-c",
+  "name": "sl-feat-common-content-c",
+  "occurrences": 4,
+  "composedOf": [
+    "heading",
+    "image",
+    "list",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/solutions"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "sl-feat-common-img",
+  "name": "sl-feat-common-img",
+  "occurrences": 12,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/solutions"
+  }
+}

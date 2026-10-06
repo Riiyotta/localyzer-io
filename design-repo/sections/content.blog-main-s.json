@@ -1,0 +1,78 @@
+{
+  "id": "content.blog-main-s",
+  "category": "CONTENT",
+  "label": "blog-main-s",
+  "tag": "section",
+  "purpose": "Carries the substantive content of the page.",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 2,
+    "routes": 2,
+    "measuredFrom": [
+      "src/blog/index.html:568-753",
+      "src/de/blog/index.html:570-755"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 2,
+        "maxWords": 2
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 5,
+        "titleMaxWords": 15,
+        "bodyMaxWords": 77
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 6,
+        "assetRoles": [
+          "content-image"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 1260,
+      "columns": 3
+    },
+    "mobile": {
+      "heightPx": 2993,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "3 columns collapse to a single column",
+      "grows taller on mobile (content stacks)"
+    ]
+  },
+  "assetRoles": [
+    "content-image"
+  ],
+  "implementedBy": "src/sections/BlogMainS.jsx"
+}

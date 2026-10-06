@@ -1,0 +1,12 @@
+{
+  "id": "hp-trusted-card-icon",
+  "name": "hp-trusted-card-icon",
+  "occurrences": 8,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

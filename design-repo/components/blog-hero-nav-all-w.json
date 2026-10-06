@@ -1,0 +1,12 @@
+{
+  "id": "blog-hero-nav-all-w",
+  "name": "blog-hero-nav-all-w",
+  "occurrences": 12,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog"
+  }
+}

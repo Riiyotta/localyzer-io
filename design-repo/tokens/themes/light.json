@@ -1,0 +1,46 @@
+{
+  "id": "light",
+  "mode": "light",
+  "$description": "The only theme measured (the page as served). Every semantic token resolves to a real foundation value.",
+  "resolves": {
+    "surface.default": "rgb(0,63,58)",
+    "surface.alt": "rgb(240,244,243)",
+    "surface.inverse": "rgb(240,244,243)",
+    "surface.accent": "rgb(0,63,58)",
+    "text.primary": "rgb(0,63,58)",
+    "text.inverse": "rgb(255,255,255)",
+    "text.accent": "rgb(0,63,58)",
+    "border.default": "rgb(204,204,204)",
+    "accent.primary": "rgb(0,63,58)",
+    "typography.display": {
+      "fontFamily": "National 2 Condensed",
+      "fontSize": "64px",
+      "fontWeight": "500",
+      "lineHeight": "57.6px"
+    },
+    "typography.heading": {
+      "fontFamily": "National 2 Condensed",
+      "fontSize": "246px",
+      "fontWeight": "500",
+      "lineHeight": "246px"
+    },
+    "typography.body": {
+      "fontFamily": "Open Sauce One",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "lineHeight": "27px"
+    },
+    "typography.label": {
+      "fontFamily": "National 2 Condensed",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "lineHeight": "18px"
+    },
+    "radius.control": "100px",
+    "radius.surface": "20px",
+    "radius.pill": "1440px",
+    "elevation.default": "rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+    "motion.duration.default": "0.3s",
+    "motion.easing.default": "ease"
+  }
+}

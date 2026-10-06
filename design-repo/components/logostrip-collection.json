@@ -1,0 +1,12 @@
+{
+  "id": "logostrip-collection",
+  "name": "logostrip-collection",
+  "occurrences": 12,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

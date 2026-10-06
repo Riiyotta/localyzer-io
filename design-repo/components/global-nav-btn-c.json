@@ -1,0 +1,13 @@
+{
+  "id": "global-nav-btn-c",
+  "name": "global-nav-btn-c",
+  "occurrences": 89,
+  "composedOf": [
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

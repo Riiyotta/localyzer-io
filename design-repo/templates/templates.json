@@ -1,0 +1,504 @@
+{
+  "version": "0.1.0",
+  "templates": [
+    {
+      "id": "template.group",
+      "name": "Group",
+      "routeCount": 2,
+      "chrome": "partial",
+      "routes": [
+        "/",
+        "/de"
+      ],
+      "nodes": [
+        {
+          "section": "support.global-header-c",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.hp-hero-c",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.hp-hero-img-c",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "support.hp-platform-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.hp-trust-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.hp-marketing-section-title-c",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.hp-marketing-perks",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.hp-customer-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.hp-insights-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-s",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.group-2",
+      "name": "Group",
+      "routeCount": 2,
+      "chrome": "partial",
+      "routes": [
+        "/solutions",
+        "/de/solutions"
+      ],
+      "nodes": [
+        {
+          "section": "support.global-header-c",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.nsl-hero-title-w",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.sl-hero-img-w",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.sl-hero-features-c",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.sl-feat-main-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.sl-feat-common-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.sl-feat-templ-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.nsl-local-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.nsol-manage-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-s",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.group-3",
+      "name": "Group",
+      "routeCount": 2,
+      "chrome": "partial",
+      "routes": [
+        "/about",
+        "/de/about"
+      ],
+      "nodes": [
+        {
+          "section": "support.global-header-c",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.ab-hero-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.ab-founded-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.ab-team-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.ab-timeline-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.ab-openjobs-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-s",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.group-4",
+      "name": "Group",
+      "routeCount": 2,
+      "chrome": "partial",
+      "routes": [
+        "/blog",
+        "/de/blog"
+      ],
+      "nodes": [
+        {
+          "section": "support.global-header-c",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.blog-hero-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "support.blog-newsletter-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.blog-main-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-s",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.group-5",
+      "name": "Group",
+      "routeCount": 2,
+      "chrome": "partial",
+      "routes": [
+        "/careers",
+        "/de/careers"
+      ],
+      "nodes": [
+        {
+          "section": "support.global-header-c",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.cr-main-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-s",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.group-6",
+      "name": "Group",
+      "routeCount": 2,
+      "chrome": "partial",
+      "routes": [
+        "/contact",
+        "/de/contact"
+      ],
+      "nodes": [
+        {
+          "section": "support.global-header-c",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "support.ct-main-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-s",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.group-7",
+      "name": "Group",
+      "routeCount": 57,
+      "chrome": "partial",
+      "routes": [
+        "/blog/world-cup-2026-sponsor-stocks-analysis",
+        "/blog/click-and-collect-fashion-retail-study-germany",
+        "/blog/valentines-day-index-2026-city-ranking-supply-demand-germany",
+        "/blog/christmas-market-analysis-germany-2025",
+        "/blog/ctrl-a-ai-online-marketing-tool-for-small-businesses",
+        "/blog/bundesliga-advent-calendars-prices-2025",
+        "/blog/digital-visibility-east-vs-west-how-germanys-federal-states-perform-online",
+        "/blog/tradespeople-online-availability-germany",
+        "/blog/from-print-to-pixels-local-online-marketing",
+        "/blog/subaru-addressable-tv-localyzer-campaign-success",
+        "/blog/social-media-analysis-top-100-sme",
+        "/blog/city-center-check-germany",
+        "/blog/why-local-video-ads-outperform-traditional-display-ads",
+        "/blog/germany-business-analysis",
+        "/blog/70-000-local-online-campaigns-how-insurance-companies-car-brands-and-retailers-reach-customers-locally-online",
+        "/blog/data-analysis-for-multinational-corporations",
+        "/blog/vacation-check-these-are-the-germans-most-popular-travel-destinations",
+        "/blog/location-analysis-german-cardealership-hotspots",
+        "/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation",
+        "/blog/online-marketing-without-an-agency",
+        "/blog/these-textile-retailers-dominate-germany",
+        "/blog/takko-analysis-these-countries-achieve-the-highest-click-through-rates-in-local-online-campaigns",
+        "/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer",
+        "/blog/what-are-the-benefits-of-local-online-marketing-for-retail-chains-with-a-decentralized-store-structure",
+        "/blog/local-online-marketing-these-cities-lead-in-advertising-reach",
+        "/blog/hyperlocalization-ads---localyzer-launches-new-tool-for-mass-booking-of-thousands-of-local-online-campaigns---at-the-push-of-a-button",
+        "/blog/2022-omkb-digital-business-conference",
+        "/blog/local-regional-online-advertising-for-chain-stores",
+        "/de/blog/wm-2026-sponsoren-aktien-analyse",
+        "/de/blog/mitsubishi-dealer-cockpit-local-marketing",
+        "/de/blog/click-and-collect-modehandel-studie-deutschland",
+        "/de/blog/valentinstag-index-2026-staedte-ranking-angebot-nachfrage",
+        "/de/blog/weihnachtsmark-analyse-deutschland-2025",
+        "/de/blog/ctrl-a-ki-online-marketing-tool-fuer-kleine-unternehmen",
+        "/de/blog/bundesliga-adventskalender-preise-2025",
+        "/de/blog/digitale-sichtbarkeit-so-performen-die-bundeslaender",
+        "/de/blog/handwerker-online-sichtbarkeit",
+        "/de/blog/von-print-zu-pixel-lokales-online-marketing-fuer-vertriebspartner",
+        "/de/blog/subaru-addressable-tv-localyzer-campaign-success",
+        "/de/blog/social-media-analyse-die-top-100-mittelstaendler",
+        "/de/blog/innenstadt-check-was-deutsche-einkaufsstrassen-an-shoppingerlebnis-bieten-",
+        "/de/blog/warum-lokale-videoanzeigen-herkoemmliche-display-anzeigen-uebertreffen",
+        "/de/blog/deutschlandweite-gewerbe-analyse",
+        "/de/blog/70000-lokale-online-kampagnen-wie-versicherungen-automarken-und-retailer-lokal-online-kund-innen-erreichen",
+        "/de/blog/datenanalysen-fuer-multinationale-unternehmen",
+        "/de/blog/urlaubs-check-die-beliebtesten-reiseziele",
+        "/de/blog/standort-analyse-das-sind-deutschlands-autohaus-hochburgen",
+        "/de/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation",
+        "/de/blog/online-marketing-ohne-agentur",
+        "/de/blog/filial-analyse-deutschlands-grossstadte",
+        "/de/blog/takko-analyse-in-diesen-laendern-erzielen-lokale-online-kampagnen-die-hoechsten-klickraten",
+        "/de/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer",
+        "/de/blog/welche-vorteile-bietet-lokales-online-marketing-fuer-filialisten-mit-einer-dezentralen-filialstruktur",
+        "/de/blog/lokales-online-marketing-in-diesen-staedten-ist-werbung-am-verbreitetsten",
+        "/de/blog/hyperlocalisation-ads-localyzer-fuehrt-neues-tool-zur-massenbuchung-von-tausenden-lokalen-online-kampagnen-ein",
+        "/de/blog/2022-omkb-digital-business-conference",
+        "/de/blog/lokale-online-werbung-fuer-filialisten"
+      ],
+      "nodes": [
+        {
+          "section": "support.global-header-c",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.art-header-w",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.art-image-w",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.art-content-w",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "support.art-newsletter-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.art-related-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-s",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.group-8",
+      "name": "Group",
+      "routeCount": 6,
+      "chrome": "partial",
+      "routes": [
+        "/legal/imprint",
+        "/legal/terms-conditions",
+        "/legal/privacy-policy",
+        "/de/legal/imprint",
+        "/de/legal/terms-conditions",
+        "/de/legal/privacy-policy"
+      ],
+      "nodes": [
+        {
+          "section": "support.global-header-c",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.legal-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-s",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.group-9",
+      "name": "Group",
+      "routeCount": 10,
+      "chrome": "partial",
+      "routes": [
+        "/category/events",
+        "/category/company-news",
+        "/category/report",
+        "/category/product-update",
+        "/category/article",
+        "/de/category/events",
+        "/de/category/company-news",
+        "/de/category/report",
+        "/de/category/product-update",
+        "/de/category/article"
+      ],
+      "nodes": [
+        {
+          "section": "hero.bl-category-hero-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "support.bl-category-main-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-s",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.group-10",
+      "name": "Group",
+      "routeCount": 4,
+      "chrome": "partial",
+      "routes": [
+        "/open-positions/senior-sales-consultant",
+        "/de/open-positions/senior-sales-consultant",
+        "/open-positions/software-developer-php-python",
+        "/de/open-positions/software-developer-php-python"
+      ],
+      "nodes": [
+        {
+          "section": "support.global-header-c",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.job-main-s",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-s",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    }
+  ]
+}

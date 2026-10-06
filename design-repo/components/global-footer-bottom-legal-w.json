@@ -1,0 +1,12 @@
+{
+  "id": "global-footer-bottom-legal-w",
+  "name": "global-footer-bottom-legal-w",
+  "occurrences": 89,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

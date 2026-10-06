@@ -1,0 +1,12 @@
+{
+  "id": "blog-hero-dropdown-list",
+  "name": "blog-hero-dropdown-list",
+  "occurrences": 12,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog"
+  }
+}

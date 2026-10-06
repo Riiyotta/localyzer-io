@@ -1,0 +1,19 @@
+{
+  "id": "ct-main-s",
+  "name": "ct-main-s",
+  "occurrences": 2,
+  "composedOf": [
+    "form",
+    "heading",
+    "image",
+    "input",
+    "link",
+    "paragraph",
+    "svg",
+    "textarea"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/contact"
+  }
+}

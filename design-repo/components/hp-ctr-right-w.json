@@ -1,0 +1,12 @@
+{
+  "id": "hp-ctr-right-w",
+  "name": "hp-ctr-right-w",
+  "occurrences": 2,
+  "composedOf": [
+    "heading"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

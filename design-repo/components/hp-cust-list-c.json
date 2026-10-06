@@ -1,0 +1,14 @@
+{
+  "id": "hp-cust-list-c",
+  "name": "hp-cust-list-c",
+  "occurrences": 2,
+  "composedOf": [
+    "image",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

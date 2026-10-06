@@ -1,0 +1,78 @@
+{
+  "id": "content.ab-timeline-s",
+  "category": "CONTENT",
+  "label": "ab-timeline-s",
+  "tag": "section",
+  "purpose": "Carries the substantive content of the page. Example headline: \"ITS ALL ABOUT LOCALYZER\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 2,
+    "routes": 2,
+    "measuredFrom": [
+      "src/about/index.html:567-1045",
+      "src/de/about/index.html:567-1044"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 4
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 15,
+        "titleMaxWords": 5,
+        "bodyMaxWords": 57
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 26,
+        "assetRoles": [
+          "avatar",
+          "content-image",
+          "video"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 843,
+      "columns": 16
+    },
+    "mobile": {
+      "heightPx": 846,
+      "columns": 16,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [
+    "avatar",
+    "content-image",
+    "video"
+  ],
+  "implementedBy": "src/sections/AbTimelineS.jsx"
+}

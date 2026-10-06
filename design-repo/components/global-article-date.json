@@ -1,0 +1,10 @@
+{
+  "id": "global-article-date",
+  "name": "global-article-date",
+  "occurrences": 333,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

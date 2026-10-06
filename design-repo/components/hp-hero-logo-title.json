@@ -1,0 +1,10 @@
+{
+  "id": "hp-hero-logo-title",
+  "name": "hp-hero-logo-title",
+  "occurrences": 2,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

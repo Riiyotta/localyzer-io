@@ -1,0 +1,79 @@
+{
+  "id": "content.legal-s",
+  "category": "CONTENT",
+  "label": "legal-s",
+  "tag": "section",
+  "purpose": "Carries the substantive content of the page. Example headline: \"IMPRESSUM\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 6,
+    "routes": 6,
+    "measuredFrom": [
+      "src/de/legal/imprint/index.html:388-413",
+      "src/de/legal/privacy-policy/index.html:388-637",
+      "src/de/legal/terms-conditions/index.html:388-458",
+      "src/legal/imprint/index.html:388-415",
+      "src/legal/privacy-policy/index.html:388-593"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 3
+      },
+      "subheading": {
+        "type": "string",
+        "required": false,
+        "maxWords": 1
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 30,
+        "maxWords": 89
+      },
+      "items": {
+        "type": "item[]",
+        "required": false,
+        "maxItems": 24,
+        "titleMaxWords": 10,
+        "bodyMaxWords": 0
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 7774,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 15533,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "grows taller on mobile (content stacks)"
+    ]
+  },
+  "assetRoles": [],
+  "implementedBy": "src/sections/LegalS.jsx"
+}

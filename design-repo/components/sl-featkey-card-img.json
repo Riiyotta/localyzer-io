@@ -1,0 +1,12 @@
+{
+  "id": "sl-featkey-card-img",
+  "name": "sl-featkey-card-img",
+  "occurrences": 10,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/solutions"
+  }
+}

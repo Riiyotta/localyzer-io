@@ -1,0 +1,12 @@
+{
+  "id": "ab-openjobs-job-btn-w",
+  "name": "ab-openjobs-job-btn-w",
+  "occurrences": 8,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/about"
+  }
+}

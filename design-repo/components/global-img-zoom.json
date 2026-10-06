@@ -1,0 +1,10 @@
+{
+  "id": "global-img-zoom",
+  "name": "global-img-zoom",
+  "occurrences": 278,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

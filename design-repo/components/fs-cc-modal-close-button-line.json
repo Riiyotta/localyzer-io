@@ -1,0 +1,10 @@
+{
+  "id": "fs-cc-modal-close-button-line",
+  "name": "fs-cc-modal_close-button-line",
+  "occurrences": 182,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

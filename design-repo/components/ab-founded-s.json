@@ -1,0 +1,14 @@
+{
+  "id": "ab-founded-s",
+  "name": "ab-founded-s",
+  "occurrences": 2,
+  "composedOf": [
+    "heading",
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/about"
+  }
+}

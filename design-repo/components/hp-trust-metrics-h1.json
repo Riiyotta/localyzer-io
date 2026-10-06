@@ -1,0 +1,10 @@
+{
+  "id": "hp-trust-metrics-h1",
+  "name": "hp-trust-metrics-h1",
+  "occurrences": 6,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

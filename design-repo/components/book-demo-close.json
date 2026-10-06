@@ -1,0 +1,12 @@
+{
+  "id": "book-demo-close",
+  "name": "book-demo-close",
+  "occurrences": 178,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

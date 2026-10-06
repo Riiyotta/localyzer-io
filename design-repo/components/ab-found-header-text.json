@@ -1,0 +1,12 @@
+{
+  "id": "ab-found-header-text",
+  "name": "ab-found-header-text",
+  "occurrences": 2,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/about"
+  }
+}

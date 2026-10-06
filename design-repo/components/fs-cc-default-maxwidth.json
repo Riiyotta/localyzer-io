@@ -1,0 +1,10 @@
+{
+  "id": "fs-cc-default-maxwidth",
+  "name": "fs-cc-default_maxwidth",
+  "occurrences": 91,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

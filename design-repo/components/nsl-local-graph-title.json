@@ -1,0 +1,10 @@
+{
+  "id": "nsl-local-graph-title",
+  "name": "nsl-local-graph-title",
+  "occurrences": 8,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/solutions"
+  }
+}

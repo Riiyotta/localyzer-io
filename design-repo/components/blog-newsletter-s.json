@@ -1,0 +1,16 @@
+{
+  "id": "blog-newsletter-s",
+  "name": "blog-newsletter-s",
+  "occurrences": 2,
+  "composedOf": [
+    "form",
+    "heading",
+    "input",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog"
+  }
+}

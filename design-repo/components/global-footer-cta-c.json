@@ -1,0 +1,12 @@
+{
+  "id": "global-footer-cta-c",
+  "name": "global-footer-cta-c",
+  "occurrences": 89,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

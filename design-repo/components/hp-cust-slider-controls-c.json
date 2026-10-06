@@ -1,0 +1,12 @@
+{
+  "id": "hp-cust-slider-controls-c",
+  "name": "hp-cust-slider-controls-c",
+  "occurrences": 2,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "hp-cust-text",
+  "name": "hp-cust-text",
+  "occurrences": 16,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

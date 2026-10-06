@@ -1,0 +1,12 @@
+{
+  "id": "ct-main-img-w",
+  "name": "ct-main-img-w",
+  "occurrences": 2,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/contact"
+  }
+}

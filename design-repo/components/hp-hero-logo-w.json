@@ -1,0 +1,12 @@
+{
+  "id": "hp-hero-logo-w",
+  "name": "hp-hero-logo-w",
+  "occurrences": 132,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

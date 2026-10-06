@@ -1,0 +1,10 @@
+{
+  "id": "hp-trust-card-title",
+  "name": "hp-trust-card-title",
+  "occurrences": 8,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "caption",
+  "name": "caption",
+  "occurrences": 14,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

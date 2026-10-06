@@ -1,0 +1,12 @@
+{
+  "id": "hp-insights-button",
+  "name": "hp-insights-button",
+  "occurrences": 2,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

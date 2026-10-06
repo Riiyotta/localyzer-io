@@ -1,0 +1,70 @@
+{
+  "$description": "Layout measurements taken at a 1440px-wide viewport. Breakpoints live in 00-foundation/breakpoint.json. Keys with a category suffix (e.g. `.explainer`) are per-category overrides that differ from the sitewide default above them.",
+  "inferred": true,
+  "tokens": {
+    "layout.contentWidth": {
+      "$value": "1440px",
+      "basis": "most common width of a section's first child at a 1440px viewport (measured, not a max-width rule)"
+    },
+    "layout.gutter": {
+      "$value": "128px",
+      "basis": "most common left offset of section content at 1440px"
+    },
+    "layout.sectionPaddingTop": {
+      "$value": "{space.60}",
+      "basis": "most common padding-top of a section"
+    },
+    "layout.sectionPaddingBottom": {
+      "$value": "76px",
+      "basis": "most common padding-bottom of a section"
+    },
+    "layout.gridGap": {
+      "$value": "{space.40}",
+      "basis": "most common column-gap of a grid/flex container inside a section"
+    },
+    "layout.sectionPaddingTop.content": {
+      "$value": "160px",
+      "basis": "most common padding-top of a CONTENT section (differs from the sitewide mode)"
+    },
+    "layout.sectionPaddingBottom.content": {
+      "$value": "160px",
+      "basis": "most common padding-bottom of a CONTENT section (differs from the sitewide mode)"
+    },
+    "layout.sectionPaddingTop.hero": {
+      "$value": "{space.90}",
+      "basis": "most common padding-top of a HERO section (differs from the sitewide mode)"
+    },
+    "layout.sectionPaddingBottom.hero": {
+      "$value": "320px",
+      "basis": "most common padding-bottom of a HERO section (differs from the sitewide mode)"
+    },
+    "layout.gridGap.hero": {
+      "$value": "{space.48}",
+      "basis": "most common column-gap of a HERO section (differs from the sitewide mode)"
+    },
+    "layout.sectionPaddingTop.proof": {
+      "$value": "160px",
+      "basis": "most common padding-top of a PROOF section (differs from the sitewide mode)"
+    },
+    "layout.sectionPaddingBottom.proof": {
+      "$value": "160px",
+      "basis": "most common padding-bottom of a PROOF section (differs from the sitewide mode)"
+    },
+    "layout.gridGap.proof": {
+      "$value": "{space.42}",
+      "basis": "most common column-gap of a PROOF section (differs from the sitewide mode)"
+    },
+    "layout.sectionPaddingTop.support": {
+      "$value": "{space.24}",
+      "basis": "most common padding-top of a SUPPORT section (differs from the sitewide mode)"
+    },
+    "layout.sectionPaddingBottom.support": {
+      "$value": "{space.24}",
+      "basis": "most common padding-bottom of a SUPPORT section (differs from the sitewide mode)"
+    },
+    "layout.gridGap.support": {
+      "$value": "{space.48}",
+      "basis": "most common column-gap of a SUPPORT section (differs from the sitewide mode)"
+    }
+  }
+}

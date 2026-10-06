@@ -1,0 +1,12 @@
+{
+  "id": "local-dropdown-mobile",
+  "name": "local-dropdown-mobile",
+  "occurrences": 89,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

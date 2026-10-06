@@ -1,0 +1,10 @@
+{
+  "id": "counter-wrap",
+  "name": "counter-wrap",
+  "occurrences": 6,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

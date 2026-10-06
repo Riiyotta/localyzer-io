@@ -1,0 +1,12 @@
+{
+  "id": "global-header-nav-w",
+  "name": "global-header-nav-w",
+  "occurrences": 89,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "version": "0.1.0",
+  "derivedFrom": "templates/templates.json and sections/*.json constraints (recomputed by verify_all.py)",
+  "rules": [
+    {
+      "id": "ONE_HERO_PER_PAGE",
+      "severity": "error",
+      "kind": "maxCategoryPerPage",
+      "category": "HERO",
+      "max": 1,
+      "exceptions": [
+        "template.group",
+        "template.group-2"
+      ],
+      "description": "A page has at most one HERO section. Templates that genuinely carry more are named in `exceptions`."
+    },
+    {
+      "id": "SECTION_PER_PAGE_LIMITS",
+      "severity": "error",
+      "kind": "perPageLimits",
+      "limits": {
+        "support.global-header-c": 1,
+        "hero.hp-hero-c": 1,
+        "hero.hp-hero-img-c": 1,
+        "support.hp-platform-s": 1,
+        "content.hp-trust-s": 1,
+        "content.hp-marketing-section-title-c": 1,
+        "content.hp-marketing-perks": 1,
+        "proof.hp-customer-s": 1,
+        "content.hp-insights-s": 1,
+        "shell.footer-s": 1,
+        "hero.nsl-hero-title-w": 1,
+        "hero.sl-hero-img-w": 1,
+        "hero.sl-hero-features-c": 1,
+        "content.sl-feat-main-s": 1,
+        "content.sl-feat-common-s": 1,
+        "content.sl-feat-templ-s": 1,
+        "content.nsl-local-s": 1,
+        "content.nsol-manage-s": 1,
+        "hero.ab-hero-s": 1,
+        "content.ab-founded-s": 1,
+        "content.ab-team-s": 1,
+        "content.ab-timeline-s": 1,
+        "content.ab-openjobs-s": 1,
+        "hero.blog-hero-s": 1,
+        "support.blog-newsletter-s": 1,
+        "content.blog-main-s": 1,
+        "content.cr-main-s": 1,
+        "support.ct-main-s": 1,
+        "content.art-header-w": 1,
+        "content.art-image-w": 1,
+        "content.art-content-w": 1,
+        "support.art-newsletter-s": 1,
+        "content.art-related-s": 1,
+        "content.legal-s": 1,
+        "hero.bl-category-hero-s": 1,
+        "support.bl-category-main-s": 1,
+        "content.job-main-s": 1
+      },
+      "description": "No section appears more often on one page than it does in any measured template."
+    },
+    {
+      "id": "SHELL_MUST_BE_FIRST",
+      "severity": "error",
+      "kind": "mustBeFirst",
+      "sections": [],
+      "description": "Sections that opened every template they appear in must be the first node."
+    },
+    {
+      "id": "SHELL_MUST_BE_LAST",
+      "severity": "error",
+      "kind": "mustBeLast",
+      "sections": [
+        "shell.footer-s"
+      ],
+      "description": "Sections that closed every template they appear in must be the last node."
+    },
+    {
+      "id": "NO_CONSECUTIVE_SAME_SECTION",
+      "severity": "warn",
+      "kind": "noConsecutive",
+      "sections": [],
+      "description": "These sections were never observed back-to-back."
+    },
+    {
+      "id": "NO_ADJACENT_SAME_CATEGORY",
+      "severity": "warn",
+      "kind": "noAdjacentSameCategory",
+      "exceptions": [
+        [
+          "hero.hp-hero-c",
+          "hero.hp-hero-img-c"
+        ],
+        [
+          "content.hp-trust-s",
+          "content.hp-marketing-section-title-c"
+        ],
+        [
+          "content.hp-marketing-section-title-c",
+          "content.hp-marketing-perks"
+        ],
+        [
+          "hero.nsl-hero-title-w",
+          "hero.sl-hero-img-w"
+        ],
+        [
+          "hero.sl-hero-img-w",
+          "hero.sl-hero-features-c"
+        ],
+        [
+          "content.sl-feat-main-s",
+          "content.sl-feat-common-s"
+        ],
+        [
+          "content.sl-feat-common-s",
+          "content.sl-feat-templ-s"
+        ],
+        [
+          "content.sl-feat-templ-s",
+          "content.nsl-local-s"
+        ],
+        [
+          "content.nsl-local-s",
+          "content.nsol-manage-s"
+        ],
+        [
+          "content.ab-founded-s",
+          "content.ab-team-s"
+        ],
+        [
+          "content.ab-team-s",
+          "content.ab-timeline-s"
+        ],
+        [
+          "content.ab-timeline-s",
+          "content.ab-openjobs-s"
+        ],
+        [
+          "support.global-header-c",
+          "support.ct-main-s"
+        ],
+        [
+          "content.art-header-w",
+          "content.art-image-w"
+        ],
+        [
+          "content.art-image-w",
+          "content.art-content-w"
+        ]
+      ],
+      "description": "Two different sections of the same category should not sit next to each other unless that exact pair was observed (named exceptions)."
+    },
+    {
+      "id": "MOTION_BUDGET",
+      "severity": "warn",
+      "kind": "maxAnimatedSections",
+      "max": 7,
+      "description": "No page has more animated sections than the most animated measured page."
+    }
+  ]
+}

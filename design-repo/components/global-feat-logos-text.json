@@ -1,0 +1,10 @@
+{
+  "id": "global-feat-logos-text",
+  "name": "global-feat-logos-text",
+  "occurrences": 4,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/solutions"
+  }
+}

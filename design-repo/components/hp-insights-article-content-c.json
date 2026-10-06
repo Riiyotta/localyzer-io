@@ -1,0 +1,13 @@
+{
+  "id": "hp-insights-article-content-c",
+  "name": "hp-insights-article-content-c",
+  "occurrences": 276,
+  "composedOf": [
+    "heading",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

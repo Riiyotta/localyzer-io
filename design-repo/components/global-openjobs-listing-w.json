@@ -1,0 +1,14 @@
+{
+  "id": "global-openjobs-listing-w",
+  "name": "global-openjobs-listing-w",
+  "occurrences": 4,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/about"
+  }
+}

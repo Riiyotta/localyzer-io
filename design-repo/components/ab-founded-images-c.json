@@ -1,0 +1,12 @@
+{
+  "id": "ab-founded-images-c",
+  "name": "ab-founded-images-c",
+  "occurrences": 2,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/about"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "hp-hero-w",
+  "name": "hp-hero-w",
+  "occurrences": 2,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

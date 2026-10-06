@@ -1,0 +1,14 @@
+{
+  "id": "fs-cc-banner-modal",
+  "name": "fs-cc-banner_modal",
+  "occurrences": 91,
+  "composedOf": [
+    "form",
+    "input",
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

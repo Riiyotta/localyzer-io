@@ -1,0 +1,10 @@
+{
+  "id": "global-separator",
+  "name": "global-separator",
+  "occurrences": 125,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

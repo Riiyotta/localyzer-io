@@ -1,0 +1,14 @@
+{
+  "id": "fs-cc-banner-component",
+  "name": "fs-cc-banner_component",
+  "occurrences": 89,
+  "composedOf": [
+    "form",
+    "input",
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

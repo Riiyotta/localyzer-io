@@ -1,0 +1,12 @@
+{
+  "id": "blog-hero-title-w",
+  "name": "blog-hero-title-w",
+  "occurrences": 2,
+  "composedOf": [
+    "heading"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog"
+  }
+}

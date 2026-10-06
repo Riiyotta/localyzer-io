@@ -1,0 +1,15 @@
+{
+  "id": "hp-mark-perk-expand",
+  "name": "hp-mark-perk-expand",
+  "occurrences": 2,
+  "composedOf": [
+    "heading",
+    "image",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "global-article-link",
+  "name": "global-article-link",
+  "occurrences": 276,
+  "composedOf": [
+    "heading"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "content.art-related-s",
+  "category": "CONTENT",
+  "label": "art-related-s",
+  "tag": "section",
+  "purpose": "Carries the substantive content of the page. Example headline: \"RELATED STORIES\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 57,
+    "routes": 57,
+    "measuredFrom": [
+      "src/blog/2022-omkb-digital-business-conference/index.html:524-562",
+      "src/blog/70-000-local-online-campaigns-how-insurance-companies-car-brands-and-retailers-reach-customers-locally-online/index.html:519-557",
+      "src/blog/bundesliga-advent-calendars-prices-2025/index.html:538-630",
+      "src/blog/christmas-market-analysis-germany-2025/index.html:531-623",
+      "src/blog/city-center-check-germany/index.html:533-625"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 2
+      },
+      "subheading": {
+        "type": "string",
+        "required": false,
+        "maxWords": 16
+      },
+      "body": {
+        "type": "string[]",
+        "required": false,
+        "maxItems": 1,
+        "maxWords": 35
+      },
+      "items": {
+        "type": "item[]",
+        "required": false,
+        "maxItems": 2,
+        "titleMaxWords": 23,
+        "bodyMaxWords": 83
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 3,
+        "assetRoles": [
+          "content-image",
+          "hero-image"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 622,
+      "columns": 3
+    },
+    "mobile": {
+      "heightPx": 540,
+      "columns": 3,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [
+    "content-image",
+    "hero-image"
+  ],
+  "implementedBy": "src/sections/ArtRelatedS.jsx"
+}

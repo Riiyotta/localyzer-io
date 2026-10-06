@@ -1,0 +1,15 @@
+{
+  "id": "art-related-articles-w",
+  "name": "art-related-articles-w",
+  "occurrences": 57,
+  "composedOf": [
+    "heading",
+    "image",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/world-cup-2026-sponsor-stocks-analysis"
+  }
+}

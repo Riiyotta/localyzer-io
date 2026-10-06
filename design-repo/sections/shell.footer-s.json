@@ -1,0 +1,79 @@
+{
+  "id": "shell.footer-s",
+  "category": "SHELL",
+  "label": "footer-s",
+  "tag": "section",
+  "purpose": "Orients the visitor and provides navigation or site-wide links; carried across pages.",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 89,
+    "routes": 89,
+    "measuredFrom": [
+      "src/index.html:7849-8254",
+      "src/about/index.html:1078-1376",
+      "src/blog/index.html:754-1039",
+      "src/blog/2022-omkb-digital-business-conference/index.html:563-848",
+      "src/blog/70-000-local-online-campaigns-how-insurance-companies-car-brands-and-retailers-reach-customers-locally-online/index.html:558-843"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 10
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 16,
+        "maxWords": 3
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 2,
+        "titleMaxWords": 6,
+        "bodyMaxWords": 0
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustBeLast": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-animation",
+      "css-transition",
+      "none",
+      "scroll-linked"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 1074,
+      "columns": 6
+    },
+    "mobile": {
+      "heightPx": 738,
+      "columns": 5,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "columns change from 6 to 5"
+    ]
+  },
+  "assetRoles": [],
+  "implementedBy": "src/sections/FooterS.jsx"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "hp-cust-logo",
+  "name": "hp-cust-logo",
+  "occurrences": 16,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

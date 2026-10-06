@@ -1,0 +1,12 @@
+{
+  "id": "hp-platf-card-img-w",
+  "name": "hp-platf-card-img-w",
+  "occurrences": 12,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

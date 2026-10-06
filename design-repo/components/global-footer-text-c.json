@@ -1,0 +1,12 @@
+{
+  "id": "global-footer-text-c",
+  "name": "global-footer-text-c",
+  "occurrences": 178,
+  "composedOf": [
+    "heading"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

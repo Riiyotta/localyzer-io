@@ -1,0 +1,12 @@
+{
+  "id": "hp-header-img-c",
+  "name": "hp-header-img-c",
+  "occurrences": 2,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

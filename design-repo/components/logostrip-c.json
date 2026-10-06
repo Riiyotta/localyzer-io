@@ -1,0 +1,12 @@
+{
+  "id": "logostrip-c",
+  "name": "logostrip-c",
+  "occurrences": 6,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

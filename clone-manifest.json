@@ -1,0 +1,4802 @@
+{
+  "generatedBy": "website-builder lib/clone.mjs",
+  "source": "https://www.localyzer.io/",
+  "routes": [
+    {
+      "route": "/",
+      "page": "src/pages/HomePage.jsx",
+      "sections": 10
+    },
+    {
+      "route": "/solutions",
+      "page": "src/pages/Solutions.jsx",
+      "sections": 10
+    },
+    {
+      "route": "/about",
+      "page": "src/pages/About.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog",
+      "page": "src/pages/Blog.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/careers",
+      "page": "src/pages/Careers.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/contact",
+      "page": "src/pages/Contact.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/de",
+      "page": "src/pages/De.jsx",
+      "sections": 10
+    },
+    {
+      "route": "/blog/world-cup-2026-sponsor-stocks-analysis",
+      "page": "src/pages/BlogWorldCup2026.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/click-and-collect-fashion-retail-study-germany",
+      "page": "src/pages/BlogClickAndCollect.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/valentines-day-index-2026-city-ranking-supply-demand-germany",
+      "page": "src/pages/BlogValentinesDayIndex.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/christmas-market-analysis-germany-2025",
+      "page": "src/pages/BlogChristmasMarketAnalysis.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/ctrl-a-ai-online-marketing-tool-for-small-businesses",
+      "page": "src/pages/BlogCtrlAAi.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/bundesliga-advent-calendars-prices-2025",
+      "page": "src/pages/BlogBundesligaAdventCalendars.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/digital-visibility-east-vs-west-how-germanys-federal-states-perform-online",
+      "page": "src/pages/BlogDigitalVisibilityEast.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/tradespeople-online-availability-germany",
+      "page": "src/pages/BlogTradespeopleOnlineAvailability.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/from-print-to-pixels-local-online-marketing",
+      "page": "src/pages/BlogFromPrintTo.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/subaru-addressable-tv-localyzer-campaign-success",
+      "page": "src/pages/BlogSubaruAddressableTv.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/social-media-analysis-top-100-sme",
+      "page": "src/pages/BlogSocialMediaAnalysis.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/city-center-check-germany",
+      "page": "src/pages/BlogCityCenterCheck.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/why-local-video-ads-outperform-traditional-display-ads",
+      "page": "src/pages/BlogWhyLocalVideo.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/germany-business-analysis",
+      "page": "src/pages/BlogGermanyBusinessAnalysis.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/70-000-local-online-campaigns-how-insurance-companies-car-brands-and-retailers-reach-customers-locally-online",
+      "page": "src/pages/Blog70000Local.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/data-analysis-for-multinational-corporations",
+      "page": "src/pages/BlogDataAnalysisFor.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/vacation-check-these-are-the-germans-most-popular-travel-destinations",
+      "page": "src/pages/BlogVacationCheckThese.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/location-analysis-german-cardealership-hotspots",
+      "page": "src/pages/BlogLocationAnalysisGerman.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation",
+      "page": "src/pages/BlogWelcomeToThe.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/online-marketing-without-an-agency",
+      "page": "src/pages/BlogOnlineMarketingWithout.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/these-textile-retailers-dominate-germany",
+      "page": "src/pages/BlogTheseTextileRetailers.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/takko-analysis-these-countries-achieve-the-highest-click-through-rates-in-local-online-campaigns",
+      "page": "src/pages/BlogTakkoAnalysisThese.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer",
+      "page": "src/pages/BlogWorkationInCape.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/what-are-the-benefits-of-local-online-marketing-for-retail-chains-with-a-decentralized-store-structure",
+      "page": "src/pages/BlogWhatAreThe.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/local-online-marketing-these-cities-lead-in-advertising-reach",
+      "page": "src/pages/BlogLocalOnlineMarketing.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/hyperlocalization-ads---localyzer-launches-new-tool-for-mass-booking-of-thousands-of-local-online-campaigns---at-the-push-of-a-button",
+      "page": "src/pages/BlogHyperlocalizationAdsLocalyzer.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/2022-omkb-digital-business-conference",
+      "page": "src/pages/Blog2022OmkbDigital.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/blog/local-regional-online-advertising-for-chain-stores",
+      "page": "src/pages/BlogLocalRegionalOnline.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/legal/imprint",
+      "page": "src/pages/LegalImprint.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/legal/terms-conditions",
+      "page": "src/pages/LegalTermsConditions.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/legal/privacy-policy",
+      "page": "src/pages/LegalPrivacyPolicy.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/de/solutions",
+      "page": "src/pages/DeSolutions.jsx",
+      "sections": 10
+    },
+    {
+      "route": "/de/about",
+      "page": "src/pages/DeAbout.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog",
+      "page": "src/pages/DeBlog.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/category/events",
+      "page": "src/pages/CategoryEvents.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/category/company-news",
+      "page": "src/pages/CategoryCompanyNews.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/category/report",
+      "page": "src/pages/CategoryReport.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/category/product-update",
+      "page": "src/pages/CategoryProductUpdate.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/category/article",
+      "page": "src/pages/CategoryArticle.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/de/careers",
+      "page": "src/pages/DeCareers.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/de/contact",
+      "page": "src/pages/DeContact.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/de/blog/wm-2026-sponsoren-aktien-analyse",
+      "page": "src/pages/DeBlogWm2026.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/mitsubishi-dealer-cockpit-local-marketing",
+      "page": "src/pages/DeBlogMitsubishiDealer.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/click-and-collect-modehandel-studie-deutschland",
+      "page": "src/pages/DeBlogClickAnd.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/valentinstag-index-2026-staedte-ranking-angebot-nachfrage",
+      "page": "src/pages/DeBlogValentinstagIndex.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/weihnachtsmark-analyse-deutschland-2025",
+      "page": "src/pages/DeBlogWeihnachtsmarkAnalyse.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/ctrl-a-ki-online-marketing-tool-fuer-kleine-unternehmen",
+      "page": "src/pages/DeBlogCtrlA.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/bundesliga-adventskalender-preise-2025",
+      "page": "src/pages/DeBlogBundesligaAdventskalender.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/digitale-sichtbarkeit-so-performen-die-bundeslaender",
+      "page": "src/pages/DeBlogDigitaleSichtbarkeit.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/handwerker-online-sichtbarkeit",
+      "page": "src/pages/DeBlogHandwerkerOnline.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/von-print-zu-pixel-lokales-online-marketing-fuer-vertriebspartner",
+      "page": "src/pages/DeBlogVonPrint.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/subaru-addressable-tv-localyzer-campaign-success",
+      "page": "src/pages/DeBlogSubaruAddressable.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/social-media-analyse-die-top-100-mittelstaendler",
+      "page": "src/pages/DeBlogSocialMedia.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/innenstadt-check-was-deutsche-einkaufsstrassen-an-shoppingerlebnis-bieten-",
+      "page": "src/pages/DeBlogInnenstadtCheck.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/warum-lokale-videoanzeigen-herkoemmliche-display-anzeigen-uebertreffen",
+      "page": "src/pages/DeBlogWarumLokale.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/deutschlandweite-gewerbe-analyse",
+      "page": "src/pages/DeBlogDeutschlandweiteGewerbe.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/70000-lokale-online-kampagnen-wie-versicherungen-automarken-und-retailer-lokal-online-kund-innen-erreichen",
+      "page": "src/pages/DeBlog70000Lokale.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/datenanalysen-fuer-multinationale-unternehmen",
+      "page": "src/pages/DeBlogDatenanalysenFuer.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/urlaubs-check-die-beliebtesten-reiseziele",
+      "page": "src/pages/DeBlogUrlaubsCheck.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/standort-analyse-das-sind-deutschlands-autohaus-hochburgen",
+      "page": "src/pages/DeBlogStandortAnalyse.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation",
+      "page": "src/pages/DeBlogWelcomeTo.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/online-marketing-ohne-agentur",
+      "page": "src/pages/DeBlogOnlineMarketing.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/filial-analyse-deutschlands-grossstadte",
+      "page": "src/pages/DeBlogFilialAnalyse.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/takko-analyse-in-diesen-laendern-erzielen-lokale-online-kampagnen-die-hoechsten-klickraten",
+      "page": "src/pages/DeBlogTakkoAnalyse.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer",
+      "page": "src/pages/DeBlogWorkationIn.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/welche-vorteile-bietet-lokales-online-marketing-fuer-filialisten-mit-einer-dezentralen-filialstruktur",
+      "page": "src/pages/DeBlogWelcheVorteile.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/lokales-online-marketing-in-diesen-staedten-ist-werbung-am-verbreitetsten",
+      "page": "src/pages/DeBlogLokalesOnline.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/hyperlocalisation-ads-localyzer-fuehrt-neues-tool-zur-massenbuchung-von-tausenden-lokalen-online-kampagnen-ein",
+      "page": "src/pages/DeBlogHyperlocalisationAds.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/2022-omkb-digital-business-conference",
+      "page": "src/pages/DeBlog2022Omkb.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/blog/lokale-online-werbung-fuer-filialisten",
+      "page": "src/pages/DeBlogLokaleOnline.jsx",
+      "sections": 7
+    },
+    {
+      "route": "/de/legal/imprint",
+      "page": "src/pages/DeLegalImprint.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/de/legal/terms-conditions",
+      "page": "src/pages/DeLegalTermsConditions.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/de/legal/privacy-policy",
+      "page": "src/pages/DeLegalPrivacyPolicy.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/de/category/events",
+      "page": "src/pages/DeCategoryEvents.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/de/category/company-news",
+      "page": "src/pages/DeCategoryCompanyNews.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/de/category/report",
+      "page": "src/pages/DeCategoryReport.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/de/category/product-update",
+      "page": "src/pages/DeCategoryProductUpdate.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/de/category/article",
+      "page": "src/pages/DeCategoryArticle.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/open-positions/senior-sales-consultant",
+      "page": "src/pages/OpenPositionsSeniorSales.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/de/open-positions/senior-sales-consultant",
+      "page": "src/pages/DeOpenPositionsSenior.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/open-positions/software-developer-php-python",
+      "page": "src/pages/OpenPositionsSoftwareDeveloper.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/de/open-positions/software-developer-php-python",
+      "page": "src/pages/DeOpenPositionsSoftware.jsx",
+      "sections": 3
+    }
+  ],
+  "components": [
+    {
+      "component": "GlobalHeaderC",
+      "file": "src/sections/GlobalHeaderC.jsx",
+      "usedBy": [
+        {
+          "route": "/",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "HpHeroC",
+      "file": "src/sections/HpHeroC.jsx",
+      "usedBy": [
+        {
+          "route": "/",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "HpHeroImgC",
+      "file": "src/sections/HpHeroImgC.jsx",
+      "usedBy": [
+        {
+          "route": "/",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "HpPlatformS",
+      "file": "src/sections/HpPlatformS.jsx",
+      "usedBy": [
+        {
+          "route": "/",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "HpTrustS",
+      "file": "src/sections/HpTrustS.jsx",
+      "usedBy": [
+        {
+          "route": "/",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "HpMarketingSectionTitle",
+      "file": "src/sections/HpMarketingSectionTitle.jsx",
+      "usedBy": [
+        {
+          "route": "/",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "WLayoutGrid",
+      "file": "src/sections/WLayoutGrid.jsx",
+      "usedBy": [
+        {
+          "route": "/",
+          "idx": 6
+        }
+      ]
+    },
+    {
+      "component": "HpCustomerS",
+      "file": "src/sections/HpCustomerS.jsx",
+      "usedBy": [
+        {
+          "route": "/",
+          "idx": 7
+        }
+      ]
+    },
+    {
+      "component": "HpInsightsS",
+      "file": "src/sections/HpInsightsS.jsx",
+      "usedBy": [
+        {
+          "route": "/",
+          "idx": 8
+        }
+      ]
+    },
+    {
+      "component": "FooterS",
+      "file": "src/sections/FooterS.jsx",
+      "usedBy": [
+        {
+          "route": "/",
+          "idx": 9
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC2",
+      "file": "src/sections/GlobalHeaderC2.jsx",
+      "usedBy": [
+        {
+          "route": "/solutions",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "NslHeroTitleW",
+      "file": "src/sections/NslHeroTitleW.jsx",
+      "usedBy": [
+        {
+          "route": "/solutions",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "SlHeroImgW",
+      "file": "src/sections/SlHeroImgW.jsx",
+      "usedBy": [
+        {
+          "route": "/solutions",
+          "idx": 2
+        },
+        {
+          "route": "/de/solutions",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "SlHeroFeaturesC",
+      "file": "src/sections/SlHeroFeaturesC.jsx",
+      "usedBy": [
+        {
+          "route": "/solutions",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "SlFeatMainS",
+      "file": "src/sections/SlFeatMainS.jsx",
+      "usedBy": [
+        {
+          "route": "/solutions",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "SlFeatCommonS",
+      "file": "src/sections/SlFeatCommonS.jsx",
+      "usedBy": [
+        {
+          "route": "/solutions",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "SlFeatTemplS",
+      "file": "src/sections/SlFeatTemplS.jsx",
+      "usedBy": [
+        {
+          "route": "/solutions",
+          "idx": 6
+        }
+      ]
+    },
+    {
+      "component": "NslLocalS",
+      "file": "src/sections/NslLocalS.jsx",
+      "usedBy": [
+        {
+          "route": "/solutions",
+          "idx": 7
+        }
+      ]
+    },
+    {
+      "component": "NsolManageS",
+      "file": "src/sections/NsolManageS.jsx",
+      "usedBy": [
+        {
+          "route": "/solutions",
+          "idx": 8
+        }
+      ]
+    },
+    {
+      "component": "FooterS2",
+      "file": "src/sections/FooterS2.jsx",
+      "usedBy": [
+        {
+          "route": "/solutions",
+          "idx": 9
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC3",
+      "file": "src/sections/GlobalHeaderC3.jsx",
+      "usedBy": [
+        {
+          "route": "/about",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "AbHeroS",
+      "file": "src/sections/AbHeroS.jsx",
+      "usedBy": [
+        {
+          "route": "/about",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "AbFoundedS",
+      "file": "src/sections/AbFoundedS.jsx",
+      "usedBy": [
+        {
+          "route": "/about",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "AbTeamS",
+      "file": "src/sections/AbTeamS.jsx",
+      "usedBy": [
+        {
+          "route": "/about",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "AbTimelineS",
+      "file": "src/sections/AbTimelineS.jsx",
+      "usedBy": [
+        {
+          "route": "/about",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "AbOpenjobsS",
+      "file": "src/sections/AbOpenjobsS.jsx",
+      "usedBy": [
+        {
+          "route": "/about",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "FooterS3",
+      "file": "src/sections/FooterS3.jsx",
+      "usedBy": [
+        {
+          "route": "/about",
+          "idx": 6
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC4",
+      "file": "src/sections/GlobalHeaderC4.jsx",
+      "usedBy": [
+        {
+          "route": "/blog",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "BlogHeroS",
+      "file": "src/sections/BlogHeroS.jsx",
+      "usedBy": [
+        {
+          "route": "/blog",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "BlogNewsletterS",
+      "file": "src/sections/BlogNewsletterS.jsx",
+      "usedBy": [
+        {
+          "route": "/blog",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "BlogMainS",
+      "file": "src/sections/BlogMainS.jsx",
+      "usedBy": [
+        {
+          "route": "/blog",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "FooterS4",
+      "file": "src/sections/FooterS4.jsx",
+      "usedBy": [
+        {
+          "route": "/blog",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC5",
+      "file": "src/sections/GlobalHeaderC5.jsx",
+      "usedBy": [
+        {
+          "route": "/careers",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "CrMainS",
+      "file": "src/sections/CrMainS.jsx",
+      "usedBy": [
+        {
+          "route": "/careers",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "FooterS5",
+      "file": "src/sections/FooterS5.jsx",
+      "usedBy": [
+        {
+          "route": "/careers",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC6",
+      "file": "src/sections/GlobalHeaderC6.jsx",
+      "usedBy": [
+        {
+          "route": "/contact",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "CtMainS",
+      "file": "src/sections/CtMainS.jsx",
+      "usedBy": [
+        {
+          "route": "/contact",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "FooterS6",
+      "file": "src/sections/FooterS6.jsx",
+      "usedBy": [
+        {
+          "route": "/contact",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC7",
+      "file": "src/sections/GlobalHeaderC7.jsx",
+      "usedBy": [
+        {
+          "route": "/de",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "HpHeroC2",
+      "file": "src/sections/HpHeroC2.jsx",
+      "usedBy": [
+        {
+          "route": "/de",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "HpHeroImgC2",
+      "file": "src/sections/HpHeroImgC2.jsx",
+      "usedBy": [
+        {
+          "route": "/de",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "HpPlatformS2",
+      "file": "src/sections/HpPlatformS2.jsx",
+      "usedBy": [
+        {
+          "route": "/de",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "HpTrustS2",
+      "file": "src/sections/HpTrustS2.jsx",
+      "usedBy": [
+        {
+          "route": "/de",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "HpMarketingSectionTitle2",
+      "file": "src/sections/HpMarketingSectionTitle2.jsx",
+      "usedBy": [
+        {
+          "route": "/de",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "WLayoutGrid2",
+      "file": "src/sections/WLayoutGrid2.jsx",
+      "usedBy": [
+        {
+          "route": "/de",
+          "idx": 6
+        }
+      ]
+    },
+    {
+      "component": "HpCustomerS2",
+      "file": "src/sections/HpCustomerS2.jsx",
+      "usedBy": [
+        {
+          "route": "/de",
+          "idx": 7
+        }
+      ]
+    },
+    {
+      "component": "HpInsightsS2",
+      "file": "src/sections/HpInsightsS2.jsx",
+      "usedBy": [
+        {
+          "route": "/de",
+          "idx": 8
+        }
+      ]
+    },
+    {
+      "component": "FooterS7",
+      "file": "src/sections/FooterS7.jsx",
+      "usedBy": [
+        {
+          "route": "/de",
+          "idx": 9
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC8",
+      "file": "src/sections/GlobalHeaderC8.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/world-cup-2026-sponsor-stocks-analysis",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW",
+      "file": "src/sections/ArtHeaderW.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/world-cup-2026-sponsor-stocks-analysis",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW",
+      "file": "src/sections/ArtImageW.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/world-cup-2026-sponsor-stocks-analysis",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/wm-2026-sponsoren-aktien-analyse",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW",
+      "file": "src/sections/ArtContentW.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/world-cup-2026-sponsor-stocks-analysis",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtNewsletterS",
+      "file": "src/sections/ArtNewsletterS.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/world-cup-2026-sponsor-stocks-analysis",
+          "idx": 4
+        },
+        {
+          "route": "/blog/click-and-collect-fashion-retail-study-germany",
+          "idx": 4
+        },
+        {
+          "route": "/blog/valentines-day-index-2026-city-ranking-supply-demand-germany",
+          "idx": 4
+        },
+        {
+          "route": "/blog/christmas-market-analysis-germany-2025",
+          "idx": 4
+        },
+        {
+          "route": "/blog/ctrl-a-ai-online-marketing-tool-for-small-businesses",
+          "idx": 4
+        },
+        {
+          "route": "/blog/bundesliga-advent-calendars-prices-2025",
+          "idx": 4
+        },
+        {
+          "route": "/blog/digital-visibility-east-vs-west-how-germanys-federal-states-perform-online",
+          "idx": 4
+        },
+        {
+          "route": "/blog/tradespeople-online-availability-germany",
+          "idx": 4
+        },
+        {
+          "route": "/blog/from-print-to-pixels-local-online-marketing",
+          "idx": 4
+        },
+        {
+          "route": "/blog/subaru-addressable-tv-localyzer-campaign-success",
+          "idx": 4
+        },
+        {
+          "route": "/blog/social-media-analysis-top-100-sme",
+          "idx": 4
+        },
+        {
+          "route": "/blog/city-center-check-germany",
+          "idx": 4
+        },
+        {
+          "route": "/blog/why-local-video-ads-outperform-traditional-display-ads",
+          "idx": 4
+        },
+        {
+          "route": "/blog/germany-business-analysis",
+          "idx": 4
+        },
+        {
+          "route": "/blog/70-000-local-online-campaigns-how-insurance-companies-car-brands-and-retailers-reach-customers-locally-online",
+          "idx": 4
+        },
+        {
+          "route": "/blog/data-analysis-for-multinational-corporations",
+          "idx": 4
+        },
+        {
+          "route": "/blog/vacation-check-these-are-the-germans-most-popular-travel-destinations",
+          "idx": 4
+        },
+        {
+          "route": "/blog/location-analysis-german-cardealership-hotspots",
+          "idx": 4
+        },
+        {
+          "route": "/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation",
+          "idx": 4
+        },
+        {
+          "route": "/blog/online-marketing-without-an-agency",
+          "idx": 4
+        },
+        {
+          "route": "/blog/these-textile-retailers-dominate-germany",
+          "idx": 4
+        },
+        {
+          "route": "/blog/takko-analysis-these-countries-achieve-the-highest-click-through-rates-in-local-online-campaigns",
+          "idx": 4
+        },
+        {
+          "route": "/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer",
+          "idx": 4
+        },
+        {
+          "route": "/blog/what-are-the-benefits-of-local-online-marketing-for-retail-chains-with-a-decentralized-store-structure",
+          "idx": 4
+        },
+        {
+          "route": "/blog/local-online-marketing-these-cities-lead-in-advertising-reach",
+          "idx": 4
+        },
+        {
+          "route": "/blog/hyperlocalization-ads---localyzer-launches-new-tool-for-mass-booking-of-thousands-of-local-online-campaigns---at-the-push-of-a-button",
+          "idx": 4
+        },
+        {
+          "route": "/blog/2022-omkb-digital-business-conference",
+          "idx": 4
+        },
+        {
+          "route": "/blog/local-regional-online-advertising-for-chain-stores",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS",
+      "file": "src/sections/ArtRelatedS.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/world-cup-2026-sponsor-stocks-analysis",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "FooterS8",
+      "file": "src/sections/FooterS8.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/world-cup-2026-sponsor-stocks-analysis",
+          "idx": 6
+        },
+        {
+          "route": "/blog/click-and-collect-fashion-retail-study-germany",
+          "idx": 6
+        },
+        {
+          "route": "/blog/valentines-day-index-2026-city-ranking-supply-demand-germany",
+          "idx": 6
+        },
+        {
+          "route": "/blog/christmas-market-analysis-germany-2025",
+          "idx": 6
+        },
+        {
+          "route": "/blog/ctrl-a-ai-online-marketing-tool-for-small-businesses",
+          "idx": 6
+        },
+        {
+          "route": "/blog/bundesliga-advent-calendars-prices-2025",
+          "idx": 6
+        },
+        {
+          "route": "/blog/digital-visibility-east-vs-west-how-germanys-federal-states-perform-online",
+          "idx": 6
+        },
+        {
+          "route": "/blog/tradespeople-online-availability-germany",
+          "idx": 6
+        },
+        {
+          "route": "/blog/from-print-to-pixels-local-online-marketing",
+          "idx": 6
+        },
+        {
+          "route": "/blog/subaru-addressable-tv-localyzer-campaign-success",
+          "idx": 6
+        },
+        {
+          "route": "/blog/social-media-analysis-top-100-sme",
+          "idx": 6
+        },
+        {
+          "route": "/blog/city-center-check-germany",
+          "idx": 6
+        },
+        {
+          "route": "/blog/why-local-video-ads-outperform-traditional-display-ads",
+          "idx": 6
+        },
+        {
+          "route": "/blog/germany-business-analysis",
+          "idx": 6
+        },
+        {
+          "route": "/blog/70-000-local-online-campaigns-how-insurance-companies-car-brands-and-retailers-reach-customers-locally-online",
+          "idx": 6
+        },
+        {
+          "route": "/blog/data-analysis-for-multinational-corporations",
+          "idx": 6
+        },
+        {
+          "route": "/blog/vacation-check-these-are-the-germans-most-popular-travel-destinations",
+          "idx": 6
+        },
+        {
+          "route": "/blog/location-analysis-german-cardealership-hotspots",
+          "idx": 6
+        },
+        {
+          "route": "/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation",
+          "idx": 6
+        },
+        {
+          "route": "/blog/online-marketing-without-an-agency",
+          "idx": 6
+        },
+        {
+          "route": "/blog/these-textile-retailers-dominate-germany",
+          "idx": 6
+        },
+        {
+          "route": "/blog/takko-analysis-these-countries-achieve-the-highest-click-through-rates-in-local-online-campaigns",
+          "idx": 6
+        },
+        {
+          "route": "/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer",
+          "idx": 6
+        },
+        {
+          "route": "/blog/what-are-the-benefits-of-local-online-marketing-for-retail-chains-with-a-decentralized-store-structure",
+          "idx": 6
+        },
+        {
+          "route": "/blog/local-online-marketing-these-cities-lead-in-advertising-reach",
+          "idx": 6
+        },
+        {
+          "route": "/blog/hyperlocalization-ads---localyzer-launches-new-tool-for-mass-booking-of-thousands-of-local-online-campaigns---at-the-push-of-a-button",
+          "idx": 6
+        },
+        {
+          "route": "/blog/2022-omkb-digital-business-conference",
+          "idx": 6
+        },
+        {
+          "route": "/blog/local-regional-online-advertising-for-chain-stores",
+          "idx": 6
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC9",
+      "file": "src/sections/GlobalHeaderC9.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/click-and-collect-fashion-retail-study-germany",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW2",
+      "file": "src/sections/ArtHeaderW2.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/click-and-collect-fashion-retail-study-germany",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW2",
+      "file": "src/sections/ArtImageW2.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/click-and-collect-fashion-retail-study-germany",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/click-and-collect-modehandel-studie-deutschland",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW2",
+      "file": "src/sections/ArtContentW2.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/click-and-collect-fashion-retail-study-germany",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS2",
+      "file": "src/sections/ArtRelatedS2.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/click-and-collect-fashion-retail-study-germany",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC10",
+      "file": "src/sections/GlobalHeaderC10.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/valentines-day-index-2026-city-ranking-supply-demand-germany",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW3",
+      "file": "src/sections/ArtHeaderW3.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/valentines-day-index-2026-city-ranking-supply-demand-germany",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW3",
+      "file": "src/sections/ArtImageW3.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/valentines-day-index-2026-city-ranking-supply-demand-germany",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/valentinstag-index-2026-staedte-ranking-angebot-nachfrage",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW3",
+      "file": "src/sections/ArtContentW3.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/valentines-day-index-2026-city-ranking-supply-demand-germany",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS3",
+      "file": "src/sections/ArtRelatedS3.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/valentines-day-index-2026-city-ranking-supply-demand-germany",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC11",
+      "file": "src/sections/GlobalHeaderC11.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/christmas-market-analysis-germany-2025",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW4",
+      "file": "src/sections/ArtHeaderW4.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/christmas-market-analysis-germany-2025",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW4",
+      "file": "src/sections/ArtImageW4.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/christmas-market-analysis-germany-2025",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/weihnachtsmark-analyse-deutschland-2025",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW4",
+      "file": "src/sections/ArtContentW4.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/christmas-market-analysis-germany-2025",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS4",
+      "file": "src/sections/ArtRelatedS4.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/christmas-market-analysis-germany-2025",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC12",
+      "file": "src/sections/GlobalHeaderC12.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/ctrl-a-ai-online-marketing-tool-for-small-businesses",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW5",
+      "file": "src/sections/ArtHeaderW5.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/ctrl-a-ai-online-marketing-tool-for-small-businesses",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW5",
+      "file": "src/sections/ArtImageW5.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/ctrl-a-ai-online-marketing-tool-for-small-businesses",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW5",
+      "file": "src/sections/ArtContentW5.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/ctrl-a-ai-online-marketing-tool-for-small-businesses",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS5",
+      "file": "src/sections/ArtRelatedS5.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/ctrl-a-ai-online-marketing-tool-for-small-businesses",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC13",
+      "file": "src/sections/GlobalHeaderC13.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/bundesliga-advent-calendars-prices-2025",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW6",
+      "file": "src/sections/ArtHeaderW6.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/bundesliga-advent-calendars-prices-2025",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW6",
+      "file": "src/sections/ArtImageW6.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/bundesliga-advent-calendars-prices-2025",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/bundesliga-adventskalender-preise-2025",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW6",
+      "file": "src/sections/ArtContentW6.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/bundesliga-advent-calendars-prices-2025",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS6",
+      "file": "src/sections/ArtRelatedS6.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/bundesliga-advent-calendars-prices-2025",
+          "idx": 5
+        },
+        {
+          "route": "/blog/digital-visibility-east-vs-west-how-germanys-federal-states-perform-online",
+          "idx": 5
+        },
+        {
+          "route": "/blog/tradespeople-online-availability-germany",
+          "idx": 5
+        },
+        {
+          "route": "/blog/from-print-to-pixels-local-online-marketing",
+          "idx": 5
+        },
+        {
+          "route": "/blog/local-online-marketing-these-cities-lead-in-advertising-reach",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC14",
+      "file": "src/sections/GlobalHeaderC14.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/digital-visibility-east-vs-west-how-germanys-federal-states-perform-online",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW7",
+      "file": "src/sections/ArtHeaderW7.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/digital-visibility-east-vs-west-how-germanys-federal-states-perform-online",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW7",
+      "file": "src/sections/ArtImageW7.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/digital-visibility-east-vs-west-how-germanys-federal-states-perform-online",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/digitale-sichtbarkeit-so-performen-die-bundeslaender",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW7",
+      "file": "src/sections/ArtContentW7.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/digital-visibility-east-vs-west-how-germanys-federal-states-perform-online",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC15",
+      "file": "src/sections/GlobalHeaderC15.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/tradespeople-online-availability-germany",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW8",
+      "file": "src/sections/ArtHeaderW8.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/tradespeople-online-availability-germany",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW8",
+      "file": "src/sections/ArtImageW8.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/tradespeople-online-availability-germany",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/handwerker-online-sichtbarkeit",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW8",
+      "file": "src/sections/ArtContentW8.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/tradespeople-online-availability-germany",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC16",
+      "file": "src/sections/GlobalHeaderC16.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/from-print-to-pixels-local-online-marketing",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW9",
+      "file": "src/sections/ArtHeaderW9.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/from-print-to-pixels-local-online-marketing",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW9",
+      "file": "src/sections/ArtImageW9.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/from-print-to-pixels-local-online-marketing",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/von-print-zu-pixel-lokales-online-marketing-fuer-vertriebspartner",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW9",
+      "file": "src/sections/ArtContentW9.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/from-print-to-pixels-local-online-marketing",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC17",
+      "file": "src/sections/GlobalHeaderC17.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/subaru-addressable-tv-localyzer-campaign-success",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW10",
+      "file": "src/sections/ArtHeaderW10.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/subaru-addressable-tv-localyzer-campaign-success",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW10",
+      "file": "src/sections/ArtImageW10.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/subaru-addressable-tv-localyzer-campaign-success",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW10",
+      "file": "src/sections/ArtContentW10.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/subaru-addressable-tv-localyzer-campaign-success",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS7",
+      "file": "src/sections/ArtRelatedS7.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/subaru-addressable-tv-localyzer-campaign-success",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC18",
+      "file": "src/sections/GlobalHeaderC18.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/social-media-analysis-top-100-sme",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW11",
+      "file": "src/sections/ArtHeaderW11.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/social-media-analysis-top-100-sme",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW11",
+      "file": "src/sections/ArtImageW11.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/social-media-analysis-top-100-sme",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/social-media-analyse-die-top-100-mittelstaendler",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW11",
+      "file": "src/sections/ArtContentW11.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/social-media-analysis-top-100-sme",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS8",
+      "file": "src/sections/ArtRelatedS8.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/social-media-analysis-top-100-sme",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC19",
+      "file": "src/sections/GlobalHeaderC19.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/city-center-check-germany",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW12",
+      "file": "src/sections/ArtHeaderW12.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/city-center-check-germany",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW12",
+      "file": "src/sections/ArtImageW12.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/city-center-check-germany",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/innenstadt-check-was-deutsche-einkaufsstrassen-an-shoppingerlebnis-bieten-",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW12",
+      "file": "src/sections/ArtContentW12.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/city-center-check-germany",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS9",
+      "file": "src/sections/ArtRelatedS9.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/city-center-check-germany",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC20",
+      "file": "src/sections/GlobalHeaderC20.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/why-local-video-ads-outperform-traditional-display-ads",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW13",
+      "file": "src/sections/ArtHeaderW13.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/why-local-video-ads-outperform-traditional-display-ads",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW13",
+      "file": "src/sections/ArtImageW13.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/why-local-video-ads-outperform-traditional-display-ads",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/warum-lokale-videoanzeigen-herkoemmliche-display-anzeigen-uebertreffen",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW13",
+      "file": "src/sections/ArtContentW13.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/why-local-video-ads-outperform-traditional-display-ads",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS10",
+      "file": "src/sections/ArtRelatedS10.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/why-local-video-ads-outperform-traditional-display-ads",
+          "idx": 5
+        },
+        {
+          "route": "/blog/data-analysis-for-multinational-corporations",
+          "idx": 5
+        },
+        {
+          "route": "/blog/vacation-check-these-are-the-germans-most-popular-travel-destinations",
+          "idx": 5
+        },
+        {
+          "route": "/blog/location-analysis-german-cardealership-hotspots",
+          "idx": 5
+        },
+        {
+          "route": "/blog/these-textile-retailers-dominate-germany",
+          "idx": 5
+        },
+        {
+          "route": "/blog/takko-analysis-these-countries-achieve-the-highest-click-through-rates-in-local-online-campaigns",
+          "idx": 5
+        },
+        {
+          "route": "/blog/what-are-the-benefits-of-local-online-marketing-for-retail-chains-with-a-decentralized-store-structure",
+          "idx": 5
+        },
+        {
+          "route": "/blog/local-regional-online-advertising-for-chain-stores",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC21",
+      "file": "src/sections/GlobalHeaderC21.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/germany-business-analysis",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW14",
+      "file": "src/sections/ArtHeaderW14.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/germany-business-analysis",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW14",
+      "file": "src/sections/ArtImageW14.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/germany-business-analysis",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/deutschlandweite-gewerbe-analyse",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW14",
+      "file": "src/sections/ArtContentW14.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/germany-business-analysis",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS11",
+      "file": "src/sections/ArtRelatedS11.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/germany-business-analysis",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC22",
+      "file": "src/sections/GlobalHeaderC22.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/70-000-local-online-campaigns-how-insurance-companies-car-brands-and-retailers-reach-customers-locally-online",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW15",
+      "file": "src/sections/ArtHeaderW15.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/70-000-local-online-campaigns-how-insurance-companies-car-brands-and-retailers-reach-customers-locally-online",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW15",
+      "file": "src/sections/ArtImageW15.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/70-000-local-online-campaigns-how-insurance-companies-car-brands-and-retailers-reach-customers-locally-online",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/70000-lokale-online-kampagnen-wie-versicherungen-automarken-und-retailer-lokal-online-kund-innen-erreichen",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW15",
+      "file": "src/sections/ArtContentW15.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/70-000-local-online-campaigns-how-insurance-companies-car-brands-and-retailers-reach-customers-locally-online",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS12",
+      "file": "src/sections/ArtRelatedS12.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/70-000-local-online-campaigns-how-insurance-companies-car-brands-and-retailers-reach-customers-locally-online",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC23",
+      "file": "src/sections/GlobalHeaderC23.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/data-analysis-for-multinational-corporations",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW16",
+      "file": "src/sections/ArtHeaderW16.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/data-analysis-for-multinational-corporations",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW16",
+      "file": "src/sections/ArtImageW16.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/data-analysis-for-multinational-corporations",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/datenanalysen-fuer-multinationale-unternehmen",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW16",
+      "file": "src/sections/ArtContentW16.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/data-analysis-for-multinational-corporations",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC24",
+      "file": "src/sections/GlobalHeaderC24.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/vacation-check-these-are-the-germans-most-popular-travel-destinations",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW17",
+      "file": "src/sections/ArtHeaderW17.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/vacation-check-these-are-the-germans-most-popular-travel-destinations",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW17",
+      "file": "src/sections/ArtImageW17.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/vacation-check-these-are-the-germans-most-popular-travel-destinations",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/urlaubs-check-die-beliebtesten-reiseziele",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW17",
+      "file": "src/sections/ArtContentW17.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/vacation-check-these-are-the-germans-most-popular-travel-destinations",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC25",
+      "file": "src/sections/GlobalHeaderC25.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/location-analysis-german-cardealership-hotspots",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW18",
+      "file": "src/sections/ArtHeaderW18.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/location-analysis-german-cardealership-hotspots",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW18",
+      "file": "src/sections/ArtImageW18.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/location-analysis-german-cardealership-hotspots",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/standort-analyse-das-sind-deutschlands-autohaus-hochburgen",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW18",
+      "file": "src/sections/ArtContentW18.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/location-analysis-german-cardealership-hotspots",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC26",
+      "file": "src/sections/GlobalHeaderC26.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW19",
+      "file": "src/sections/ArtHeaderW19.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW19",
+      "file": "src/sections/ArtImageW19.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW19",
+      "file": "src/sections/ArtContentW19.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS13",
+      "file": "src/sections/ArtRelatedS13.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC27",
+      "file": "src/sections/GlobalHeaderC27.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/online-marketing-without-an-agency",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW20",
+      "file": "src/sections/ArtHeaderW20.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/online-marketing-without-an-agency",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW20",
+      "file": "src/sections/ArtImageW20.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/online-marketing-without-an-agency",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/online-marketing-ohne-agentur",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW20",
+      "file": "src/sections/ArtContentW20.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/online-marketing-without-an-agency",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS14",
+      "file": "src/sections/ArtRelatedS14.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/online-marketing-without-an-agency",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC28",
+      "file": "src/sections/GlobalHeaderC28.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/these-textile-retailers-dominate-germany",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW21",
+      "file": "src/sections/ArtHeaderW21.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/these-textile-retailers-dominate-germany",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW21",
+      "file": "src/sections/ArtImageW21.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/these-textile-retailers-dominate-germany",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/filial-analyse-deutschlands-grossstadte",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW21",
+      "file": "src/sections/ArtContentW21.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/these-textile-retailers-dominate-germany",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC29",
+      "file": "src/sections/GlobalHeaderC29.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/takko-analysis-these-countries-achieve-the-highest-click-through-rates-in-local-online-campaigns",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW22",
+      "file": "src/sections/ArtHeaderW22.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/takko-analysis-these-countries-achieve-the-highest-click-through-rates-in-local-online-campaigns",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW22",
+      "file": "src/sections/ArtImageW22.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/takko-analysis-these-countries-achieve-the-highest-click-through-rates-in-local-online-campaigns",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/takko-analyse-in-diesen-laendern-erzielen-lokale-online-kampagnen-die-hoechsten-klickraten",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW22",
+      "file": "src/sections/ArtContentW22.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/takko-analysis-these-countries-achieve-the-highest-click-through-rates-in-local-online-campaigns",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC30",
+      "file": "src/sections/GlobalHeaderC30.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW23",
+      "file": "src/sections/ArtHeaderW23.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW23",
+      "file": "src/sections/ArtImageW23.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW23",
+      "file": "src/sections/ArtContentW23.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS15",
+      "file": "src/sections/ArtRelatedS15.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC31",
+      "file": "src/sections/GlobalHeaderC31.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/what-are-the-benefits-of-local-online-marketing-for-retail-chains-with-a-decentralized-store-structure",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW24",
+      "file": "src/sections/ArtHeaderW24.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/what-are-the-benefits-of-local-online-marketing-for-retail-chains-with-a-decentralized-store-structure",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW24",
+      "file": "src/sections/ArtImageW24.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/what-are-the-benefits-of-local-online-marketing-for-retail-chains-with-a-decentralized-store-structure",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/welche-vorteile-bietet-lokales-online-marketing-fuer-filialisten-mit-einer-dezentralen-filialstruktur",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW24",
+      "file": "src/sections/ArtContentW24.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/what-are-the-benefits-of-local-online-marketing-for-retail-chains-with-a-decentralized-store-structure",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC32",
+      "file": "src/sections/GlobalHeaderC32.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/local-online-marketing-these-cities-lead-in-advertising-reach",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW25",
+      "file": "src/sections/ArtHeaderW25.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/local-online-marketing-these-cities-lead-in-advertising-reach",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW25",
+      "file": "src/sections/ArtImageW25.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/local-online-marketing-these-cities-lead-in-advertising-reach",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/lokales-online-marketing-in-diesen-staedten-ist-werbung-am-verbreitetsten",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW25",
+      "file": "src/sections/ArtContentW25.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/local-online-marketing-these-cities-lead-in-advertising-reach",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC33",
+      "file": "src/sections/GlobalHeaderC33.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/hyperlocalization-ads---localyzer-launches-new-tool-for-mass-booking-of-thousands-of-local-online-campaigns---at-the-push-of-a-button",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW26",
+      "file": "src/sections/ArtHeaderW26.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/hyperlocalization-ads---localyzer-launches-new-tool-for-mass-booking-of-thousands-of-local-online-campaigns---at-the-push-of-a-button",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW26",
+      "file": "src/sections/ArtImageW26.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/hyperlocalization-ads---localyzer-launches-new-tool-for-mass-booking-of-thousands-of-local-online-campaigns---at-the-push-of-a-button",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/hyperlocalisation-ads-localyzer-fuehrt-neues-tool-zur-massenbuchung-von-tausenden-lokalen-online-kampagnen-ein",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW26",
+      "file": "src/sections/ArtContentW26.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/hyperlocalization-ads---localyzer-launches-new-tool-for-mass-booking-of-thousands-of-local-online-campaigns---at-the-push-of-a-button",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS16",
+      "file": "src/sections/ArtRelatedS16.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/hyperlocalization-ads---localyzer-launches-new-tool-for-mass-booking-of-thousands-of-local-online-campaigns---at-the-push-of-a-button",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC34",
+      "file": "src/sections/GlobalHeaderC34.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/2022-omkb-digital-business-conference",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW27",
+      "file": "src/sections/ArtHeaderW27.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/2022-omkb-digital-business-conference",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW27",
+      "file": "src/sections/ArtImageW27.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/2022-omkb-digital-business-conference",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/2022-omkb-digital-business-conference",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW27",
+      "file": "src/sections/ArtContentW27.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/2022-omkb-digital-business-conference",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS17",
+      "file": "src/sections/ArtRelatedS17.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/2022-omkb-digital-business-conference",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC35",
+      "file": "src/sections/GlobalHeaderC35.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/local-regional-online-advertising-for-chain-stores",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW28",
+      "file": "src/sections/ArtHeaderW28.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/local-regional-online-advertising-for-chain-stores",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW28",
+      "file": "src/sections/ArtImageW28.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/local-regional-online-advertising-for-chain-stores",
+          "idx": 2
+        },
+        {
+          "route": "/de/blog/lokale-online-werbung-fuer-filialisten",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW28",
+      "file": "src/sections/ArtContentW28.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/local-regional-online-advertising-for-chain-stores",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC36",
+      "file": "src/sections/GlobalHeaderC36.jsx",
+      "usedBy": [
+        {
+          "route": "/legal/imprint",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "LegalS",
+      "file": "src/sections/LegalS.jsx",
+      "usedBy": [
+        {
+          "route": "/legal/imprint",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "FooterS9",
+      "file": "src/sections/FooterS9.jsx",
+      "usedBy": [
+        {
+          "route": "/legal/imprint",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC37",
+      "file": "src/sections/GlobalHeaderC37.jsx",
+      "usedBy": [
+        {
+          "route": "/legal/terms-conditions",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "LegalS2",
+      "file": "src/sections/LegalS2.jsx",
+      "usedBy": [
+        {
+          "route": "/legal/terms-conditions",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "FooterS10",
+      "file": "src/sections/FooterS10.jsx",
+      "usedBy": [
+        {
+          "route": "/legal/terms-conditions",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC38",
+      "file": "src/sections/GlobalHeaderC38.jsx",
+      "usedBy": [
+        {
+          "route": "/legal/privacy-policy",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "LegalS3",
+      "file": "src/sections/LegalS3.jsx",
+      "usedBy": [
+        {
+          "route": "/legal/privacy-policy",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "FooterS11",
+      "file": "src/sections/FooterS11.jsx",
+      "usedBy": [
+        {
+          "route": "/legal/privacy-policy",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC39",
+      "file": "src/sections/GlobalHeaderC39.jsx",
+      "usedBy": [
+        {
+          "route": "/de/solutions",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "NslHeroTitleW2",
+      "file": "src/sections/NslHeroTitleW2.jsx",
+      "usedBy": [
+        {
+          "route": "/de/solutions",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "SlHeroFeaturesC2",
+      "file": "src/sections/SlHeroFeaturesC2.jsx",
+      "usedBy": [
+        {
+          "route": "/de/solutions",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "SlFeatMainS2",
+      "file": "src/sections/SlFeatMainS2.jsx",
+      "usedBy": [
+        {
+          "route": "/de/solutions",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "SlFeatCommonS2",
+      "file": "src/sections/SlFeatCommonS2.jsx",
+      "usedBy": [
+        {
+          "route": "/de/solutions",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "SlFeatTemplS2",
+      "file": "src/sections/SlFeatTemplS2.jsx",
+      "usedBy": [
+        {
+          "route": "/de/solutions",
+          "idx": 6
+        }
+      ]
+    },
+    {
+      "component": "NslLocalS2",
+      "file": "src/sections/NslLocalS2.jsx",
+      "usedBy": [
+        {
+          "route": "/de/solutions",
+          "idx": 7
+        }
+      ]
+    },
+    {
+      "component": "NsolManageS2",
+      "file": "src/sections/NsolManageS2.jsx",
+      "usedBy": [
+        {
+          "route": "/de/solutions",
+          "idx": 8
+        }
+      ]
+    },
+    {
+      "component": "FooterS12",
+      "file": "src/sections/FooterS12.jsx",
+      "usedBy": [
+        {
+          "route": "/de/solutions",
+          "idx": 9
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC40",
+      "file": "src/sections/GlobalHeaderC40.jsx",
+      "usedBy": [
+        {
+          "route": "/de/about",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "AbHeroS2",
+      "file": "src/sections/AbHeroS2.jsx",
+      "usedBy": [
+        {
+          "route": "/de/about",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "AbFoundedS2",
+      "file": "src/sections/AbFoundedS2.jsx",
+      "usedBy": [
+        {
+          "route": "/de/about",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "AbTeamS2",
+      "file": "src/sections/AbTeamS2.jsx",
+      "usedBy": [
+        {
+          "route": "/de/about",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "AbTimelineS2",
+      "file": "src/sections/AbTimelineS2.jsx",
+      "usedBy": [
+        {
+          "route": "/de/about",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "AbOpenjobsS2",
+      "file": "src/sections/AbOpenjobsS2.jsx",
+      "usedBy": [
+        {
+          "route": "/de/about",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "FooterS13",
+      "file": "src/sections/FooterS13.jsx",
+      "usedBy": [
+        {
+          "route": "/de/about",
+          "idx": 6
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC41",
+      "file": "src/sections/GlobalHeaderC41.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "BlogHeroS2",
+      "file": "src/sections/BlogHeroS2.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "BlogNewsletterS2",
+      "file": "src/sections/BlogNewsletterS2.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "BlogMainS2",
+      "file": "src/sections/BlogMainS2.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "FooterS14",
+      "file": "src/sections/FooterS14.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "BlCategoryHeroS",
+      "file": "src/sections/BlCategoryHeroS.jsx",
+      "usedBy": [
+        {
+          "route": "/category/events",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "BlCategoryMainS",
+      "file": "src/sections/BlCategoryMainS.jsx",
+      "usedBy": [
+        {
+          "route": "/category/events",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "FooterS15",
+      "file": "src/sections/FooterS15.jsx",
+      "usedBy": [
+        {
+          "route": "/category/events",
+          "idx": 2
+        },
+        {
+          "route": "/category/company-news",
+          "idx": 2
+        },
+        {
+          "route": "/category/report",
+          "idx": 2
+        },
+        {
+          "route": "/category/product-update",
+          "idx": 2
+        },
+        {
+          "route": "/category/article",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "BlCategoryHeroS2",
+      "file": "src/sections/BlCategoryHeroS2.jsx",
+      "usedBy": [
+        {
+          "route": "/category/company-news",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "BlCategoryMainS2",
+      "file": "src/sections/BlCategoryMainS2.jsx",
+      "usedBy": [
+        {
+          "route": "/category/company-news",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "BlCategoryHeroS3",
+      "file": "src/sections/BlCategoryHeroS3.jsx",
+      "usedBy": [
+        {
+          "route": "/category/report",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "BlCategoryMainS3",
+      "file": "src/sections/BlCategoryMainS3.jsx",
+      "usedBy": [
+        {
+          "route": "/category/report",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "BlCategoryHeroS4",
+      "file": "src/sections/BlCategoryHeroS4.jsx",
+      "usedBy": [
+        {
+          "route": "/category/product-update",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "BlCategoryMainS4",
+      "file": "src/sections/BlCategoryMainS4.jsx",
+      "usedBy": [
+        {
+          "route": "/category/product-update",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "BlCategoryHeroS5",
+      "file": "src/sections/BlCategoryHeroS5.jsx",
+      "usedBy": [
+        {
+          "route": "/category/article",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "BlCategoryMainS5",
+      "file": "src/sections/BlCategoryMainS5.jsx",
+      "usedBy": [
+        {
+          "route": "/category/article",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC42",
+      "file": "src/sections/GlobalHeaderC42.jsx",
+      "usedBy": [
+        {
+          "route": "/de/careers",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "CrMainS2",
+      "file": "src/sections/CrMainS2.jsx",
+      "usedBy": [
+        {
+          "route": "/de/careers",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "FooterS16",
+      "file": "src/sections/FooterS16.jsx",
+      "usedBy": [
+        {
+          "route": "/de/careers",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC43",
+      "file": "src/sections/GlobalHeaderC43.jsx",
+      "usedBy": [
+        {
+          "route": "/de/contact",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "CtMainS2",
+      "file": "src/sections/CtMainS2.jsx",
+      "usedBy": [
+        {
+          "route": "/de/contact",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "FooterS17",
+      "file": "src/sections/FooterS17.jsx",
+      "usedBy": [
+        {
+          "route": "/de/contact",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC44",
+      "file": "src/sections/GlobalHeaderC44.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/wm-2026-sponsoren-aktien-analyse",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW29",
+      "file": "src/sections/ArtHeaderW29.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/wm-2026-sponsoren-aktien-analyse",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW29",
+      "file": "src/sections/ArtContentW29.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/wm-2026-sponsoren-aktien-analyse",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtNewsletterS2",
+      "file": "src/sections/ArtNewsletterS2.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/wm-2026-sponsoren-aktien-analyse",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/mitsubishi-dealer-cockpit-local-marketing",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/click-and-collect-modehandel-studie-deutschland",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/valentinstag-index-2026-staedte-ranking-angebot-nachfrage",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/weihnachtsmark-analyse-deutschland-2025",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/ctrl-a-ki-online-marketing-tool-fuer-kleine-unternehmen",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/bundesliga-adventskalender-preise-2025",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/digitale-sichtbarkeit-so-performen-die-bundeslaender",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/handwerker-online-sichtbarkeit",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/von-print-zu-pixel-lokales-online-marketing-fuer-vertriebspartner",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/subaru-addressable-tv-localyzer-campaign-success",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/social-media-analyse-die-top-100-mittelstaendler",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/innenstadt-check-was-deutsche-einkaufsstrassen-an-shoppingerlebnis-bieten-",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/warum-lokale-videoanzeigen-herkoemmliche-display-anzeigen-uebertreffen",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/deutschlandweite-gewerbe-analyse",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/70000-lokale-online-kampagnen-wie-versicherungen-automarken-und-retailer-lokal-online-kund-innen-erreichen",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/datenanalysen-fuer-multinationale-unternehmen",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/urlaubs-check-die-beliebtesten-reiseziele",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/standort-analyse-das-sind-deutschlands-autohaus-hochburgen",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/online-marketing-ohne-agentur",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/filial-analyse-deutschlands-grossstadte",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/takko-analyse-in-diesen-laendern-erzielen-lokale-online-kampagnen-die-hoechsten-klickraten",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/welche-vorteile-bietet-lokales-online-marketing-fuer-filialisten-mit-einer-dezentralen-filialstruktur",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/lokales-online-marketing-in-diesen-staedten-ist-werbung-am-verbreitetsten",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/hyperlocalisation-ads-localyzer-fuehrt-neues-tool-zur-massenbuchung-von-tausenden-lokalen-online-kampagnen-ein",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/2022-omkb-digital-business-conference",
+          "idx": 4
+        },
+        {
+          "route": "/de/blog/lokale-online-werbung-fuer-filialisten",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS18",
+      "file": "src/sections/ArtRelatedS18.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/wm-2026-sponsoren-aktien-analyse",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "FooterS18",
+      "file": "src/sections/FooterS18.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/wm-2026-sponsoren-aktien-analyse",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/mitsubishi-dealer-cockpit-local-marketing",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/click-and-collect-modehandel-studie-deutschland",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/valentinstag-index-2026-staedte-ranking-angebot-nachfrage",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/weihnachtsmark-analyse-deutschland-2025",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/ctrl-a-ki-online-marketing-tool-fuer-kleine-unternehmen",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/bundesliga-adventskalender-preise-2025",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/digitale-sichtbarkeit-so-performen-die-bundeslaender",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/handwerker-online-sichtbarkeit",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/von-print-zu-pixel-lokales-online-marketing-fuer-vertriebspartner",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/subaru-addressable-tv-localyzer-campaign-success",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/social-media-analyse-die-top-100-mittelstaendler",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/innenstadt-check-was-deutsche-einkaufsstrassen-an-shoppingerlebnis-bieten-",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/warum-lokale-videoanzeigen-herkoemmliche-display-anzeigen-uebertreffen",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/deutschlandweite-gewerbe-analyse",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/70000-lokale-online-kampagnen-wie-versicherungen-automarken-und-retailer-lokal-online-kund-innen-erreichen",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/datenanalysen-fuer-multinationale-unternehmen",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/urlaubs-check-die-beliebtesten-reiseziele",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/standort-analyse-das-sind-deutschlands-autohaus-hochburgen",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/online-marketing-ohne-agentur",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/filial-analyse-deutschlands-grossstadte",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/takko-analyse-in-diesen-laendern-erzielen-lokale-online-kampagnen-die-hoechsten-klickraten",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/welche-vorteile-bietet-lokales-online-marketing-fuer-filialisten-mit-einer-dezentralen-filialstruktur",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/lokales-online-marketing-in-diesen-staedten-ist-werbung-am-verbreitetsten",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/hyperlocalisation-ads-localyzer-fuehrt-neues-tool-zur-massenbuchung-von-tausenden-lokalen-online-kampagnen-ein",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/2022-omkb-digital-business-conference",
+          "idx": 6
+        },
+        {
+          "route": "/de/blog/lokale-online-werbung-fuer-filialisten",
+          "idx": 6
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC45",
+      "file": "src/sections/GlobalHeaderC45.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/mitsubishi-dealer-cockpit-local-marketing",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW30",
+      "file": "src/sections/ArtHeaderW30.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/mitsubishi-dealer-cockpit-local-marketing",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW29",
+      "file": "src/sections/ArtImageW29.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/mitsubishi-dealer-cockpit-local-marketing",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW30",
+      "file": "src/sections/ArtContentW30.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/mitsubishi-dealer-cockpit-local-marketing",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS19",
+      "file": "src/sections/ArtRelatedS19.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/mitsubishi-dealer-cockpit-local-marketing",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC46",
+      "file": "src/sections/GlobalHeaderC46.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/click-and-collect-modehandel-studie-deutschland",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW31",
+      "file": "src/sections/ArtHeaderW31.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/click-and-collect-modehandel-studie-deutschland",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW31",
+      "file": "src/sections/ArtContentW31.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/click-and-collect-modehandel-studie-deutschland",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS20",
+      "file": "src/sections/ArtRelatedS20.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/click-and-collect-modehandel-studie-deutschland",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC47",
+      "file": "src/sections/GlobalHeaderC47.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/valentinstag-index-2026-staedte-ranking-angebot-nachfrage",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW32",
+      "file": "src/sections/ArtHeaderW32.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/valentinstag-index-2026-staedte-ranking-angebot-nachfrage",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW32",
+      "file": "src/sections/ArtContentW32.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/valentinstag-index-2026-staedte-ranking-angebot-nachfrage",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS21",
+      "file": "src/sections/ArtRelatedS21.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/valentinstag-index-2026-staedte-ranking-angebot-nachfrage",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC48",
+      "file": "src/sections/GlobalHeaderC48.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/weihnachtsmark-analyse-deutschland-2025",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW33",
+      "file": "src/sections/ArtHeaderW33.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/weihnachtsmark-analyse-deutschland-2025",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW33",
+      "file": "src/sections/ArtContentW33.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/weihnachtsmark-analyse-deutschland-2025",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS22",
+      "file": "src/sections/ArtRelatedS22.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/weihnachtsmark-analyse-deutschland-2025",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC49",
+      "file": "src/sections/GlobalHeaderC49.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/ctrl-a-ki-online-marketing-tool-fuer-kleine-unternehmen",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW34",
+      "file": "src/sections/ArtHeaderW34.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/ctrl-a-ki-online-marketing-tool-fuer-kleine-unternehmen",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW30",
+      "file": "src/sections/ArtImageW30.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/ctrl-a-ki-online-marketing-tool-fuer-kleine-unternehmen",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW34",
+      "file": "src/sections/ArtContentW34.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/ctrl-a-ki-online-marketing-tool-fuer-kleine-unternehmen",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS23",
+      "file": "src/sections/ArtRelatedS23.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/ctrl-a-ki-online-marketing-tool-fuer-kleine-unternehmen",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC50",
+      "file": "src/sections/GlobalHeaderC50.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/bundesliga-adventskalender-preise-2025",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW35",
+      "file": "src/sections/ArtHeaderW35.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/bundesliga-adventskalender-preise-2025",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW35",
+      "file": "src/sections/ArtContentW35.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/bundesliga-adventskalender-preise-2025",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS24",
+      "file": "src/sections/ArtRelatedS24.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/bundesliga-adventskalender-preise-2025",
+          "idx": 5
+        },
+        {
+          "route": "/de/blog/digitale-sichtbarkeit-so-performen-die-bundeslaender",
+          "idx": 5
+        },
+        {
+          "route": "/de/blog/handwerker-online-sichtbarkeit",
+          "idx": 5
+        },
+        {
+          "route": "/de/blog/von-print-zu-pixel-lokales-online-marketing-fuer-vertriebspartner",
+          "idx": 5
+        },
+        {
+          "route": "/de/blog/lokales-online-marketing-in-diesen-staedten-ist-werbung-am-verbreitetsten",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC51",
+      "file": "src/sections/GlobalHeaderC51.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/digitale-sichtbarkeit-so-performen-die-bundeslaender",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW36",
+      "file": "src/sections/ArtHeaderW36.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/digitale-sichtbarkeit-so-performen-die-bundeslaender",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW36",
+      "file": "src/sections/ArtContentW36.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/digitale-sichtbarkeit-so-performen-die-bundeslaender",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC52",
+      "file": "src/sections/GlobalHeaderC52.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/handwerker-online-sichtbarkeit",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW37",
+      "file": "src/sections/ArtHeaderW37.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/handwerker-online-sichtbarkeit",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW37",
+      "file": "src/sections/ArtContentW37.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/handwerker-online-sichtbarkeit",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC53",
+      "file": "src/sections/GlobalHeaderC53.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/von-print-zu-pixel-lokales-online-marketing-fuer-vertriebspartner",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW38",
+      "file": "src/sections/ArtHeaderW38.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/von-print-zu-pixel-lokales-online-marketing-fuer-vertriebspartner",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW38",
+      "file": "src/sections/ArtContentW38.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/von-print-zu-pixel-lokales-online-marketing-fuer-vertriebspartner",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC54",
+      "file": "src/sections/GlobalHeaderC54.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/subaru-addressable-tv-localyzer-campaign-success",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW39",
+      "file": "src/sections/ArtHeaderW39.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/subaru-addressable-tv-localyzer-campaign-success",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtImageW31",
+      "file": "src/sections/ArtImageW31.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/subaru-addressable-tv-localyzer-campaign-success",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW39",
+      "file": "src/sections/ArtContentW39.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/subaru-addressable-tv-localyzer-campaign-success",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS25",
+      "file": "src/sections/ArtRelatedS25.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/subaru-addressable-tv-localyzer-campaign-success",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC55",
+      "file": "src/sections/GlobalHeaderC55.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/social-media-analyse-die-top-100-mittelstaendler",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW40",
+      "file": "src/sections/ArtHeaderW40.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/social-media-analyse-die-top-100-mittelstaendler",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW40",
+      "file": "src/sections/ArtContentW40.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/social-media-analyse-die-top-100-mittelstaendler",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS26",
+      "file": "src/sections/ArtRelatedS26.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/social-media-analyse-die-top-100-mittelstaendler",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC56",
+      "file": "src/sections/GlobalHeaderC56.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/innenstadt-check-was-deutsche-einkaufsstrassen-an-shoppingerlebnis-bieten-",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW41",
+      "file": "src/sections/ArtHeaderW41.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/innenstadt-check-was-deutsche-einkaufsstrassen-an-shoppingerlebnis-bieten-",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW41",
+      "file": "src/sections/ArtContentW41.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/innenstadt-check-was-deutsche-einkaufsstrassen-an-shoppingerlebnis-bieten-",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS27",
+      "file": "src/sections/ArtRelatedS27.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/innenstadt-check-was-deutsche-einkaufsstrassen-an-shoppingerlebnis-bieten-",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC57",
+      "file": "src/sections/GlobalHeaderC57.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/warum-lokale-videoanzeigen-herkoemmliche-display-anzeigen-uebertreffen",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW42",
+      "file": "src/sections/ArtHeaderW42.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/warum-lokale-videoanzeigen-herkoemmliche-display-anzeigen-uebertreffen",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW42",
+      "file": "src/sections/ArtContentW42.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/warum-lokale-videoanzeigen-herkoemmliche-display-anzeigen-uebertreffen",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS28",
+      "file": "src/sections/ArtRelatedS28.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/warum-lokale-videoanzeigen-herkoemmliche-display-anzeigen-uebertreffen",
+          "idx": 5
+        },
+        {
+          "route": "/de/blog/datenanalysen-fuer-multinationale-unternehmen",
+          "idx": 5
+        },
+        {
+          "route": "/de/blog/urlaubs-check-die-beliebtesten-reiseziele",
+          "idx": 5
+        },
+        {
+          "route": "/de/blog/standort-analyse-das-sind-deutschlands-autohaus-hochburgen",
+          "idx": 5
+        },
+        {
+          "route": "/de/blog/filial-analyse-deutschlands-grossstadte",
+          "idx": 5
+        },
+        {
+          "route": "/de/blog/takko-analyse-in-diesen-laendern-erzielen-lokale-online-kampagnen-die-hoechsten-klickraten",
+          "idx": 5
+        },
+        {
+          "route": "/de/blog/welche-vorteile-bietet-lokales-online-marketing-fuer-filialisten-mit-einer-dezentralen-filialstruktur",
+          "idx": 5
+        },
+        {
+          "route": "/de/blog/lokale-online-werbung-fuer-filialisten",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC58",
+      "file": "src/sections/GlobalHeaderC58.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/deutschlandweite-gewerbe-analyse",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW43",
+      "file": "src/sections/ArtHeaderW43.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/deutschlandweite-gewerbe-analyse",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW43",
+      "file": "src/sections/ArtContentW43.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/deutschlandweite-gewerbe-analyse",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS29",
+      "file": "src/sections/ArtRelatedS29.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/deutschlandweite-gewerbe-analyse",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC59",
+      "file": "src/sections/GlobalHeaderC59.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/70000-lokale-online-kampagnen-wie-versicherungen-automarken-und-retailer-lokal-online-kund-innen-erreichen",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW44",
+      "file": "src/sections/ArtHeaderW44.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/70000-lokale-online-kampagnen-wie-versicherungen-automarken-und-retailer-lokal-online-kund-innen-erreichen",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW44",
+      "file": "src/sections/ArtContentW44.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/70000-lokale-online-kampagnen-wie-versicherungen-automarken-und-retailer-lokal-online-kund-innen-erreichen",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS30",
+      "file": "src/sections/ArtRelatedS30.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/70000-lokale-online-kampagnen-wie-versicherungen-automarken-und-retailer-lokal-online-kund-innen-erreichen",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC60",
+      "file": "src/sections/GlobalHeaderC60.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/datenanalysen-fuer-multinationale-unternehmen",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW45",
+      "file": "src/sections/ArtHeaderW45.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/datenanalysen-fuer-multinationale-unternehmen",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW45",
+      "file": "src/sections/ArtContentW45.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/datenanalysen-fuer-multinationale-unternehmen",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC61",
+      "file": "src/sections/GlobalHeaderC61.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/urlaubs-check-die-beliebtesten-reiseziele",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW46",
+      "file": "src/sections/ArtHeaderW46.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/urlaubs-check-die-beliebtesten-reiseziele",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW46",
+      "file": "src/sections/ArtContentW46.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/urlaubs-check-die-beliebtesten-reiseziele",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC62",
+      "file": "src/sections/GlobalHeaderC62.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/standort-analyse-das-sind-deutschlands-autohaus-hochburgen",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW47",
+      "file": "src/sections/ArtHeaderW47.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/standort-analyse-das-sind-deutschlands-autohaus-hochburgen",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW47",
+      "file": "src/sections/ArtContentW47.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/standort-analyse-das-sind-deutschlands-autohaus-hochburgen",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC63",
+      "file": "src/sections/GlobalHeaderC63.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW48",
+      "file": "src/sections/ArtHeaderW48.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW48",
+      "file": "src/sections/ArtContentW48.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS31",
+      "file": "src/sections/ArtRelatedS31.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC64",
+      "file": "src/sections/GlobalHeaderC64.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/online-marketing-ohne-agentur",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW49",
+      "file": "src/sections/ArtHeaderW49.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/online-marketing-ohne-agentur",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW49",
+      "file": "src/sections/ArtContentW49.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/online-marketing-ohne-agentur",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS32",
+      "file": "src/sections/ArtRelatedS32.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/online-marketing-ohne-agentur",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC65",
+      "file": "src/sections/GlobalHeaderC65.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/filial-analyse-deutschlands-grossstadte",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW50",
+      "file": "src/sections/ArtHeaderW50.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/filial-analyse-deutschlands-grossstadte",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW50",
+      "file": "src/sections/ArtContentW50.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/filial-analyse-deutschlands-grossstadte",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC66",
+      "file": "src/sections/GlobalHeaderC66.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/takko-analyse-in-diesen-laendern-erzielen-lokale-online-kampagnen-die-hoechsten-klickraten",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW51",
+      "file": "src/sections/ArtHeaderW51.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/takko-analyse-in-diesen-laendern-erzielen-lokale-online-kampagnen-die-hoechsten-klickraten",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW51",
+      "file": "src/sections/ArtContentW51.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/takko-analyse-in-diesen-laendern-erzielen-lokale-online-kampagnen-die-hoechsten-klickraten",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC67",
+      "file": "src/sections/GlobalHeaderC67.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW52",
+      "file": "src/sections/ArtHeaderW52.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW52",
+      "file": "src/sections/ArtContentW52.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS33",
+      "file": "src/sections/ArtRelatedS33.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC68",
+      "file": "src/sections/GlobalHeaderC68.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/welche-vorteile-bietet-lokales-online-marketing-fuer-filialisten-mit-einer-dezentralen-filialstruktur",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW53",
+      "file": "src/sections/ArtHeaderW53.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/welche-vorteile-bietet-lokales-online-marketing-fuer-filialisten-mit-einer-dezentralen-filialstruktur",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW53",
+      "file": "src/sections/ArtContentW53.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/welche-vorteile-bietet-lokales-online-marketing-fuer-filialisten-mit-einer-dezentralen-filialstruktur",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC69",
+      "file": "src/sections/GlobalHeaderC69.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/lokales-online-marketing-in-diesen-staedten-ist-werbung-am-verbreitetsten",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW54",
+      "file": "src/sections/ArtHeaderW54.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/lokales-online-marketing-in-diesen-staedten-ist-werbung-am-verbreitetsten",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW54",
+      "file": "src/sections/ArtContentW54.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/lokales-online-marketing-in-diesen-staedten-ist-werbung-am-verbreitetsten",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC70",
+      "file": "src/sections/GlobalHeaderC70.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/hyperlocalisation-ads-localyzer-fuehrt-neues-tool-zur-massenbuchung-von-tausenden-lokalen-online-kampagnen-ein",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW55",
+      "file": "src/sections/ArtHeaderW55.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/hyperlocalisation-ads-localyzer-fuehrt-neues-tool-zur-massenbuchung-von-tausenden-lokalen-online-kampagnen-ein",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW55",
+      "file": "src/sections/ArtContentW55.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/hyperlocalisation-ads-localyzer-fuehrt-neues-tool-zur-massenbuchung-von-tausenden-lokalen-online-kampagnen-ein",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS34",
+      "file": "src/sections/ArtRelatedS34.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/hyperlocalisation-ads-localyzer-fuehrt-neues-tool-zur-massenbuchung-von-tausenden-lokalen-online-kampagnen-ein",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC71",
+      "file": "src/sections/GlobalHeaderC71.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/2022-omkb-digital-business-conference",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW56",
+      "file": "src/sections/ArtHeaderW56.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/2022-omkb-digital-business-conference",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW56",
+      "file": "src/sections/ArtContentW56.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/2022-omkb-digital-business-conference",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "ArtRelatedS35",
+      "file": "src/sections/ArtRelatedS35.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/2022-omkb-digital-business-conference",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC72",
+      "file": "src/sections/GlobalHeaderC72.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/lokale-online-werbung-fuer-filialisten",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "ArtHeaderW57",
+      "file": "src/sections/ArtHeaderW57.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/lokale-online-werbung-fuer-filialisten",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ArtContentW57",
+      "file": "src/sections/ArtContentW57.jsx",
+      "usedBy": [
+        {
+          "route": "/de/blog/lokale-online-werbung-fuer-filialisten",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC73",
+      "file": "src/sections/GlobalHeaderC73.jsx",
+      "usedBy": [
+        {
+          "route": "/de/legal/imprint",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "LegalS4",
+      "file": "src/sections/LegalS4.jsx",
+      "usedBy": [
+        {
+          "route": "/de/legal/imprint",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "FooterS19",
+      "file": "src/sections/FooterS19.jsx",
+      "usedBy": [
+        {
+          "route": "/de/legal/imprint",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC74",
+      "file": "src/sections/GlobalHeaderC74.jsx",
+      "usedBy": [
+        {
+          "route": "/de/legal/terms-conditions",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "LegalS5",
+      "file": "src/sections/LegalS5.jsx",
+      "usedBy": [
+        {
+          "route": "/de/legal/terms-conditions",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "FooterS20",
+      "file": "src/sections/FooterS20.jsx",
+      "usedBy": [
+        {
+          "route": "/de/legal/terms-conditions",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC75",
+      "file": "src/sections/GlobalHeaderC75.jsx",
+      "usedBy": [
+        {
+          "route": "/de/legal/privacy-policy",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "LegalS6",
+      "file": "src/sections/LegalS6.jsx",
+      "usedBy": [
+        {
+          "route": "/de/legal/privacy-policy",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "FooterS21",
+      "file": "src/sections/FooterS21.jsx",
+      "usedBy": [
+        {
+          "route": "/de/legal/privacy-policy",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "BlCategoryHeroS6",
+      "file": "src/sections/BlCategoryHeroS6.jsx",
+      "usedBy": [
+        {
+          "route": "/de/category/events",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "BlCategoryMainS6",
+      "file": "src/sections/BlCategoryMainS6.jsx",
+      "usedBy": [
+        {
+          "route": "/de/category/events",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "FooterS22",
+      "file": "src/sections/FooterS22.jsx",
+      "usedBy": [
+        {
+          "route": "/de/category/events",
+          "idx": 2
+        },
+        {
+          "route": "/de/category/company-news",
+          "idx": 2
+        },
+        {
+          "route": "/de/category/report",
+          "idx": 2
+        },
+        {
+          "route": "/de/category/product-update",
+          "idx": 2
+        },
+        {
+          "route": "/de/category/article",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "BlCategoryHeroS7",
+      "file": "src/sections/BlCategoryHeroS7.jsx",
+      "usedBy": [
+        {
+          "route": "/de/category/company-news",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "BlCategoryMainS7",
+      "file": "src/sections/BlCategoryMainS7.jsx",
+      "usedBy": [
+        {
+          "route": "/de/category/company-news",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "BlCategoryHeroS8",
+      "file": "src/sections/BlCategoryHeroS8.jsx",
+      "usedBy": [
+        {
+          "route": "/de/category/report",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "BlCategoryMainS8",
+      "file": "src/sections/BlCategoryMainS8.jsx",
+      "usedBy": [
+        {
+          "route": "/de/category/report",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "BlCategoryHeroS9",
+      "file": "src/sections/BlCategoryHeroS9.jsx",
+      "usedBy": [
+        {
+          "route": "/de/category/product-update",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "BlCategoryMainS9",
+      "file": "src/sections/BlCategoryMainS9.jsx",
+      "usedBy": [
+        {
+          "route": "/de/category/product-update",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "BlCategoryHeroS10",
+      "file": "src/sections/BlCategoryHeroS10.jsx",
+      "usedBy": [
+        {
+          "route": "/de/category/article",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "BlCategoryMainS10",
+      "file": "src/sections/BlCategoryMainS10.jsx",
+      "usedBy": [
+        {
+          "route": "/de/category/article",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC76",
+      "file": "src/sections/GlobalHeaderC76.jsx",
+      "usedBy": [
+        {
+          "route": "/open-positions/senior-sales-consultant",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "JobMainS",
+      "file": "src/sections/JobMainS.jsx",
+      "usedBy": [
+        {
+          "route": "/open-positions/senior-sales-consultant",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "FooterS23",
+      "file": "src/sections/FooterS23.jsx",
+      "usedBy": [
+        {
+          "route": "/open-positions/senior-sales-consultant",
+          "idx": 2
+        },
+        {
+          "route": "/open-positions/software-developer-php-python",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC77",
+      "file": "src/sections/GlobalHeaderC77.jsx",
+      "usedBy": [
+        {
+          "route": "/de/open-positions/senior-sales-consultant",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "JobMainS2",
+      "file": "src/sections/JobMainS2.jsx",
+      "usedBy": [
+        {
+          "route": "/de/open-positions/senior-sales-consultant",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "FooterS24",
+      "file": "src/sections/FooterS24.jsx",
+      "usedBy": [
+        {
+          "route": "/de/open-positions/senior-sales-consultant",
+          "idx": 2
+        },
+        {
+          "route": "/de/open-positions/software-developer-php-python",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC78",
+      "file": "src/sections/GlobalHeaderC78.jsx",
+      "usedBy": [
+        {
+          "route": "/open-positions/software-developer-php-python",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "JobMainS3",
+      "file": "src/sections/JobMainS3.jsx",
+      "usedBy": [
+        {
+          "route": "/open-positions/software-developer-php-python",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "GlobalHeaderC79",
+      "file": "src/sections/GlobalHeaderC79.jsx",
+      "usedBy": [
+        {
+          "route": "/de/open-positions/software-developer-php-python",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "JobMainS4",
+      "file": "src/sections/JobMainS4.jsx",
+      "usedBy": [
+        {
+          "route": "/de/open-positions/software-developer-php-python",
+          "idx": 1
+        }
+      ]
+    }
+  ],
+  "stills": [],
+  "rive": [],
+  "dropped": [
+    "_ext/assets.localyzer.io/localyzer/videos/omkb_2022/omkb_roundtable_1500x1005.mp4 (126.8 MB: over the size cap)"
+  ],
+  "motionNotReproduced": {
+    "pinnedSections": [
+      "hp-hero-c",
+      "hp-hero-img-c",
+      "hp-platform-s"
+    ],
+    "libraries": []
+  }
+}

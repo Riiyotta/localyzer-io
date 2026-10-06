@@ -1,0 +1,16 @@
+{
+  "id": "book-demo-c",
+  "name": "book-demo-c",
+  "occurrences": 178,
+  "composedOf": [
+    "form",
+    "input",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ab-hero-carousel-img-c",
+  "name": "ab-hero-carousel-img-c",
+  "occurrences": 8,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/about"
+  }
+}

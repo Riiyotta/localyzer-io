@@ -1,0 +1,16 @@
+{
+  "id": "art-newsletter-s",
+  "name": "art-newsletter-s",
+  "occurrences": 57,
+  "composedOf": [
+    "form",
+    "heading",
+    "input",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/world-cup-2026-sponsor-stocks-analysis"
+  }
+}

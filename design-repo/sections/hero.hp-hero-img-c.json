@@ -1,0 +1,73 @@
+{
+  "id": "hero.hp-hero-img-c",
+  "category": "HERO",
+  "label": "hp-hero-img-c",
+  "tag": "div",
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"70%+ ADOPTION\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 2,
+    "routes": 2,
+    "measuredFrom": [
+      "src/index.html:629-687",
+      "src/de/index.html:629-687"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 3
+      },
+      "subheading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 3
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 1,
+        "assetRoles": [
+          "hero-image"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 782,
+      "columns": 4
+    },
+    "mobile": {
+      "heightPx": 760,
+      "columns": 3,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "columns change from 4 to 3"
+    ]
+  },
+  "assetRoles": [
+    "hero-image"
+  ],
+  "implementedBy": "src/sections/HpHeroImgC.jsx"
+}

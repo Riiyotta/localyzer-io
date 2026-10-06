@@ -1,0 +1,10 @@
+{
+  "id": "fs-cc-default-border",
+  "name": "fs-cc-default_border",
+  "occurrences": 91,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

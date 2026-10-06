@@ -1,0 +1,13 @@
+{
+  "id": "job-position-contact",
+  "name": "job-position-contact",
+  "occurrences": 4,
+  "composedOf": [
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/open-positions/senior-sales-consultant"
+  }
+}

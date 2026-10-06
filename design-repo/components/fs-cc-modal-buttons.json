@@ -1,0 +1,12 @@
+{
+  "id": "fs-cc-modal-buttons",
+  "name": "fs-cc-modal_buttons",
+  "occurrences": 91,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

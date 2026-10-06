@@ -1,0 +1,12 @@
+{
+  "id": "global-social-share",
+  "name": "global-social-share",
+  "occurrences": 57,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/world-cup-2026-sponsor-stocks-analysis"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "hp-cust-item-c",
+  "name": "hp-cust-item-c",
+  "occurrences": 16,
+  "composedOf": [
+    "image",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

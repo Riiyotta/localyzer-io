@@ -1,0 +1,10 @@
+{
+  "id": "local-dropdown-icon",
+  "name": "local-dropdown-icon",
+  "occurrences": 89,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

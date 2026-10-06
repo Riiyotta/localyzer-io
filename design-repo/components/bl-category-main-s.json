@@ -1,0 +1,17 @@
+{
+  "id": "bl-category-main-s",
+  "name": "bl-category-main-s",
+  "occurrences": 10,
+  "composedOf": [
+    "form",
+    "heading",
+    "image",
+    "input",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/category/events"
+  }
+}

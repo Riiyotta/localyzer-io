@@ -1,0 +1,41 @@
+{
+  "$description": "Foundation breakpoint tokens: the values observed on the site, ordered by usage. Not referenced directly by generators; semantic tokens reference these.",
+  "tokens": {
+    "breakpoint.479": {
+      "$type": "dimension",
+      "$value": "479px",
+      "usage": 445,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.767": {
+      "$type": "dimension",
+      "$value": "767px",
+      "usage": 358,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.768": {
+      "$type": "dimension",
+      "$value": "768px",
+      "usage": 89,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.769": {
+      "$type": "dimension",
+      "$value": "769px",
+      "usage": 178,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.991": {
+      "$type": "dimension",
+      "$value": "991px",
+      "usage": 449,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.1920": {
+      "$type": "dimension",
+      "$value": "1920px",
+      "usage": 89,
+      "source": "CSS @media width conditions"
+    }
+  }
+}

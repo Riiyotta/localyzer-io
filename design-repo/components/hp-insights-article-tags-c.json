@@ -1,0 +1,10 @@
+{
+  "id": "hp-insights-article-tags-c",
+  "name": "hp-insights-article-tags-c",
+  "occurrences": 276,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

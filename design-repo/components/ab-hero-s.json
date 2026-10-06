@@ -1,0 +1,15 @@
+{
+  "id": "ab-hero-s",
+  "name": "ab-hero-s",
+  "occurrences": 2,
+  "composedOf": [
+    "heading",
+    "image",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/about"
+  }
+}

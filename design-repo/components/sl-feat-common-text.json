@@ -1,0 +1,14 @@
+{
+  "id": "sl-feat-common-text",
+  "name": "sl-feat-common-text",
+  "occurrences": 12,
+  "composedOf": [
+    "heading",
+    "list",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/solutions"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "fs-cc-default-radius",
+  "name": "fs-cc-default_radius",
+  "occurrences": 91,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

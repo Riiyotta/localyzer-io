@@ -1,0 +1,80 @@
+{
+  "id": "hero.hp-hero-c",
+  "category": "HERO",
+  "label": "hp-hero-c",
+  "tag": "div",
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"LOCAL MARKETING THAT YOUR LOCATIONS ACTUALLY USE\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 2,
+    "routes": 2,
+    "measuredFrom": [
+      "src/index.html:528-628",
+      "src/de/index.html:528-628"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 7
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 13
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 2,
+        "maxWords": 3
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 22,
+        "assetRoles": [
+          "logo"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-animation",
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 673,
+      "columns": 11
+    },
+    "mobile": {
+      "heightPx": 688,
+      "columns": 11,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [
+    "logo"
+  ],
+  "implementedBy": "src/sections/HpHeroC.jsx"
+}

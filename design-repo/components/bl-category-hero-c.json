@@ -1,0 +1,13 @@
+{
+  "id": "bl-category-hero-c",
+  "name": "bl-category-hero-c",
+  "occurrences": 10,
+  "composedOf": [
+    "heading",
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/category/events"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "nhp-platf-btn-w",
+  "name": "nhp-platf-btn-w",
+  "occurrences": 12,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

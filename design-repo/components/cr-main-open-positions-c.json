@@ -1,0 +1,14 @@
+{
+  "id": "cr-main-open-positions-c",
+  "name": "cr-main-open-positions-c",
+  "occurrences": 2,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/careers"
+  }
+}

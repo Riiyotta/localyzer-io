@@ -1,0 +1,12 @@
+{
+  "id": "global-footer-nav-w",
+  "name": "global-footer-nav-w",
+  "occurrences": 89,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

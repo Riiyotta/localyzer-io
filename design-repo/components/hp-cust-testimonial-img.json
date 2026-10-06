@@ -1,0 +1,12 @@
+{
+  "id": "hp-cust-testimonial-img",
+  "name": "hp-cust-testimonial-img",
+  "occurrences": 16,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

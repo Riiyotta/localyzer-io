@@ -1,0 +1,12 @@
+{
+  "id": "ct-form-terms-c",
+  "name": "ct-form-terms-c",
+  "occurrences": 180,
+  "composedOf": [
+    "input"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

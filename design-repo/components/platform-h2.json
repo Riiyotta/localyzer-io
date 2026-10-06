@@ -1,0 +1,10 @@
+{
+  "id": "platform-h2",
+  "name": "platform-h2",
+  "occurrences": 6,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

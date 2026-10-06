@@ -1,0 +1,10 @@
+{
+  "id": "g-recaptcha",
+  "name": "g-recaptcha",
+  "occurrences": 249,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

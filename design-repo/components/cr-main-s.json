@@ -1,0 +1,14 @@
+{
+  "id": "cr-main-s",
+  "name": "cr-main-s",
+  "occurrences": 2,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/careers"
+  }
+}

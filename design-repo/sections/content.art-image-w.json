@@ -1,0 +1,64 @@
+{
+  "id": "content.art-image-w",
+  "category": "CONTENT",
+  "label": "art-image-w",
+  "tag": "div",
+  "purpose": "Carries the substantive content of the page.",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 57,
+    "routes": 57,
+    "measuredFrom": [
+      "src/blog/2022-omkb-digital-business-conference/index.html:464-466",
+      "src/blog/70-000-local-online-campaigns-how-insurance-companies-car-brands-and-retailers-reach-customers-locally-online/index.html:463-465",
+      "src/blog/bundesliga-advent-calendars-prices-2025/index.html:463-465",
+      "src/blog/christmas-market-analysis-germany-2025/index.html:463-465",
+      "src/blog/city-center-check-germany/index.html:463-465"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 1,
+        "assetRoles": [
+          "content-image"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 648,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 197,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [
+    "content-image"
+  ],
+  "implementedBy": "src/sections/ArtImageW.jsx"
+}

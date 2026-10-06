@@ -1,0 +1,14 @@
+{
+  "id": "ab-openjobs-c",
+  "name": "ab-openjobs-c",
+  "occurrences": 2,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/about"
+  }
+}

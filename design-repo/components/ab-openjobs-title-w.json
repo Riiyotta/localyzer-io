@@ -1,0 +1,12 @@
+{
+  "id": "ab-openjobs-title-w",
+  "name": "ab-openjobs-title-w",
+  "occurrences": 2,
+  "composedOf": [
+    "heading"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/about"
+  }
+}

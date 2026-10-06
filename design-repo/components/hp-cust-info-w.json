@@ -1,0 +1,13 @@
+{
+  "id": "hp-cust-info-w",
+  "name": "hp-cust-info-w",
+  "occurrences": 16,
+  "composedOf": [
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "hp-insights-blog",
+  "name": "hp-insights-blog",
+  "occurrences": 2,
+  "composedOf": [
+    "heading",
+    "image",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

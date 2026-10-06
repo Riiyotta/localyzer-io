@@ -1,0 +1,10 @@
+{
+  "id": "hp-platf-card-inner-text-c",
+  "name": "hp-platf-card-inner-text-c",
+  "occurrences": 12,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

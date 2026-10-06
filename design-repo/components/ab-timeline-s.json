@@ -1,0 +1,16 @@
+{
+  "id": "ab-timeline-s",
+  "name": "ab-timeline-s",
+  "occurrences": 2,
+  "composedOf": [
+    "heading",
+    "image",
+    "link",
+    "paragraph",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/about"
+  }
+}

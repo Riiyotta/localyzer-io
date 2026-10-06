@@ -1,0 +1,15 @@
+{
+  "id": "blog-hero-feat",
+  "name": "blog-hero-feat",
+  "occurrences": 4,
+  "composedOf": [
+    "heading",
+    "image",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog"
+  }
+}

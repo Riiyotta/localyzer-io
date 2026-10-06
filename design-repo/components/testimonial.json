@@ -1,0 +1,10 @@
+{
+  "id": "testimonial",
+  "name": "testimonial",
+  "occurrences": 16,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

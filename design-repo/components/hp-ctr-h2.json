@@ -1,0 +1,10 @@
+{
+  "id": "hp-ctr-h2",
+  "name": "hp-ctr-h2",
+  "occurrences": 4,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

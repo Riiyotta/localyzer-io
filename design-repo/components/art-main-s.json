@@ -1,0 +1,17 @@
+{
+  "id": "art-main-s",
+  "name": "art-main-s",
+  "occurrences": 57,
+  "composedOf": [
+    "embed",
+    "heading",
+    "image",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/world-cup-2026-sponsor-stocks-analysis"
+  }
+}

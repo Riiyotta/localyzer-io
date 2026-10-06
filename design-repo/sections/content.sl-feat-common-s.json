@@ -1,0 +1,79 @@
+{
+  "id": "content.sl-feat-common-s",
+  "category": "CONTENT",
+  "label": "sl-feat-common-s",
+  "tag": "section",
+  "purpose": "Carries the substantive content of the page. Example headline: \"MULTICHANNEL. EINFACH SKALIERT.\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 2,
+    "routes": 2,
+    "measuredFrom": [
+      "src/de/solutions/index.html:673-753",
+      "src/solutions/index.html:673-753"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 6
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 16
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 5,
+        "titleMaxWords": 4,
+        "bodyMaxWords": 12
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 5,
+        "assetRoles": [
+          "content-image"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 3723,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 3411,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [
+    "content-image"
+  ],
+  "implementedBy": "src/sections/SlFeatCommonS.jsx"
+}

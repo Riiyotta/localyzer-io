@@ -1,0 +1,15 @@
+{
+  "id": "blog-main-article",
+  "name": "blog-main-article",
+  "occurrences": 55,
+  "composedOf": [
+    "heading",
+    "image",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "global-header-logo-c",
+  "name": "global-header-logo-c",
+  "occurrences": 89,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

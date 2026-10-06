@@ -1,0 +1,13 @@
+{
+  "id": "ab-team-header-text-w",
+  "name": "ab-team-header-text-w",
+  "occurrences": 2,
+  "composedOf": [
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/about"
+  }
+}

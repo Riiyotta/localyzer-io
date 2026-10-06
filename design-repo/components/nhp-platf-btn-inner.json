@@ -1,0 +1,10 @@
+{
+  "id": "nhp-platf-btn-inner",
+  "name": "nhp-platf-btn-inner",
+  "occurrences": 12,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ct-info-card-link",
+  "name": "ct-info-card-link",
+  "occurrences": 2,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/contact"
+  }
+}

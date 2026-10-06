@@ -1,0 +1,13 @@
+{
+  "id": "blog-articles-pagination",
+  "name": "blog-articles-pagination",
+  "occurrences": 12,
+  "composedOf": [
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog"
+  }
+}

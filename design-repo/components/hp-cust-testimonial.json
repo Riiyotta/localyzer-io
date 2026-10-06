@@ -1,0 +1,10 @@
+{
+  "id": "hp-cust-testimonial",
+  "name": "hp-cust-testimonial",
+  "occurrences": 16,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

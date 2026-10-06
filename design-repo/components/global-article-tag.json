@@ -1,0 +1,10 @@
+{
+  "id": "global-article-tag",
+  "name": "global-article-tag",
+  "occurrences": 333,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

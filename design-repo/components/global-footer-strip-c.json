@@ -1,0 +1,12 @@
+{
+  "id": "global-footer-strip-c",
+  "name": "global-footer-strip-c",
+  "occurrences": 89,
+  "composedOf": [
+    "heading"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "global-feat-logos-c",
+  "name": "global-feat-logos-c",
+  "occurrences": 4,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/solutions"
+  }
+}

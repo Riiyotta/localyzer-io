@@ -1,0 +1,202 @@
+
+html { font-size: 0.625rem; }
+
+/* Make text look crisper and more legible in all browsers */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body:has(.w-nav-button.w--open), body:has(.book-demo-s.active){
+  overflow:hidden;
+}
+main { 
+  overflow: clip; 
+}
+[data-animation-type="lottie"] > svg {
+  transform: unset !important; 
+}
+/* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child,
+.w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+}
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext > :last-child,
+.w-richtext ol li:last-child,
+.w-richtext ul li:last-child {
+  margin-bottom: 0;
+}
+
+/* Snippet makes all link elements listed below to inherit color from their parent */
+a,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+}
+
+
+/* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+
+@media screen and (max-width: 991px) {
+  .hide,
+  .hide-tablet {
+    display: none !important;
+  }
+  .nav_dropdown-link.w--current {
+    color: white;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hide-mobile-landscape {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 479px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
+/*Hide focus outline for main content element*/
+main:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+
+/* Make sure containers never lose their center alignment*/
+.container,
+.container-small,
+.container-large {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+/*Reset selects, buttons, and links styles*/
+.w-input,
+.w-select,
+a {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+
+/*Hide focus outline when using anchor links to go to sections on safari*/
+*:focus {
+  outline: none;
+}
+
+/** limit to 2 rows **/
+[text="2rows"]{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+/*General Paragraph bold */
+p strong, p b{
+  font-weight:500
+}
+
+/*End --- Navigation bar css styles when scrolled*/
+@media screen and (max-width: 991px){
+  .w-nav-menu{
+    height:auto!important;
+    overflow:auto!important;
+  }
+}
+
+
+/* Underline element for nav links */
+
+.global-nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+
+}
+
+@media (min-width: 769px) {
+  .global-nav-link:hover::before {
+    transform: scaleX(1);
+  }
+}
+
+
+/* Global Logo/Footer strip animation CSS */
+
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - 10.6rem));
+  }
+}
+
+@keyframes mobileScroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - 6.4rem));
+  }
+}
+
+
+.animate-strip{
+  animation: scroll 30s linear infinite;
+}
+
+@media (min-width: 769px) {
+  .animate-strip{
+    animation: mobileScroll 30s linear infinite;
+  }
+
+}
+
+/* Text selection highlight custom color */
+
+::selection {
+  background-color: var(--localyzer-turquoise-500); 
+  color: var(--localyzer-jungle-500); 
+}
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-selection {
+  background-color: var(--localyzer-turquoise-500);
+  color: var(--localyzer-jungle-500);
+}
+
+
+/*show popup in designer class */
+html:is(.wf-design-mode) .book-demo-s.show{
+  display: flex!important;
+  opacity:1;
+  }
+@media(min-width:1920px){
+  .container-large{
+    padding: 0 8rem;
+  }
+}
+
+body:has(.btn-primary.submit:hover) .btn-primary.arrow,    body:has(.btn-primary.arrow:hover) .btn-primary.submit{
+  background-color:#00625a;
+}
+

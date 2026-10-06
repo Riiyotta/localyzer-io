@@ -1,0 +1,2931 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PageSpec",
+  "description": "A page composition. Styling is owned by section/component contracts; a PageSpec carries no style or token-override field.",
+  "type": "object",
+  "required": [
+    "pageSpecVersion",
+    "template",
+    "route",
+    "nodes"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "pageSpecVersion": {
+      "type": "string",
+      "const": "0.1.0"
+    },
+    "template": {
+      "type": "string",
+      "enum": [
+        "template.group",
+        "template.group-2",
+        "template.group-3",
+        "template.group-4",
+        "template.group-5",
+        "template.group-6",
+        "template.group-7",
+        "template.group-8",
+        "template.group-9",
+        "template.group-10"
+      ]
+    },
+    "route": {
+      "type": "string"
+    },
+    "nodes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/node"
+      }
+    }
+  },
+  "definitions": {
+    "assetRole": {
+      "type": "string",
+      "enum": [
+        "logo",
+        "customer-logo",
+        "avatar",
+        "icon",
+        "illustration",
+        "background",
+        "hero-image",
+        "content-image",
+        "animation",
+        "video",
+        "font",
+        "live-embed",
+        "founder-contact-email"
+      ]
+    },
+    "motion": {
+      "type": "object",
+      "required": [
+        "pattern",
+        "reducedMotionFallback"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "pattern": {
+          "type": "string",
+          "enum": [
+            "none",
+            "css-transition",
+            "css-animation",
+            "appear-on-enter",
+            "scroll-linked",
+            "canvas-animation"
+          ]
+        },
+        "reducedMotionFallback": {
+          "type": "string",
+          "enum": [
+            "disable-animation",
+            "instant-state"
+          ]
+        }
+      }
+    },
+    "content.content.ab-founded-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 3
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 71
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 4,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body"
+      ]
+    },
+    "content.content.ab-openjobs-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 2
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 2
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 6
+              },
+              "body": {
+                "type": "string",
+                "maxWords": 62
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "ctas",
+        "items"
+      ]
+    },
+    "content.content.ab-team-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 2
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 53
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 3
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body",
+        "ctas"
+      ]
+    },
+    "content.content.ab-timeline-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 4
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 15,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 5
+              },
+              "body": {
+                "type": "string",
+                "maxWords": 57
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 26,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "items"
+      ]
+    },
+    "content.content.art-content-w": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 5
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 26,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 87
+          }
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 24,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 16
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "body"
+      ]
+    },
+    "content.content.art-header-w": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 23
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 3
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 3
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body",
+        "ctas"
+      ]
+    },
+    "content.content.art-image-w": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "images": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      }
+    },
+    "content.content.art-related-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 2
+        },
+        "subheading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 16
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 35
+          }
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 23
+              },
+              "body": {
+                "type": "string",
+                "maxWords": 83
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading"
+      ]
+    },
+    "content.content.blog-main-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ctas": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 2
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 15
+              },
+              "body": {
+                "type": "string",
+                "maxWords": 77
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "ctas",
+        "items"
+      ]
+    },
+    "content.content.cr-main-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 7
+        },
+        "subheading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 2
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 15
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 2
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 6
+              },
+              "body": {
+                "type": "string",
+                "maxWords": 62
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "subheading",
+        "body",
+        "ctas",
+        "items"
+      ]
+    },
+    "content.content.hp-insights-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 4
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 3
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 24,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 16
+              },
+              "body": {
+                "type": "string",
+                "maxWords": 83
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 29,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "ctas",
+        "items"
+      ]
+    },
+    "content.content.hp-marketing-perks": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ctas": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 2
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 4
+              },
+              "body": {
+                "type": "string",
+                "maxWords": 17
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "ctas",
+        "items"
+      ]
+    },
+    "content.content.hp-marketing-section-title-c": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 7
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 16
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body"
+      ]
+    },
+    "content.content.hp-trust-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "body": {
+          "type": "array",
+          "maxItems": 6,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 3
+          }
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 7
+              },
+              "body": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "body",
+        "items"
+      ]
+    },
+    "content.content.job-main-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 6
+        },
+        "subheading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 1
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 16,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 68
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 3
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 8
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body",
+        "ctas"
+      ]
+    },
+    "content.content.legal-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 3
+        },
+        "subheading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 1
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 30,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 89
+          }
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 24,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 10
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body"
+      ]
+    },
+    "content.content.nsl-local-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 6
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 6
+          }
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 3
+              },
+              "body": {
+                "type": "string",
+                "maxWords": 21
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body",
+        "items"
+      ]
+    },
+    "content.content.nsol-manage-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 10
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 9
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body"
+      ]
+    },
+    "content.content.sl-feat-common-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 6
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 16
+          }
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 4
+              },
+              "body": {
+                "type": "string",
+                "maxWords": 12
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body",
+        "items"
+      ]
+    },
+    "content.content.sl-feat-main-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 10
+          }
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 9
+              },
+              "body": {
+                "type": "string",
+                "maxWords": 14
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 26,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "body",
+        "items"
+      ]
+    },
+    "content.content.sl-feat-templ-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 4
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 15
+          }
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 3
+              },
+              "body": {
+                "type": "string",
+                "maxWords": 13
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body",
+        "items"
+      ]
+    },
+    "content.hero.ab-hero-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 7
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 15
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 4
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 26,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body",
+        "ctas"
+      ]
+    },
+    "content.hero.bl-category-hero-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 5
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 30
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 3
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body",
+        "ctas"
+      ]
+    },
+    "content.hero.blog-hero-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 5
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 2
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 2
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 16
+              },
+              "body": {
+                "type": "string",
+                "maxWords": 83
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body",
+        "ctas",
+        "items"
+      ]
+    },
+    "content.hero.hp-hero-c": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 7
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 13
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 3
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 22,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body",
+        "ctas"
+      ]
+    },
+    "content.hero.hp-hero-img-c": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 3
+        },
+        "subheading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 3
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "subheading"
+      ]
+    },
+    "content.hero.nsl-hero-title-w": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 6
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 13
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body"
+      ]
+    },
+    "content.hero.sl-hero-features-c": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "items": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 4
+              },
+              "body": {
+                "type": "string",
+                "maxWords": 12
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "items"
+      ]
+    },
+    "content.hero.sl-hero-img-w": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "images": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      }
+    },
+    "content.proof.hp-customer-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 4
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 16,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 6
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 16,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body"
+      ]
+    },
+    "content.shell.footer-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 10
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 16,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 3
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 6
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "body",
+        "ctas",
+        "items"
+      ]
+    },
+    "content.support.art-newsletter-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 13
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 28
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body"
+      ]
+    },
+    "content.support.bl-category-main-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 2
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 2
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 16
+              },
+              "body": {
+                "type": "string",
+                "maxWords": 83
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "items"
+      ]
+    },
+    "content.support.blog-newsletter-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 13
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 28
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body"
+      ]
+    },
+    "content.support.ct-main-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 4
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 20
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 2
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 2
+              },
+              "body": {
+                "type": "string",
+                "maxWords": 6
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body",
+        "ctas",
+        "items"
+      ]
+    },
+    "content.support.global-header-c": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 30
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 3
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "body",
+        "ctas"
+      ]
+    },
+    "content.support.hp-platform-s": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 14
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 2
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 6
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "body",
+        "ctas",
+        "items"
+      ]
+    },
+    "node": {
+      "type": "object",
+      "required": [
+        "type",
+        "content",
+        "motion"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "content.ab-founded-s",
+            "content.ab-openjobs-s",
+            "content.ab-team-s",
+            "content.ab-timeline-s",
+            "content.art-content-w",
+            "content.art-header-w",
+            "content.art-image-w",
+            "content.art-related-s",
+            "content.blog-main-s",
+            "content.cr-main-s",
+            "content.hp-insights-s",
+            "content.hp-marketing-perks",
+            "content.hp-marketing-section-title-c",
+            "content.hp-trust-s",
+            "content.job-main-s",
+            "content.legal-s",
+            "content.nsl-local-s",
+            "content.nsol-manage-s",
+            "content.sl-feat-common-s",
+            "content.sl-feat-main-s",
+            "content.sl-feat-templ-s",
+            "hero.ab-hero-s",
+            "hero.bl-category-hero-s",
+            "hero.blog-hero-s",
+            "hero.hp-hero-c",
+            "hero.hp-hero-img-c",
+            "hero.nsl-hero-title-w",
+            "hero.sl-hero-features-c",
+            "hero.sl-hero-img-w",
+            "proof.hp-customer-s",
+            "shell.footer-s",
+            "support.art-newsletter-s",
+            "support.bl-category-main-s",
+            "support.blog-newsletter-s",
+            "support.ct-main-s",
+            "support.global-header-c",
+            "support.hp-platform-s"
+          ]
+        },
+        "content": {
+          "type": "object"
+        },
+        "motion": {
+          "$ref": "#/definitions/motion"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.ab-founded-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.ab-founded-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.ab-openjobs-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.ab-openjobs-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.ab-team-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.ab-team-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.ab-timeline-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.ab-timeline-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.art-content-w"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.art-content-w"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.art-header-w"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.art-header-w"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.art-image-w"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.art-image-w"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.art-related-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.art-related-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.blog-main-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.blog-main-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.cr-main-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.cr-main-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.hp-insights-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.hp-insights-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.hp-marketing-perks"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.hp-marketing-perks"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.hp-marketing-section-title-c"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.hp-marketing-section-title-c"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.hp-trust-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.hp-trust-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.job-main-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.job-main-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.legal-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.legal-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.nsl-local-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.nsl-local-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.nsol-manage-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.nsol-manage-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.sl-feat-common-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.sl-feat-common-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.sl-feat-main-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.sl-feat-main-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.sl-feat-templ-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.sl-feat-templ-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "hero.ab-hero-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.hero.ab-hero-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "hero.bl-category-hero-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.hero.bl-category-hero-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "hero.blog-hero-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.hero.blog-hero-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "hero.hp-hero-c"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.hero.hp-hero-c"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "hero.hp-hero-img-c"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.hero.hp-hero-img-c"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "hero.nsl-hero-title-w"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.hero.nsl-hero-title-w"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "hero.sl-hero-features-c"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.hero.sl-hero-features-c"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "hero.sl-hero-img-w"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.hero.sl-hero-img-w"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "proof.hp-customer-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.proof.hp-customer-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "shell.footer-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.shell.footer-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "support.art-newsletter-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.support.art-newsletter-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "support.bl-category-main-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.support.bl-category-main-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "support.blog-newsletter-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.support.blog-newsletter-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "support.ct-main-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.support.ct-main-s"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "support.global-header-c"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.support.global-header-c"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "support.hp-platform-s"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.support.hp-platform-s"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "$description": "Foundation elevation tokens: the values observed on the site, ordered by usage. Not referenced directly by generators; semantic tokens reference these.",
+  "tokens": {
+    "elevation.01": {
+      "$type": "shadow",
+      "$value": "rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+      "usage": 8
+    },
+    "elevation.02": {
+      "$type": "shadow",
+      "$value": "rgb(0, 63, 58) 0px 0px 0px 2px inset",
+      "usage": 4
+    },
+    "elevation.03": {
+      "$type": "shadow",
+      "$value": "rgb(153, 178, 176) 0px 0px 0px 2px",
+      "usage": 2
+    },
+    "elevation.04": {
+      "$type": "shadow",
+      "$value": "rgb(255, 255, 255) 0px 0px 0px 2px inset",
+      "usage": 2
+    },
+    "elevation.05": {
+      "$type": "shadow",
+      "$value": "rgba(0, 0, 0, 0.2) 0px 2px 15px 0px",
+      "usage": 2
+    }
+  }
+}

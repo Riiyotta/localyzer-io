@@ -1,0 +1,12 @@
+{
+  "id": "hp-cust-title-w",
+  "name": "hp-cust-title-w",
+  "occurrences": 2,
+  "composedOf": [
+    "heading"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "sl-feat-common-list",
+  "name": "sl-feat-common-list",
+  "occurrences": 4,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/solutions"
+  }
+}

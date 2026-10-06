@@ -1,0 +1,10 @@
+{
+  "id": "medica-control-bar",
+  "name": "medica-control-bar",
+  "occurrences": 32,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/about"
+  }
+}

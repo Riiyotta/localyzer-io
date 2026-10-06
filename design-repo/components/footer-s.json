@@ -1,0 +1,17 @@
+{
+  "id": "footer-s",
+  "name": "footer-s",
+  "occurrences": 89,
+  "composedOf": [
+    "form",
+    "heading",
+    "input",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

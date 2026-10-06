@@ -1,0 +1,10 @@
+{
+  "id": "swiper-pagination-bullet",
+  "name": "swiper-pagination-bullet",
+  "occurrences": 16,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

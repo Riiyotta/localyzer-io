@@ -1,0 +1,10 @@
+{
+  "id": "hp-hero-p",
+  "name": "hp-hero-p",
+  "occurrences": 2,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

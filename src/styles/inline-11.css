@@ -1,0 +1,8 @@
+
+
+/* Hides horizontal scroll bar */
+
+.art-related-articles-w::-webkit-scrollbar{
+  display: none;
+}
+

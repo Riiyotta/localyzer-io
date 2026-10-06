@@ -1,0 +1,14 @@
+{
+  "id": "sl-features-key-card-w",
+  "name": "sl-features-key-card-w",
+  "occurrences": 10,
+  "composedOf": [
+    "heading",
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/solutions"
+  }
+}

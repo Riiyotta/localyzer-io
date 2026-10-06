@@ -1,0 +1,12 @@
+{
+  "id": "nsl-local-graph-card-img-c",
+  "name": "nsl-local-graph-card-img-c",
+  "occurrences": 6,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/solutions"
+  }
+}

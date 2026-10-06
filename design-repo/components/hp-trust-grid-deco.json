@@ -1,0 +1,10 @@
+{
+  "id": "hp-trust-grid-deco",
+  "name": "hp-trust-grid-deco",
+  "occurrences": 4,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ab-timeline-collection",
+  "name": "ab-timeline-collection",
+  "occurrences": 2,
+  "composedOf": [
+    "heading",
+    "image",
+    "link",
+    "paragraph",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/about"
+  }
+}

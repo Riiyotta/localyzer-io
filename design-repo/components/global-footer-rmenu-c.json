@@ -1,0 +1,13 @@
+{
+  "id": "global-footer-rmenu-c",
+  "name": "global-footer-rmenu-c",
+  "occurrences": 89,
+  "composedOf": [
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "content.art-header-w",
+  "category": "CONTENT",
+  "label": "art-header-w",
+  "tag": "div",
+  "purpose": "Carries the substantive content of the page. Example headline: \"2022 OMKB DIGITAL BUSINESS CONFERENCE\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 57,
+    "routes": 57,
+    "measuredFrom": [
+      "src/blog/2022-omkb-digital-business-conference/index.html:410-463",
+      "src/blog/70-000-local-online-campaigns-how-insurance-companies-car-brands-and-retailers-reach-customers-locally-online/index.html:409-462",
+      "src/blog/bundesliga-advent-calendars-prices-2025/index.html:409-462",
+      "src/blog/christmas-market-analysis-germany-2025/index.html:409-462",
+      "src/blog/city-center-check-germany/index.html:409-462"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 23
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 2,
+        "maxWords": 3
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 3
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 370,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 353,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [],
+  "implementedBy": "src/sections/ArtHeaderW.jsx"
+}

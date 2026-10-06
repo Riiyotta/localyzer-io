@@ -1,0 +1,13 @@
+{
+  "id": "hp-hero-cta-c",
+  "name": "hp-hero-cta-c",
+  "occurrences": 2,
+  "composedOf": [
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

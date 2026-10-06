@@ -1,0 +1,15 @@
+{
+  "id": "nsl-local-graph-card",
+  "name": "nsl-local-graph-card",
+  "occurrences": 8,
+  "composedOf": [
+    "heading",
+    "image",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/solutions"
+  }
+}

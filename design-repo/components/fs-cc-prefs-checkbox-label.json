@@ -1,0 +1,10 @@
+{
+  "id": "fs-cc-prefs-checkbox-label",
+  "name": "fs-cc-prefs_checkbox-label",
+  "occurrences": 364,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

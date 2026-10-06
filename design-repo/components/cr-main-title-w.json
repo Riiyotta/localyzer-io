@@ -1,0 +1,13 @@
+{
+  "id": "cr-main-title-w",
+  "name": "cr-main-title-w",
+  "occurrences": 2,
+  "composedOf": [
+    "heading",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/careers"
+  }
+}

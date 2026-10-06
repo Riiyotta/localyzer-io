@@ -1,0 +1,63 @@
+{
+  "id": "support.blog-newsletter-s",
+  "category": "SUPPORT",
+  "label": "blog-newsletter-s",
+  "tag": "section",
+  "purpose": "Answers questions or collects a message. Example headline: \"SUBSCRIBE TO GET MARKETING INSIGHTS TO HELP YOU LEVEL UP YOUR ADS REACH\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 2,
+    "routes": 2,
+    "measuredFrom": [
+      "src/blog/index.html:537-567",
+      "src/de/blog/index.html:537-569"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 13
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 2,
+        "maxWords": 28
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 506,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 431,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [],
+  "implementedBy": "src/sections/BlogNewsletterS.jsx"
+}

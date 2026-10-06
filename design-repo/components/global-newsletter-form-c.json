@@ -1,0 +1,13 @@
+{
+  "id": "global-newsletter-form-c",
+  "name": "global-newsletter-form-c",
+  "occurrences": 69,
+  "composedOf": [
+    "form",
+    "input"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog"
+  }
+}

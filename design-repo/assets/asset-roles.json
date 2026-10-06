@@ -1,0 +1,4657 @@
+{
+  "version": "0.1.0",
+  "sourceIsLiveSite": true,
+  "defaultPolicy": "Assets are evidence from a real, live site. Do not reuse without licence review; never reproduce real logos, real people's photos or proprietary content.",
+  "roles": {
+    "logo": {
+      "generationPolicy": "must-reuse-exact",
+      "pinned": true,
+      "description": "The site's own brand mark.",
+      "licensing": "Use the exact supplied file. Never redraw, recolour, or invent a variant.",
+      "observed": 12
+    },
+    "customer-logo": {
+      "generationPolicy": "must-not-fabricate",
+      "pinned": true,
+      "description": "Third-party company logos shown as social proof.",
+      "licensing": "Real trademarks. A generator must never create or reproduce a real company's logo; use an explicit placeholder.",
+      "observed": 8
+    },
+    "avatar": {
+      "generationPolicy": "must-not-fabricate",
+      "pinned": true,
+      "description": "Photos of real people (customers, team, authors).",
+      "licensing": "Real people's likeness. Never generate or reuse a real person's photo; use a neutral placeholder.",
+      "observed": 7
+    },
+    "icon": {
+      "generationPolicy": "may-generate-new",
+      "pinned": false,
+      "description": "Small glyphs (<=48px) used as UI or feature markers.",
+      "licensing": "Generic glyphs may be generated; do not copy a proprietary icon set verbatim.",
+      "observed": 33
+    },
+    "illustration": {
+      "generationPolicy": "may-generate-new",
+      "pinned": false,
+      "description": "Large vector artwork.",
+      "licensing": "May be regenerated in the same style; do not reproduce the original artwork.",
+      "observed": 11
+    },
+    "background": {
+      "generationPolicy": "may-generate-new",
+      "pinned": false,
+      "description": "Full-bleed or decorative backgrounds.",
+      "licensing": "May be regenerated; do not reuse the original file.",
+      "observed": 0
+    },
+    "hero-image": {
+      "generationPolicy": "may-generate-new",
+      "pinned": false,
+      "description": "Large image in the page-opening block.",
+      "licensing": "May be regenerated; do not reproduce real product or customer content.",
+      "observed": 8
+    },
+    "content-image": {
+      "generationPolicy": "may-generate-new",
+      "pinned": false,
+      "description": "Other in-page imagery (screenshots, photos, cards).",
+      "licensing": "May be regenerated; never include real customer data, names or proprietary UI.",
+      "observed": 381
+    },
+    "animation": {
+      "generationPolicy": "must-reuse-exact",
+      "pinned": false,
+      "description": "Rive / Lottie animation files that drive canvas animations.",
+      "licensing": "The site's own animation assets. Reuse only the supplied file; never recreate or imitate it for a different brand.",
+      "observed": 5
+    },
+    "video": {
+      "generationPolicy": "must-reuse-exact",
+      "pinned": false,
+      "description": "Video files or embeds.",
+      "licensing": "Reuse only the supplied file; never fabricate footage of real products or people.",
+      "observed": 9
+    },
+    "font": {
+      "generationPolicy": "must-reuse-exact",
+      "pinned": true,
+      "description": "Web font files.",
+      "licensing": "Fonts carry their own licence; reuse only as shipped and review the licence before redistribution.",
+      "observed": 18
+    },
+    "live-embed": {
+      "generationPolicy": "must-not-reuse-live-endpoint",
+      "pinned": true,
+      "description": "Live third-party iframes and form endpoints.",
+      "licensing": "Never point generated pages at the original site's live endpoints (forms, widgets).",
+      "observed": 51
+    },
+    "founder-contact-email": {
+      "generationPolicy": "must-not-reuse-live-endpoint",
+      "pinned": true,
+      "description": "A real mailto contact address (e.g. a founder or support email) exposed in page copy.",
+      "licensing": "A real, live inbox. Generated pages must not reuse the original address; use a placeholder.",
+      "observed": 3
+    }
+  },
+  "generationPolicies": [
+    "may-generate-new",
+    "must-reuse-exact",
+    "must-not-fabricate",
+    "must-not-reuse-live-endpoint"
+  ],
+  "assets": [
+    {
+      "path": "_ext/assets.localyzer.io/video/EN_OMR_Digital_Masterclass_Localyzer.mp4",
+      "bytes": 167097309,
+      "role": "video",
+      "evidence": {
+        "route": "/blog/70-000-local-online-campaigns-how-insurance-companies-car-brands-and-retailers-reach-customers-locally-online",
+        "section": "content.art-content-w",
+        "rendered": "896x504"
+      }
+    },
+    {
+      "path": "_ext/assets.localyzer.io/video/OMR_Digital_Masterclass_Localyzer.mp4",
+      "bytes": 152680526,
+      "role": "video",
+      "evidence": {
+        "route": "/de/blog/70000-lokale-online-kampagnen-wie-versicherungen-automarken-und-retailer-lokal-online-kund-innen-erreichen",
+        "section": "content.art-content-w",
+        "rendered": "896x504"
+      }
+    },
+    {
+      "path": "_ext/assets.localyzer.io/localyzer/videos/omkb_2022/omkb_roundtable_1500x1005.mp4",
+      "bytes": 126758128,
+      "role": "video",
+      "evidence": {
+        "route": "/blog/2022-omkb-digital-business-conference",
+        "section": "content.art-content-w",
+        "rendered": "896x600"
+      }
+    },
+    {
+      "path": "_ext/assets.localyzer.io/localyzer/videos/omkb_2022/omkb_matthias_1500x1005.mp4",
+      "bytes": 58786744,
+      "role": "video",
+      "evidence": {
+        "route": "/de/blog/2022-omkb-digital-business-conference",
+        "section": "content.art-content-w",
+        "rendered": "896x600"
+      }
+    },
+    {
+      "path": "_ext/assets.localyzer.io/video/cap_town_2023_recoded.mp4",
+      "bytes": 21059782,
+      "role": "video",
+      "evidence": {
+        "route": "/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer",
+        "section": "content.art-content-w",
+        "rendered": "400x711"
+      }
+    },
+    {
+      "path": "_ext/assets.localyzer.io/video/api_aaa_short.mp4",
+      "bytes": 16102957,
+      "role": "video",
+      "evidence": {
+        "route": "/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation",
+        "section": "content.art-content-w",
+        "rendered": "896x800"
+      }
+    },
+    {
+      "path": "_ext/assets.localyzer.io/video/car_repair.mp4",
+      "bytes": 6900830,
+      "role": "video",
+      "evidence": {
+        "route": "/blog/why-local-video-ads-outperform-traditional-display-ads",
+        "section": "content.art-content-w",
+        "rendered": "896x727"
+      }
+    },
+    {
+      "path": "_ext/assets.localyzer.io/video/car_repair.mp4",
+      "bytes": 6900830,
+      "role": "video",
+      "evidence": {
+        "route": "/blog/why-local-video-ads-outperform-traditional-display-ads",
+        "section": "content.art-content-w",
+        "rendered": "896x727"
+      }
+    },
+    {
+      "path": "_ext/assets.localyzer.io/video/campaign_creator_mobile_compressed.mp4",
+      "bytes": 5483426,
+      "role": "video",
+      "evidence": {
+        "route": "/blog/online-marketing-without-an-agency",
+        "section": "content.art-content-w",
+        "rendered": "400x598"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68e4f2527a47f3db446468dc_sean-zielinski-bqPL7m6Z_c0-unsplash.jpg",
+      "bytes": 2172931,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "content.hp-insights-s",
+        "rendered": "400x249"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cab9d31250ac97475d5a19_687901c6572aef602843c0f5_print_to_pixel.webp",
+      "bytes": 1823736,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "content.hp-insights-s",
+        "rendered": "400x249"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6a734102d28fb853c914f4db_26MY_Eclipse_Cross_Line_Up.jpeg",
+      "bytes": 1542277,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba97d5b0c6896754dd30_67a414c33894a877f440524a_cape_town.webp",
+      "bytes": 1240878,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "content.hp-insights-s",
+        "rendered": "400x249"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cab9b64e49257855a22cb4_67b85a3d46115ace83fee0d0_ben-morris-kdfOCVIwwOk-unsplash.webp",
+      "bytes": 1132674,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "content.hp-insights-s",
+        "rendered": "400x249"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6916f9becca869bb175a1163_snow_football_field_s.jpg",
+      "bytes": 1100698,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "content.hp-insights-s",
+        "rendered": "400x249"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/693ac1ee5a32b0964aadf546_xmas_market_localyzer_study.jpg",
+      "bytes": 1080215,
+      "role": "content-image",
+      "evidence": {
+        "route": "/de",
+        "section": "content.hp-insights-s",
+        "rendered": "400x249"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6a6c51d8db666cf15d9a5b37_my-profit-tutor-PPC6rg_Zzm8-unsplash.jpg",
+      "bytes": 1058112,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68e4f2527a47f3db446468dc_sean-zielinski-bqPL7m6Z_c0-unsplash-p-2600.jpg",
+      "bytes": 1020031,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/698c57458cfc323fb4165f8e_couple_flowers_s.jpg",
+      "bytes": 1007101,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba1977540672ae51ce88_67a914862232095413145b08_omr_featured.webp",
+      "bytes": 885120,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "content.hp-insights-s",
+        "rendered": "400x249"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67a3a5aada36f38fb8bd796e_Takko_u_localyzer.jpg",
+      "bytes": 805559,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/takko-analysis-these-countries-achieve-the-highest-click-through-rates-in-local-online-campaigns",
+        "section": "content.art-content-w",
+        "rendered": "896x512"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/69fdd0b0e8941323f97b95e3_click_n_collect.jpg",
+      "bytes": 775569,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6a734102d28fb853c914f4db_26MY_Eclipse_Cross_Line_Up-p-3200.jpeg",
+      "bytes": 757863,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67a3e3b51e2ffb6c9f735818_hyper_localization.png",
+      "bytes": 733976,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/hyperlocalization-ads---localyzer-launches-new-tool-for-mass-booking-of-thousands-of-local-online-campaigns---at-the-push-of-a-button",
+        "section": "content.art-content-w",
+        "rendered": "896x896"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/69fdd0b0e8941323f97b95e3_click_n_collect-p-3200.jpg",
+      "bytes": 676441,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cab9b64e49257855a22cb4_67b85a3d46115ace83fee0d0_ben-morris-kdfOCVIwwOk-unsplash-p-2000.webp",
+      "bytes": 585512,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/693ac1ee5a32b0964aadf546_xmas_market_localyzer_study-p-2600.jpg",
+      "bytes": 530718,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6a734102d28fb853c914f4db_26MY_Eclipse_Cross_Line_Up-p-2600.jpeg",
+      "bytes": 508360,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68e4f2527a47f3db446468dc_sean-zielinski-bqPL7m6Z_c0-unsplash-p-2000.jpg",
+      "bytes": 507214,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/kM8c0/full.png",
+      "bytes": 494457,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/EB3OL/full.png",
+      "bytes": 491513,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/MygHs/full.png",
+      "bytes": 488762,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/FkZw1/full.png",
+      "bytes": 464453,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/69fdd0b0e8941323f97b95e3_click_n_collect-p-2600.jpg",
+      "bytes": 459705,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/7Q06R/full.png",
+      "bytes": 459030,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/4Dqwc/full.png",
+      "bytes": 455667,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cab9b64e49257855a22cb4_67b85a3d46115ace83fee0d0_ben-morris-kdfOCVIwwOk-unsplash-p-1600.webp",
+      "bytes": 429942,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/city-center-check-germany",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba97d5b0c6896754dd30_67a414c33894a877f440524a_cape_town-p-2000.webp",
+      "bytes": 421754,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6a6c51d8db666cf15d9a5b37_my-profit-tutor-PPC6rg_Zzm8-unsplash-p-2000.jpg",
+      "bytes": 418573,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/ujz24/full.png",
+      "bytes": 414359,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/LSg3t/full.png",
+      "bytes": 412291,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/mTL9s/full.png",
+      "bytes": 399498,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba6efd09ef3ac6fc4a1b_67a494e5d93433b80f8b5f6a_city.webp",
+      "bytes": 396240,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "content.hp-insights-s",
+        "rendered": "400x249"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6746ee7229bfe0bf4fb67edc_c2952143ff1df54f5a0865e8feacfcfc.png",
+      "bytes": 391553,
+      "role": "avatar",
+      "evidence": {
+        "route": "/about",
+        "section": "content.ab-timeline-s",
+        "rendered": "0x0"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6916f9becca869bb175a1163_snow_football_field_s-p-1600.jpg",
+      "bytes": 365156,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/bundesliga-advent-calendars-prices-2025",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/693ac1ee5a32b0964aadf546_xmas_market_localyzer_study-p-2000.jpg",
+      "bytes": 360537,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/698c57458cfc323fb4165f8e_couple_flowers_s-p-2000.jpg",
+      "bytes": 346224,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/2uiKj/full.png",
+      "bytes": 345112,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/e5g6K/full.png",
+      "bytes": 316031,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/fFPCP/full.png",
+      "bytes": 312879,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/IOAXD/full.png",
+      "bytes": 312871,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68e4f2527a47f3db446468dc_sean-zielinski-bqPL7m6Z_c0-unsplash-p-1600.jpg",
+      "bytes": 304549,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/digital-visibility-east-vs-west-how-germanys-federal-states-perform-online",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6a734102d28fb853c914f4db_26MY_Eclipse_Cross_Line_Up-p-2000.jpeg",
+      "bytes": 303074,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cab9fe7d24b10a0c77734a_67e5787c2d86980216238128_social-media.webp",
+      "bytes": 301534,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "content.hp-insights-s",
+        "rendered": "400x249"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68db898d102cd5fb09dbe129_handwerker_sichtbarkeit_deutschland.jpg",
+      "bytes": 293203,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/tradespeople-online-availability-germany",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/QiUkV/full.png",
+      "bytes": 289800,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/T8x3P/full.png",
+      "bytes": 287792,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/69fdd0b0e8941323f97b95e3_click_n_collect-p-2000.jpg",
+      "bytes": 280502,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/KnHgO/full.png",
+      "bytes": 279253,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6a6c51d8db666cf15d9a5b37_my-profit-tutor-PPC6rg_Zzm8-unsplash-p-1600.jpg",
+      "bytes": 277365,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/world-cup-2026-sponsor-stocks-analysis",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6783a43e5ee17587313e194a_Localyzer Website Launch 2024.webp",
+      "bytes": 276484,
+      "role": "content-image",
+      "evidence": {
+        "route": "/contact",
+        "section": "support.ct-main-s",
+        "rendered": "1152x826"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/A8QFa/full.png",
+      "bytes": 265010,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba97d5b0c6896754dd30_67a414c33894a877f440524a_cape_town-p-1600.webp",
+      "bytes": 262184,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/workation-in-cape-town---productivity-killer-or-performance-enhancer",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/Kwj8H/full.png",
+      "bytes": 261679,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/693ac1ee5a32b0964aadf546_xmas_market_localyzer_study-p-1600.jpg",
+      "bytes": 259261,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/christmas-market-analysis-germany-2025",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/683eda8b7dcdedfa1a0fb6d8_subaru_atv_advantage_campaign.jpg",
+      "bytes": 258560,
+      "role": "content-image",
+      "evidence": {
+        "route": "/de/blog/subaru-addressable-tv-localyzer-campaign-success",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/oqzGx/full.png",
+      "bytes": 255352,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/JcGMk/full.png",
+      "bytes": 244791,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/674d7a71dc93036fc908f357_Frame 427321671 (1).avif",
+      "bytes": 243568,
+      "role": "hero-image",
+      "evidence": {
+        "route": "/about",
+        "section": "hero.ab-hero-s",
+        "rendered": "694x564"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/Tu4pD/full.png",
+      "bytes": 242776,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cab9b64e49257855a22cb4_67b85a3d46115ace83fee0d0_ben-morris-kdfOCVIwwOk-unsplash-p-1080.webp",
+      "bytes": 237934,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/v7sff/full.png",
+      "bytes": 233923,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/m9F69/full.png",
+      "bytes": 233344,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/698c57458cfc323fb4165f8e_couple_flowers_s-p-1600.jpg",
+      "bytes": 231378,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/valentines-day-index-2026-city-ranking-supply-demand-germany",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/674d78c5fe6249151db438d7_Frame 427321628 (1).avif",
+      "bytes": 227207,
+      "role": "hero-image",
+      "evidence": {
+        "route": "/about",
+        "section": "hero.ab-hero-s",
+        "rendered": "694x564"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/Fqnff/full.png",
+      "bytes": 226824,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/WhVww/full.png",
+      "bytes": 222720,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/ye6Rm/full.png",
+      "bytes": 219916,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba6efd09ef3ac6fc4a1b_67a494e5d93433b80f8b5f6a_city-p-2000.webp",
+      "bytes": 216874,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba51139a4f2441f2d0b1_67a4f5c11536a4d4bb95198f_store_chain3.webp",
+      "bytes": 216562,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "content.hp-insights-s",
+        "rendered": "400x249"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/8fGCE/full.png",
+      "bytes": 214885,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/fctq3/full.png",
+      "bytes": 214218,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/7II1T/full.png",
+      "bytes": 213634,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/qmOk2/full.png",
+      "bytes": 212757,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a6c85354dbde74269315f2d_Group 427321570.avif",
+      "bytes": 212361,
+      "role": "hero-image",
+      "evidence": {
+        "route": "/solutions",
+        "section": "hero.sl-hero-img-w",
+        "rendered": "1376x768"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/fMz8e/full.png",
+      "bytes": 212256,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67d83cf6f063a8fca7f74dc8_sparda-bank-west.jpg",
+      "bytes": 210715,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/KkjIZ/full.png",
+      "bytes": 209778,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/674d730f5540d028e2a1b2a0_Renck Main.avif",
+      "bytes": 209264,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "proof.hp-customer-s",
+        "rendered": "550x550"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/JPbcg/full.png",
+      "bytes": 209047,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6783a1a21f1cbdbead60fca8_Image from Squoosh (1).webp",
+      "bytes": 205388,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "content.hp-insights-s",
+        "rendered": "400x249"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/Iu8Kx/full.png",
+      "bytes": 201020,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/26uTP/full.png",
+      "bytes": 198873,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/CfpOy/full.png",
+      "bytes": 198755,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/myQta/full.png",
+      "bytes": 196832,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cab9e98e6fae0eae49ff4d_683eda8b7dcdedfa1a0fb6d8_subaru_atv_advantage_campaign.webp",
+      "bytes": 193898,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/subaru-addressable-tv-localyzer-campaign-success",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/VqGUH/full.png",
+      "bytes": 192980,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6783a43e5ee17587313e194a_Localyzer Website Launch 2024-p-1080.webp",
+      "bytes": 192652,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6a734102d28fb853c914f4db_26MY_Eclipse_Cross_Line_Up-p-1600.jpeg",
+      "bytes": 190818,
+      "role": "content-image",
+      "evidence": {
+        "route": "/de/blog/mitsubishi-dealer-cockpit-local-marketing",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/69fdd0b0e8941323f97b95e3_click_n_collect-p-1600.jpg",
+      "bytes": 189367,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/click-and-collect-fashion-retail-study-germany",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/DMNvu/full.png",
+      "bytes": 188684,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/Ma3OA/full.png",
+      "bytes": 188251,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/674d745e6fb0202f97304c7c_Stern Main.avif",
+      "bytes": 187908,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "proof.hp-customer-s",
+        "rendered": "550x550"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/PB6lO/full.png",
+      "bytes": 184577,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/QXhQf/full.png",
+      "bytes": 181235,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6783a1a21f1cbdbead60fca8_Image from Squoosh (1)-p-1600.webp",
+      "bytes": 181070,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/germany-business-analysis",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67d83cf6f063a8fca7f74dc8_sparda-bank-west-p-1080.jpg",
+      "bytes": 180894,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/1ojPw/full.png",
+      "bytes": 178347,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/u1aX6/full.png",
+      "bytes": 178272,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/OEoi7/full.png",
+      "bytes": 178036,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/fonts/roboto/ttf/Roboto-MediumItalic.ttf",
+      "bytes": 176864,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/fonts/roboto/ttf/Roboto-LightItalic.ttf",
+      "bytes": 176616,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/8y6qR/full.png",
+      "bytes": 175396,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/fonts/roboto/ttf/Roboto-BoldItalic.ttf",
+      "bytes": 174952,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/fonts/roboto/ttf/Roboto-Italic.ttf",
+      "bytes": 173932,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/fonts/roboto/ttf/Roboto-Medium.ttf",
+      "bytes": 172064,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/fonts/roboto/ttf/Roboto-Regular.ttf",
+      "bytes": 171676,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/fonts/roboto/ttf/Roboto-Bold.ttf",
+      "bytes": 170760,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/fonts/roboto/ttf/Roboto-Light.ttf",
+      "bytes": 170420,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6916f9becca869bb175a1163_snow_football_field_s-p-1080.jpg",
+      "bytes": 168360,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6746ee98295089042124dafd_39a57b53f931ff2f7804da3c343b7612.png",
+      "bytes": 167938,
+      "role": "avatar",
+      "evidence": {
+        "route": "/about",
+        "section": "content.ab-timeline-s",
+        "rendered": "0x0"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/674d769c42b625717c2eb61d_Frame 427321627.avif",
+      "bytes": 167011,
+      "role": "logo",
+      "evidence": {
+        "route": "/about",
+        "section": "hero.ab-hero-s",
+        "rendered": "694x564"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba6efd09ef3ac6fc4a1b_67a494e5d93433b80f8b5f6a_city-p-1600.webp",
+      "bytes": 166404,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/local-online-marketing-these-cities-lead-in-advertising-reach",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6746f575f538fac1210c703f_localyzer-4.avif",
+      "bytes": 160049,
+      "role": "content-image",
+      "evidence": {
+        "route": "/about",
+        "section": "content.ab-founded-s",
+        "rendered": "540x380"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6718c8517044fb9ee8514c30_header-img.webp",
+      "bytes": 153118,
+      "role": "hero-image",
+      "evidence": {
+        "route": "/",
+        "section": "hero.hp-hero-img-c",
+        "rendered": "360x461"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/683eda8b7dcdedfa1a0fb6d8_subaru_atv_advantage_campaign-p-1080.jpg",
+      "bytes": 150340,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cab9b64e49257855a22cb4_67b85a3d46115ace83fee0d0_ben-morris-kdfOCVIwwOk-unsplash-p-800.webp",
+      "bytes": 148972,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/christmas-market-analysis-germany-2025",
+        "section": "content.art-related-s",
+        "rendered": "432x269"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba51139a4f2441f2d0b1_67a4f5c11536a4d4bb95198f_store_chain3-p-2000.webp",
+      "bytes": 147326,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cab9fe7d24b10a0c77734a_67e5787c2d86980216238128_social-media-p-2000.webp",
+      "bytes": 146730,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2abc277663f551c81271b9_Co-Op Budget Management v2.0 (1).lottie",
+      "bytes": 145660,
+      "role": "animation",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68e4f2527a47f3db446468dc_sean-zielinski-bqPL7m6Z_c0-unsplash-p-1080.jpg",
+      "bytes": 145031,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67ae25d808a3acdc20c82c1f_1500x1000_JF.webp",
+      "bytes": 144992,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/693ac1ee5a32b0964aadf546_xmas_market_localyzer_study-p-1080.jpg",
+      "bytes": 143735,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671f880366d2da2fd78f3d53_about-1.webp",
+      "bytes": 141746,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/674f0b100e958ac54524f56b_903f9f9d1bc7485dd54ec246677456dc.jpeg",
+      "bytes": 139260,
+      "role": "avatar",
+      "evidence": {
+        "route": "/about",
+        "section": "content.ab-timeline-s",
+        "rendered": "0x0"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/674d73685540d028e2a1fc34_lbs-sw.avif",
+      "bytes": 137894,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "proof.hp-customer-s",
+        "rendered": "550x550"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671a484a86c9e34860be6603_location.webp",
+      "bytes": 136814,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6a6c51d8db666cf15d9a5b37_my-profit-tutor-PPC6rg_Zzm8-unsplash-p-1080.jpg",
+      "bytes": 136566,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cabaabbae5b4c56eb1ac26_67a4072a2e7f2e71c808f87f_architecture_small.webp",
+      "bytes": 131042,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6a8a01a955f48eb328d2bf65_2026_coop.png",
+      "bytes": 126663,
+      "role": "avatar",
+      "evidence": {
+        "route": "/about",
+        "section": "content.ab-timeline-s",
+        "rendered": "0x0"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/698c57458cfc323fb4165f8e_couple_flowers_s-p-1080.jpg",
+      "bytes": 123408,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/bm18T/full.png",
+      "bytes": 121962,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cababaf428cb9095bdace2_67a3e548a2cdf09c22d67b28_hyper.jpg",
+      "bytes": 120897,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/hyperlocalization-ads---localyzer-launches-new-tool-for-mass-booking-of-thousands-of-local-online-campaigns---at-the-push-of-a-button",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba51139a4f2441f2d0b1_67a4f5c11536a4d4bb95198f_store_chain3-p-1600.webp",
+      "bytes": 119582,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/local-regional-online-advertising-for-chain-stores",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671a484b1131cae3c951327b_audience.webp",
+      "bytes": 118548,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671a484a86c9e34860be6603_location-p-1080.webp",
+      "bytes": 117380,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/674d739a8cc17c98c387f16b_elctrolux.avif",
+      "bytes": 117272,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "proof.hp-customer-s",
+        "rendered": "550x550"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba97d5b0c6896754dd30_67a414c33894a877f440524a_cape_town-p-1080.webp",
+      "bytes": 117080,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67a3ba4a6e471e1d81c87476_takko.webp",
+      "bytes": 117040,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/takko-analysis-these-countries-achieve-the-highest-click-through-rates-in-local-online-campaigns",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6783a43e5ee17587313e194a_Localyzer Website Launch 2024-p-800.webp",
+      "bytes": 114976,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a6f15df6ecb7a47b52f3513_expand-new.avif",
+      "bytes": 114079,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "content.hp-marketing-perks",
+        "rendered": "432x791"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/fWXHW/full.png",
+      "bytes": 113815,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67d83cf6f063a8fca7f74dc8_sparda-bank-west-p-800.jpg",
+      "bytes": 111273,
+      "role": "content-image",
+      "evidence": {
+        "route": "/de",
+        "section": "proof.hp-customer-s",
+        "rendered": "550x638"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671a484b1131cae3c951327b_audience-p-1080.webp",
+      "bytes": 108840,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6783a1d59ed9de44aecf2b83_Image from Squoosh (2).webp",
+      "bytes": 108574,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/vacation-check-these-are-the-germans-most-popular-travel-destinations",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/LSg3t/plain-s__f67bbdbf.png",
+      "bytes": 108526,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cab9fe7d24b10a0c77734a_67e5787c2d86980216238128_social-media-p-1600.webp",
+      "bytes": 107940,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/social-media-analysis-top-100-sme",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cab9d31250ac97475d5a19_687901c6572aef602843c0f5_print_to_pixel-p-2000.webp",
+      "bytes": 107164,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6912060f819c208f84b5b882_Header_ctlr+a_en.png",
+      "bytes": 106337,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "content.hp-insights-s",
+        "rendered": "400x249"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/mTL9s/plain-s__e0565dbb.png",
+      "bytes": 105837,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6746eebf1b3a5f38ce376397_ffac556d6248ee9e0c05b3452d45ab3b.png",
+      "bytes": 104791,
+      "role": "avatar",
+      "evidence": {
+        "route": "/about",
+        "section": "content.ab-timeline-s",
+        "rendered": "0x0"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/69120927d3ec0c8982469166_Header_ctlr+a_de.png",
+      "bytes": 104471,
+      "role": "content-image",
+      "evidence": {
+        "route": "/de",
+        "section": "content.hp-insights-s",
+        "rendered": "400x249"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6783a1a21f1cbdbead60fca8_Image from Squoosh (1)-p-1080.webp",
+      "bytes": 103596,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cabad1a3ccb2ae6418f090_67a3c289f0ccfc7ee08f5d1b_franchising_small.webp",
+      "bytes": 103172,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/what-are-the-benefits-of-local-online-marketing-for-retail-chains-with-a-decentralized-store-structure",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cab9e98e6fae0eae49ff4d_683eda8b7dcdedfa1a0fb6d8_subaru_atv_advantage_campaign-p-1080.webp",
+      "bytes": 103100,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6a8a001d10263e92acb3ea7c_2025_controlplusa.png",
+      "bytes": 100275,
+      "role": "avatar",
+      "evidence": {
+        "route": "/about",
+        "section": "content.ab-timeline-s",
+        "rendered": "0x0"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/69fdd0b0e8941323f97b95e3_click_n_collect-p-1080.jpg",
+      "bytes": 99220,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/ujz24/plain-s__1d365e2d.png",
+      "bytes": 96763,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/MygHs/plain-s__7d8c1faf.png",
+      "bytes": 96237,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cabaf1e809a492fb9c70f1_67a322e81b93f4d1aa723485_light.webp",
+      "bytes": 96020,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "content.hp-insights-s",
+        "rendered": "400x249"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba6efd09ef3ac6fc4a1b_67a494e5d93433b80f8b5f6a_city-p-1080.webp",
+      "bytes": 95134,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6916f9becca869bb175a1163_snow_football_field_s-p-800.jpg",
+      "bytes": 94142,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/world-cup-2026-sponsor-stocks-analysis",
+        "section": "content.art-related-s",
+        "rendered": "432x269"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671f880366d2da2fd78f3d53_about-1-p-800.webp",
+      "bytes": 93192,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671a484a4920922bc81aa643_impressions.webp",
+      "bytes": 90648,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/683eda8b7dcdedfa1a0fb6d8_subaru_atv_advantage_campaign-p-800.jpg",
+      "bytes": 90461,
+      "role": "content-image",
+      "evidence": {
+        "route": "/de/blog",
+        "section": "content.blog-main-s",
+        "rendered": "432x269"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/693ac1ee5a32b0964aadf546_xmas_market_localyzer_study-p-800.jpg",
+      "bytes": 90043,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog",
+        "section": "content.blog-main-s",
+        "rendered": "432x269"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba1977540672ae51ce88_67a914862232095413145b08_omr_featured-p-2000.webp",
+      "bytes": 89920,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/m9F69/plain-s__cc5fd325.png",
+      "bytes": 89678,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/qmOk2/plain-s__d97d7c12.png",
+      "bytes": 89638,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/kM8c0/plain-s__fe6040fc.png",
+      "bytes": 89057,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68db898d102cd5fb09dbe129_handwerker_sichtbarkeit_deutschland-p-1080.jpg",
+      "bytes": 88781,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/T8x3P/plain-s__f67bbdbf.png",
+      "bytes": 88422,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/KnHgO/plain-s__1d365e2d.png",
+      "bytes": 88102,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68e4f2527a47f3db446468dc_sean-zielinski-bqPL7m6Z_c0-unsplash-p-800.jpg",
+      "bytes": 87966,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog",
+        "section": "content.blog-main-s",
+        "rendered": "432x269"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6a734102d28fb853c914f4db_26MY_Eclipse_Cross_Line_Up-p-1080.jpeg",
+      "bytes": 87399,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/FkZw1/plain-s__8734d975.png",
+      "bytes": 87326,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671a484a86c9e34860be6603_location-p-800.webp",
+      "bytes": 87138,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671a484a4920922bc81aa643_impressions-p-1080.webp",
+      "bytes": 84982,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67ae25d808a3acdc20c82c1f_1500x1000_JF-p-1080.webp",
+      "bytes": 84300,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/674d740281daa85bcd862906_zimmermain.avif",
+      "bytes": 84286,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "proof.hp-customer-s",
+        "rendered": "550x550"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/KkjIZ/plain-s__e0565dbb.png",
+      "bytes": 83353,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6783a1cc295e94db1f9de44f_Image from Squoosh (4).webp",
+      "bytes": 82712,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "content.hp-insights-s",
+        "rendered": "400x249"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/flag-icons/flags/4x3/es.svg",
+      "bytes": 81677,
+      "role": "illustration",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/fFPCP/plain-s__fe6040fc.png",
+      "bytes": 81364,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671a484b1131cae3c951327b_audience-p-800.webp",
+      "bytes": 81304,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "support.hp-platform-s",
+        "rendered": "423x543"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/JPbcg/plain-s__f67bbdbf.png",
+      "bytes": 80006,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6a6c51d8db666cf15d9a5b37_my-profit-tutor-PPC6rg_Zzm8-unsplash-p-800.jpg",
+      "bytes": 79633,
+      "role": "hero-image",
+      "evidence": {
+        "route": "/blog",
+        "section": "hero.blog-hero-s",
+        "rendered": "668x415"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/IOAXD/plain-s__cc5fd325.png",
+      "bytes": 79479,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/4Dqwc/plain-s__8f5730ec.png",
+      "bytes": 78904,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/698c57458cfc323fb4165f8e_couple_flowers_s-p-800.jpg",
+      "bytes": 77635,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/world-cup-2026-sponsor-stocks-analysis",
+        "section": "content.art-related-s",
+        "rendered": "432x269"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/Tu4pD/plain-s__1d365e2d.png",
+      "bytes": 77489,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/JcGMk/plain-s__f67bbdbf.png",
+      "bytes": 76943,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6912060f819c208f84b5b882_Header_ctlr+a_en-p-1600.png",
+      "bytes": 75734,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/ctrl-a-ai-online-marketing-tool-for-small-businesses",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cab9d31250ac97475d5a19_687901c6572aef602843c0f5_print_to_pixel-p-1600.webp",
+      "bytes": 75464,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/from-print-to-pixels-local-online-marketing",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/EB3OL/plain-s__1d365e2d.png",
+      "bytes": 75004,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba51139a4f2441f2d0b1_67a4f5c11536a4d4bb95198f_store_chain3-p-1080.webp",
+      "bytes": 74378,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/69120927d3ec0c8982469166_Header_ctlr+a_de-p-1600.png",
+      "bytes": 73347,
+      "role": "content-image",
+      "evidence": {
+        "route": "/de/blog/ctrl-a-ki-online-marketing-tool-fuer-kleine-unternehmen",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671a484a6f21714180ed17ec_ctr.webp",
+      "bytes": 72636,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671bf8318ab636acb8184d51_feat-banner.webp",
+      "bytes": 71376,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/2uiKj/plain-s__e0565dbb.png",
+      "bytes": 71265,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/7Q06R/plain-s__fe6040fc.png",
+      "bytes": 70234,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6783a1d59ed9de44aecf2b83_Image from Squoosh (2)-p-800.webp",
+      "bytes": 69878,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cab9b64e49257855a22cb4_67b85a3d46115ace83fee0d0_ben-morris-kdfOCVIwwOk-unsplash-p-500.webp",
+      "bytes": 69276,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671a484ac92187495e639b92_halfpage-ad.webp",
+      "bytes": 69268,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba1977540672ae51ce88_67a914862232095413145b08_omr_featured-p-1600.webp",
+      "bytes": 69040,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/70-000-local-online-campaigns-how-insurance-companies-car-brands-and-retailers-reach-customers-locally-online",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/PB6lO/plain-s__1d365e2d.png",
+      "bytes": 68084,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c01368ab636acb820bb56_video-ads.webp",
+      "bytes": 67786,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67a3ba4a6e471e1d81c87476_takko-p-800.webp",
+      "bytes": 67656,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba2b095abc61c94068a2_67a777e98007474127160c5f_connected_tv.webp",
+      "bytes": 67334,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "content.hp-insights-s",
+        "rendered": "400x249"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c08e61dd03920d257f61d_ad-duplication-feature.webp",
+      "bytes": 66406,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cab9e98e6fae0eae49ff4d_683eda8b7dcdedfa1a0fb6d8_subaru_atv_advantage_campaign-p-800.webp",
+      "bytes": 66254,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog",
+        "section": "content.blog-main-s",
+        "rendered": "432x269"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671a484a6f21714180ed17ec_ctr-p-1080.webp",
+      "bytes": 66120,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/e5g6K/plain-s__d97d7c12.png",
+      "bytes": 65883,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/8y6qR/plain-s__8f5730ec.png",
+      "bytes": 65655,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c0136df364cae67feee6a_google-ads.webp",
+      "bytes": 65540,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c013624cb2a0f6d78c10b_social-ads.webp",
+      "bytes": 65512,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba97d5b0c6896754dd30_67a414c33894a877f440524a_cape_town-p-800.webp",
+      "bytes": 65406,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/ctrl-a-ai-online-marketing-tool-for-small-businesses",
+        "section": "content.art-related-s",
+        "rendered": "432x269"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/myQta/plain-s__f67bbdbf.png",
+      "bytes": 64560,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6783a1a21f1cbdbead60fca8_Image from Squoosh (1)-p-800.webp",
+      "bytes": 64276,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/ctrl-a-ai-online-marketing-tool-for-small-businesses",
+        "section": "content.art-related-s",
+        "rendered": "432x269"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/bm18T/plain-s__f67bbdbf.png",
+      "bytes": 63515,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/69fdd0b0e8941323f97b95e3_click_n_collect-p-800.jpg",
+      "bytes": 63415,
+      "role": "hero-image",
+      "evidence": {
+        "route": "/blog",
+        "section": "hero.blog-hero-s",
+        "rendered": "668x415"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/QXhQf/plain-s__1d365e2d.png",
+      "bytes": 63262,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a89e46c3835a7523ef21e9e_og-solutions-en.png",
+      "bytes": 62784,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/Ma3OA/plain-s__cc5fd325.png",
+      "bytes": 62238,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671a484ac92187495e639b92_halfpage-ad-p-1080.webp",
+      "bytes": 60824,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/Fqnff/plain-s__1d365e2d.png",
+      "bytes": 60461,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/26uTP/plain-s__e0565dbb.png",
+      "bytes": 60355,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c0136df364cae67feee6a_google-ads-p-1600.webp",
+      "bytes": 60064,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cab9fe7d24b10a0c77734a_67e5787c2d86980216238128_social-media-p-1080.webp",
+      "bytes": 59558,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c013624cb2a0f6d78c10b_social-ads-p-1600.webp",
+      "bytes": 59242,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba6efd09ef3ac6fc4a1b_67a494e5d93433b80f8b5f6a_city-p-800.webp",
+      "bytes": 59094,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671a484a4920922bc81aa643_impressions-p-800.webp",
+      "bytes": 58962,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "support.hp-platform-s",
+        "rendered": "423x543"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a89e46cb5ae54a09cceccd9_og-home-de.png",
+      "bytes": 58664,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6728fc510e2a5530bdbda852_hp-violet.lottie",
+      "bytes": 58639,
+      "role": "animation",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6783a1cc295e94db1f9de44f_Image from Squoosh (4)-p-1600.webp",
+      "bytes": 58396,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/data-analysis-for-multinational-corporations",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/1ojPw/plain-s__251c29cb.png",
+      "bytes": 58266,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c01368ab636acb820bb56_video-ads-p-1600.webp",
+      "bytes": 58140,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a89e46c35d54d213e54067c_og-solutions-de.png",
+      "bytes": 57152,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/674d744801bcde6cd2c8a7ae_sparkassemain.avif",
+      "bytes": 57045,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "proof.hp-customer-s",
+        "rendered": "550x550"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68db898d102cd5fb09dbe129_handwerker_sichtbarkeit_deutschland-p-800.jpg",
+      "bytes": 56852,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog",
+        "section": "content.blog-main-s",
+        "rendered": "432x269"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/QiUkV/plain-s__cc5fd325.png",
+      "bytes": 56591,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/flag-icons/flags/4x3/me.svg",
+      "bytes": 56551,
+      "role": "illustration",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/fctq3/plain-s__1d365e2d.png",
+      "bytes": 56295,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/8fGCE/plain-s__f67bbdbf.png",
+      "bytes": 55472,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67ae25d808a3acdc20c82c1f_1500x1000_JF-p-800.webp",
+      "bytes": 55344,
+      "role": "content-image",
+      "evidence": {
+        "route": "/de",
+        "section": "proof.hp-customer-s",
+        "rendered": "550x558"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c08e61dd03920d257f61d_ad-duplication-feature-p-1600.webp",
+      "bytes": 54968,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/fWXHW/plain-s__f67bbdbf.png",
+      "bytes": 53721,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba51139a4f2441f2d0b1_67a4f5c11536a4d4bb95198f_store_chain3-p-800.webp",
+      "bytes": 53654,
+      "role": "content-image",
+      "evidence": {
+        "route": "/category/article",
+        "section": "support.bl-category-main-s",
+        "rendered": "432x269"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a7b5bc408a99211c83badbf_Container-2.avif",
+      "bytes": 53531,
+      "role": "content-image",
+      "evidence": {
+        "route": "/solutions",
+        "section": "content.nsl-local-s",
+        "rendered": "617x163"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/v8KDl/full.png",
+      "bytes": 52664,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba2b095abc61c94068a2_67a777e98007474127160c5f_connected_tv-p-2000.webp",
+      "bytes": 52614,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6783a1c15ee17587313c2542_Image from Squoosh (5).webp",
+      "bytes": 52078,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/these-textile-retailers-dominate-germany",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67d83cf6f063a8fca7f74dc8_sparda-bank-west-p-500.jpg",
+      "bytes": 49379,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671a484a6f21714180ed17ec_ctr-p-800.webp",
+      "bytes": 49334,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "support.hp-platform-s",
+        "rendered": "423x543"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/WhVww/plain-s__1d365e2d.png",
+      "bytes": 49329,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a89e46ce1b5a04b8b26ba9a_og-home-en.png",
+      "bytes": 49007,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6783a43e5ee17587313e194a_Localyzer Website Launch 2024-p-500.webp",
+      "bytes": 48974,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6783a1b2e565c7941765664e_Image from Squoosh (3).webp",
+      "bytes": 48790,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/location-analysis-german-cardealership-hotspots",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6a734102d28fb853c914f4db_26MY_Eclipse_Cross_Line_Up-p-800.jpeg",
+      "bytes": 48520,
+      "role": "hero-image",
+      "evidence": {
+        "route": "/de/blog",
+        "section": "hero.blog-hero-s",
+        "rendered": "668x415"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/fMz8e/plain-s__e0565dbb.png",
+      "bytes": 48371,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67a3c168a960ee42ff6e16d6_g2.png",
+      "bytes": 48270,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/what-are-the-benefits-of-local-online-marketing-for-retail-chains-with-a-decentralized-store-structure",
+        "section": "content.art-content-w",
+        "rendered": "896x333"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c08e62fd8311adadc7c45_ad-creation-tools.webp",
+      "bytes": 48106,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/ye6Rm/plain-s__8f5730ec.png",
+      "bytes": 47914,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671fb078bc159bfdd9e096b0_roadmap-2.webp",
+      "bytes": 46888,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/672c955f068cd76761ca1396_672c954ed538564737bce2f1_roadmap-2.webp",
+      "bytes": 46888,
+      "role": "content-image",
+      "evidence": {
+        "route": "/about",
+        "section": "content.ab-timeline-s",
+        "rendered": "404x263"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2ac07a9438aed6b13e2174_localzyer-mark.avif",
+      "bytes": 46672,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671f8802b829732d99c26f04_about-2.webp",
+      "bytes": 46634,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/674d7958f26b0c0ef664b673_Frame 427321629.avif",
+      "bytes": 45936,
+      "role": "hero-image",
+      "evidence": {
+        "route": "/about",
+        "section": "hero.ab-hero-s",
+        "rendered": "694x564"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/A8QFa/plain-s__7152e3fd.png",
+      "bytes": 45925,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6912060f819c208f84b5b882_Header_ctlr+a_en-p-1080.png",
+      "bytes": 45895,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671a484ac92187495e639b92_halfpage-ad-p-800.webp",
+      "bytes": 45814,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "support.hp-platform-s",
+        "rendered": "423x543"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/69120927d3ec0c8982469166_Header_ctlr+a_de-p-1080.png",
+      "bytes": 45804,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/oqzGx/plain-s__1d365e2d.png",
+      "bytes": 45172,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671f880366d2da2fd78f3d53_about-1-p-500.webp",
+      "bytes": 45144,
+      "role": "content-image",
+      "evidence": {
+        "route": "/about",
+        "section": "content.ab-founded-s",
+        "rendered": "540x380"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/Kwj8H/plain-s__1d365e2d.png",
+      "bytes": 45111,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cabaabbae5b4c56eb1ac26_67a4072a2e7f2e71c808f87f_architecture_small-p-500.webp",
+      "bytes": 44642,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cababaf428cb9095bdace2_67a3e548a2cdf09c22d67b28_hyper-p-500.jpg",
+      "bytes": 44484,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/v7sff/plain-s__cc5fd325.png",
+      "bytes": 44350,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cabaf1e809a492fb9c70f1_67a322e81b93f4d1aa723485_light-p-2000.webp",
+      "bytes": 44080,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671a484b1131cae3c951327b_audience-p-500.webp",
+      "bytes": 43966,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba1977540672ae51ce88_67a914862232095413145b08_omr_featured-p-1080.webp",
+      "bytes": 43044,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2abe8876a163ef813e3ad3_localyzer-print.avif",
+      "bytes": 42018,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/693ac1ee5a32b0964aadf546_xmas_market_localyzer_study-p-500.jpg",
+      "bytes": 41559,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "content.hp-insights-s",
+        "rendered": "400x249"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cab9d31250ac97475d5a19_687901c6572aef602843c0f5_print_to_pixel-p-1080.webp",
+      "bytes": 41526,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671a484a86c9e34860be6603_location-p-500.webp",
+      "bytes": 41322,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "support.hp-platform-s",
+        "rendered": "423x543"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/67151a2e4163ae8c63091915_national-2-condensed-bold.woff2",
+      "bytes": 41302,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/67151a284e0de2cd56552965_national-2-condensed-medium.woff2",
+      "bytes": 41264,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/OEoi7/plain-s__78a60e6a.png",
+      "bytes": 41257,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/pKNyz/full.png",
+      "bytes": 41152,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba2b095abc61c94068a2_67a777e98007474127160c5f_connected_tv-p-1600.webp",
+      "bytes": 40558,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/why-local-video-ads-outperform-traditional-display-ads",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68e4f2527a47f3db446468dc_sean-zielinski-bqPL7m6Z_c0-unsplash-p-500.jpg",
+      "bytes": 40416,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/67151a1ed34c8f513ac05614_national-2-condensed-regular.woff2",
+      "bytes": 39485,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/u1aX6/plain-s__1d365e2d.png",
+      "bytes": 39317,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/698c57458cfc323fb4165f8e_couple_flowers_s-p-500.jpg",
+      "bytes": 39268,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "content.hp-insights-s",
+        "rendered": "400x249"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/683eda8b7dcdedfa1a0fb6d8_subaru_atv_advantage_campaign-p-500.jpg",
+      "bytes": 39129,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/7II1T/plain-s__f67bbdbf.png",
+      "bytes": 39129,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c08e62fd8311adadc7c45_ad-creation-tools-p-1600.webp",
+      "bytes": 39118,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c0136df364cae67feee6a_google-ads-p-1080.webp",
+      "bytes": 38968,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cab9fe7d24b10a0c77734a_67e5787c2d86980216238128_social-media-p-800.webp",
+      "bytes": 38676,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog",
+        "section": "content.blog-main-s",
+        "rendered": "432x269"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba3df121327a338c3bea_67a5e2c1e6bbc30a3f222a95_omkb.webp",
+      "bytes": 38602,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/2022-omkb-digital-business-conference",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c013624cb2a0f6d78c10b_social-ads-p-1080.webp",
+      "bytes": 38388,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6916f9becca869bb175a1163_snow_football_field_s-p-500.jpg",
+      "bytes": 37946,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2abe8876a163ef813e3ad3_localyzer-print-p-1080.avif",
+      "bytes": 37313,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6783a1cc295e94db1f9de44f_Image from Squoosh (4)-p-1080.webp",
+      "bytes": 37082,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6783a1c15ee17587313c2542_Image from Squoosh (5)-p-1080.webp",
+      "bytes": 36316,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cabad1a3ccb2ae6418f090_67a3c289f0ccfc7ee08f5d1b_franchising_small-p-500.webp",
+      "bytes": 36142,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c08e61dd03920d257f61d_ad-duplication-feature-p-1080.webp",
+      "bytes": 35168,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6a6c51d8db666cf15d9a5b37_my-profit-tutor-PPC6rg_Zzm8-unsplash-p-500.jpg",
+      "bytes": 35114,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "content.hp-insights-s",
+        "rendered": "400x249"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/672c9525f4bbe27620bdacea_672c9516e658edc0ffb38830_Ellipse%202.png",
+      "bytes": 34828,
+      "role": "content-image",
+      "evidence": {
+        "route": "/about",
+        "section": "content.ab-timeline-s",
+        "rendered": "80x80"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c01368ab636acb820bb56_video-ads-p-1080.webp",
+      "bytes": 33770,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6783a1d59ed9de44aecf2b83_Image from Squoosh (2)-p-500.webp",
+      "bytes": 33596,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67a4f30462923b80faf674be_b1.png",
+      "bytes": 33546,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/local-regional-online-advertising-for-chain-stores",
+        "section": "content.art-content-w",
+        "rendered": "896x380"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6912060f819c208f84b5b882_Header_ctlr+a_en-p-800.png",
+      "bytes": 33458,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/subaru-addressable-tv-localyzer-campaign-success",
+        "section": "content.art-related-s",
+        "rendered": "432x269"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6783a1b2e565c7941765664e_Image from Squoosh (3)-p-1080.webp",
+      "bytes": 33434,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67a3ba4a6e471e1d81c87476_takko-p-500.webp",
+      "bytes": 33250,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/69120927d3ec0c8982469166_Header_ctlr+a_de-p-800.png",
+      "bytes": 33244,
+      "role": "content-image",
+      "evidence": {
+        "route": "/de/blog/subaru-addressable-tv-localyzer-campaign-success",
+        "section": "content.art-related-s",
+        "rendered": "432x269"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671f8802b829732d99c26f04_about-2-p-800.webp",
+      "bytes": 33066,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/674f0bd72ff4305c9e68dfa9_localyzerTeam happy.avif",
+      "bytes": 32772,
+      "role": "content-image",
+      "evidence": {
+        "route": "/about",
+        "section": "content.ab-founded-s",
+        "rendered": "540x380"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/CfpOy/plain-s__1d365e2d.png",
+      "bytes": 32475,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/Iu8Kx/plain-s__fe6040fc.png",
+      "bytes": 32441,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/v8KDl/plain-s__e0565dbb.png",
+      "bytes": 32187,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67a3c05f687b9aa79b1262ff_g1.png",
+      "bytes": 31879,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/what-are-the-benefits-of-local-online-marketing-for-retail-chains-with-a-decentralized-store-structure",
+        "section": "content.art-content-w",
+        "rendered": "896x550"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671a484a4920922bc81aa643_impressions-p-500.webp",
+      "bytes": 31550,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/69fdd0b0e8941323f97b95e3_click_n_collect-p-500.jpg",
+      "bytes": 31298,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "content.hp-insights-s",
+        "rendered": "400x249"
+      }
+    },
+    {
+      "path": "_ext/upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg",
+      "bytes": 31179,
+      "role": "illustration",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/flag-icons/flags/4x3/hr.svg",
+      "bytes": 31032,
+      "role": "illustration",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cabaf1e809a492fb9c70f1_67a322e81b93f4d1aa723485_light-p-1600.webp",
+      "bytes": 31008,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/online-marketing-without-an-agency",
+        "section": "content.art-image-w",
+        "rendered": "1152x648"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2abd38d36f6b0118a71c37_77e856e9f8d926c013b05f682f36c982_integrationsv2.avif",
+      "bytes": 30760,
+      "role": "content-image",
+      "evidence": {
+        "route": "/solutions",
+        "section": "content.sl-feat-main-s",
+        "rendered": "1376x612"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cab9e98e6fae0eae49ff4d_683eda8b7dcdedfa1a0fb6d8_subaru_atv_advantage_campaign-p-500.webp",
+      "bytes": 30344,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba1977540672ae51ce88_67a914862232095413145b08_omr_featured-p-800.webp",
+      "bytes": 30284,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/2022-omkb-digital-business-conference",
+        "section": "content.art-related-s",
+        "rendered": "432x269"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/672c95a4e2740edb5e63d2e0_672c9594f8c38a67eaa1ca44_roadmap-1.webp",
+      "bytes": 30114,
+      "role": "avatar",
+      "evidence": {
+        "route": "/about",
+        "section": "content.ab-timeline-s",
+        "rendered": "0x0"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/VqGUH/plain-s__1d365e2d.png",
+      "bytes": 29840,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/DMNvu/plain-s__251c29cb.png",
+      "bytes": 29727,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6783a1a21f1cbdbead60fca8_Image from Squoosh (1)-p-500.webp",
+      "bytes": 29036,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba51139a4f2441f2d0b1_67a4f5c11536a4d4bb95198f_store_chain3-p-500.webp",
+      "bytes": 28844,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/672c94faac8e1a308787a5b2_672c94e70a9ce5d641bab44f_Ellipse%201.png",
+      "bytes": 28525,
+      "role": "content-image",
+      "evidence": {
+        "route": "/about",
+        "section": "content.ab-timeline-s",
+        "rendered": "80x80"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2ac07a9438aed6b13e2174_localzyer-mark-p-1080.avif",
+      "bytes": 28520,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68db898d102cd5fb09dbe129_handwerker_sichtbarkeit_deutschland-p-500.jpg",
+      "bytes": 28510,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67ae25d808a3acdc20c82c1f_1500x1000_JF-p-500.webp",
+      "bytes": 28264,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba6efd09ef3ac6fc4a1b_67a494e5d93433b80f8b5f6a_city-p-500.webp",
+      "bytes": 27862,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2abf712fdfd59d406e49ff_localyzer-posting.avif",
+      "bytes": 27276,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba3df121327a338c3bea_67a5e2c1e6bbc30a3f222a95_omkb-p-1080.webp",
+      "bytes": 27174,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671a484a6f21714180ed17ec_ctr-p-500.webp",
+      "bytes": 27078,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014–.svg",
+      "bytes": 26708,
+      "role": "illustration",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2abe8876a163ef813e3ad3_localyzer-print-p-800.avif",
+      "bytes": 26684,
+      "role": "content-image",
+      "evidence": {
+        "route": "/solutions",
+        "section": "content.sl-feat-common-s",
+        "rendered": "539x539"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cab9d31250ac97475d5a19_687901c6572aef602843c0f5_print_to_pixel-p-800.webp",
+      "bytes": 26626,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog",
+        "section": "content.blog-main-s",
+        "rendered": "432x269"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c013624cb2a0f6d78c10b_social-ads-p-800.webp",
+      "bytes": 26582,
+      "role": "content-image",
+      "evidence": {
+        "route": "/solutions",
+        "section": "content.sl-feat-common-s",
+        "rendered": "539x539"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c0136df364cae67feee6a_google-ads-p-800.webp",
+      "bytes": 26464,
+      "role": "content-image",
+      "evidence": {
+        "route": "/solutions",
+        "section": "content.sl-feat-common-s",
+        "rendered": "539x539"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671a484bb3cba160885380e9_clicks.webp",
+      "bytes": 26382,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba97d5b0c6896754dd30_67a414c33894a877f440524a_cape_town-p-500.webp",
+      "bytes": 25830,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2abf712fdfd59d406e49ff_localyzer-posting-p-1080.avif",
+      "bytes": 25364,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6783a1cc295e94db1f9de44f_Image from Squoosh (4)-p-800.webp",
+      "bytes": 25286,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba2b095abc61c94068a2_67a777e98007474127160c5f_connected_tv-p-1080.webp",
+      "bytes": 25248,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/upload.wikimedia.org/wikipedia/fr/0/04/RB_Leipzig_2014_logo.svg",
+      "bytes": 25138,
+      "role": "illustration",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c08e62fd8311adadc7c45_ad-creation-tools-p-1080.webp",
+      "bytes": 25102,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6715180f4d1abab1b3f9adf9_OpenSauceSans Medium.woff2",
+      "bytes": 25092,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6783a1c15ee17587313c2542_Image from Squoosh (5)-p-800.webp",
+      "bytes": 24866,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671a484ac92187495e639b92_halfpage-ad-p-500.webp",
+      "bytes": 24726,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6718b6181e1c1075db0f0d48_Open Sauce SemiBold.woff2",
+      "bytes": 24204,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6715178b14c39bfea0af4bec_OpenSauceSans Regular.woff2",
+      "bytes": 24184,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c08e61dd03920d257f61d_ad-duplication-feature-p-800.webp",
+      "bytes": 24092,
+      "role": "content-image",
+      "evidence": {
+        "route": "/de/solutions",
+        "section": "content.sl-feat-templ-s",
+        "rendered": "668x433"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6783a1b2e565c7941765664e_Image from Squoosh (3)-p-800.webp",
+      "bytes": 22034,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c01368ab636acb820bb56_video-ads-p-800.webp",
+      "bytes": 21528,
+      "role": "content-image",
+      "evidence": {
+        "route": "/solutions",
+        "section": "content.sl-feat-common-s",
+        "rendered": "539x539"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cab9fe7d24b10a0c77734a_67e5787c2d86980216238128_social-media-p-500.webp",
+      "bytes": 20414,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/69120927d3ec0c8982469166_Header_ctlr+a_de-p-500.png",
+      "bytes": 20086,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6a734102d28fb853c914f4db_26MY_Eclipse_Cross_Line_Up-p-500.jpeg",
+      "bytes": 19982,
+      "role": "content-image",
+      "evidence": {
+        "route": "/de",
+        "section": "content.hp-insights-s",
+        "rendered": "400x249"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6912060f819c208f84b5b882_Header_ctlr+a_en-p-500.png",
+      "bytes": 19687,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/custom/social-sharing/twitter.png",
+      "bytes": 19554,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671a484bb3cba160885380e9_clicks-p-800.webp",
+      "bytes": 19292,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "support.hp-platform-s",
+        "rendered": "423x543"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2ac07a9438aed6b13e2174_localzyer-mark-p-800.avif",
+      "bytes": 19269,
+      "role": "content-image",
+      "evidence": {
+        "route": "/solutions",
+        "section": "content.nsol-manage-s",
+        "rendered": "648x648"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba3df121327a338c3bea_67a5e2c1e6bbc30a3f222a95_omkb-p-800.webp",
+      "bytes": 18732,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/70-000-local-online-campaigns-how-insurance-companies-car-brands-and-retailers-reach-customers-locally-online",
+        "section": "content.art-related-s",
+        "rendered": "432x269"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671f8802b829732d99c26f04_about-2-p-500.webp",
+      "bytes": 18502,
+      "role": "content-image",
+      "evidence": {
+        "route": "/about",
+        "section": "content.ab-founded-s",
+        "rendered": "540x380"
+      }
+    },
+    {
+      "path": "_ext/datawrapper.dwcdn.net/pKNyz/plain-s__cc5fd325.png",
+      "bytes": 18238,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2abf712fdfd59d406e49ff_localyzer-posting-p-800.avif",
+      "bytes": 18179,
+      "role": "content-image",
+      "evidence": {
+        "route": "/solutions",
+        "section": "content.sl-feat-common-s",
+        "rendered": "539x539"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67a4f3fce3670c3f3f9572b4_b3.png",
+      "bytes": 18043,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/local-regional-online-advertising-for-chain-stores",
+        "section": "content.art-content-w",
+        "rendered": "650x438"
+      }
+    },
+    {
+      "path": "_ext/upload.wikimedia.org/wikipedia/commons/4/44/1._FC_Union_Berlin_Logo.svg",
+      "bytes": 17978,
+      "role": "illustration",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba1977540672ae51ce88_67a914862232095413145b08_omr_featured-p-500.webp",
+      "bytes": 17602,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba2b095abc61c94068a2_67a777e98007474127160c5f_connected_tv-p-800.webp",
+      "bytes": 17466,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/christmas-market-analysis-germany-2025",
+        "section": "content.art-related-s",
+        "rendered": "432x269"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c08e62fd8311adadc7c45_ad-creation-tools-p-800.webp",
+      "bytes": 17392,
+      "role": "content-image",
+      "evidence": {
+        "route": "/de/solutions",
+        "section": "content.sl-feat-templ-s",
+        "rendered": "668x433"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/fonts/roboto/roboto_400italic.woff2",
+      "bytes": 17324,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6728dfcb0b80e81f9747fb63_Localyzer HP Cyan Animation v1.0.lottie",
+      "bytes": 17295,
+      "role": "animation",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2abd38d36f6b0118a71c37_77e856e9f8d926c013b05f682f36c982_integrationsv2-p-500.png",
+      "bytes": 17149,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/fonts/roboto/roboto_700italic.woff2",
+      "bytes": 17020,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cabaf1e809a492fb9c70f1_67a322e81b93f4d1aa723485_light-p-1080.webp",
+      "bytes": 15900,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/fonts/roboto/roboto_700.woff2",
+      "bytes": 15816,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/fonts/roboto/roboto_400.woff2",
+      "bytes": 15736,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2abe8876a163ef813e3ad3_localyzer-print-p-500.avif",
+      "bytes": 15290,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c013624cb2a0f6d78c10b_social-ads-p-500.webp",
+      "bytes": 14432,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/flag-icons/flags/4x3/mt.svg",
+      "bytes": 13958,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6783a1cc295e94db1f9de44f_Image from Squoosh (4)-p-500.webp",
+      "bytes": 13888,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c0136df364cae67feee6a_google-ads-p-500.webp",
+      "bytes": 13438,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c08e61dd03920d257f61d_ad-duplication-feature-p-500.webp",
+      "bytes": 13276,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2f9c569c1c48fe158bd45b_Frame 469551.avif",
+      "bytes": 12985,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cab9d31250ac97475d5a19_687901c6572aef602843c0f5_print_to_pixel-p-500.webp",
+      "bytes": 12980,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6728fca4f75259aa3ab71331_hp-jungle.lottie",
+      "bytes": 12927,
+      "role": "animation",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6783a1c15ee17587313c2542_Image from Squoosh (5)-p-500.webp",
+      "bytes": 12880,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
+      "bytes": 12451,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a7b5bc4d04bfd0d606831ff_Container-1.avif",
+      "bytes": 12341,
+      "role": "content-image",
+      "evidence": {
+        "route": "/solutions",
+        "section": "content.nsl-local-s",
+        "rendered": "422x117"
+      }
+    },
+    {
+      "path": "_ext/upload.wikimedia.org/wikipedia/commons/e/eb/VfB_Stuttgart_1893_Logo.svg",
+      "bytes": 12311,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2ac07a9438aed6b13e2174_localzyer-mark-p-500.avif",
+      "bytes": 11868,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67a4f3d2688e43b9b300e9de_b2.png",
+      "bytes": 11778,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/local-regional-online-advertising-for-chain-stores",
+        "section": "content.art-content-w",
+        "rendered": "734x307"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/674d7161b4208b9e97b0f785_renck.png",
+      "bytes": 11694,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "proof.hp-customer-s",
+        "rendered": "0x0"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/6783a1b2e565c7941765664e_Image from Squoosh (3)-p-500.webp",
+      "bytes": 11574,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2abf712fdfd59d406e49ff_localyzer-posting-p-500.avif",
+      "bytes": 11529,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671a484bb3cba160885380e9_clicks-p-500.webp",
+      "bytes": 11092,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg",
+      "bytes": 11063,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2f9c569c1c48fe158bd45b_Frame 469551-p-800.avif",
+      "bytes": 10901,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a7b5bc4726d5b7c3ab5d798_Container.avif",
+      "bytes": 10809,
+      "role": "content-image",
+      "evidence": {
+        "route": "/solutions",
+        "section": "content.nsl-local-s",
+        "rendered": "422x133"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba3df121327a338c3bea_67a5e2c1e6bbc30a3f222a95_omkb-p-500.webp",
+      "bytes": 10736,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2f9c56172fd222e561d474_Frame 469550.avif",
+      "bytes": 10648,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c01368ab636acb820bb56_video-ads-p-500.webp",
+      "bytes": 10640,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/upload.wikimedia.org/wikipedia/en/6/6d/SC_Freiburg_logo.svg",
+      "bytes": 10238,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/upload.wikimedia.org/wikipedia/de/b/b5/Logo_FC_Augsburg.svg",
+      "bytes": 10110,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/d3e54v103j8qbb.cloudfront.net/img/webflow-badge-text-d2.c82cec3b78.svg",
+      "bytes": 9912,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cabaf1e809a492fb9c70f1_67a322e81b93f4d1aa723485_light-p-800.webp",
+      "bytes": 9836,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/welcome-to-the-triple-a-software-architecture-for-online-marketing-automation",
+        "section": "content.art-related-s",
+        "rendered": "432x269"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68caba2b095abc61c94068a2_67a777e98007474127160c5f_connected_tv-p-500.webp",
+      "bytes": 9810,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/673d93db8d6cb78bb3280edd_Logo.svg.svg",
+      "bytes": 9765,
+      "role": "logo",
+      "evidence": {
+        "route": "/",
+        "section": "hero.hp-hero-c",
+        "rendered": "148x38"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2f9c56172fd222e561d474_Frame 469550-p-800.avif",
+      "bytes": 9488,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/671c08e62fd8311adadc7c45_ad-creation-tools-p-500.webp",
+      "bytes": 9264,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/flag-icons/flags/4x3/pt.svg",
+      "bytes": 8016,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/673d93d2ebab3c93180a6721_Group 427321509.svg",
+      "bytes": 7917,
+      "role": "logo",
+      "evidence": {
+        "route": "/",
+        "section": "hero.hp-hero-c",
+        "rendered": "172x38"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/674d72221f8505f824842e70_sternpark.png",
+      "bytes": 7765,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "proof.hp-customer-s",
+        "rendered": "0x0"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2f9c56181722592a0e1f2d_Frame 469552.avif",
+      "bytes": 7588,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/upload.wikimedia.org/wikipedia/de/3/32/Logo_Eintracht_Frankfurt_1998.svg",
+      "bytes": 7425,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2f9c56181722592a0e1f2d_Frame 469552-p-800.avif",
+      "bytes": 6757,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2f9c56172fd222e561d474_Frame 469550-p-500.avif",
+      "bytes": 6625,
+      "role": "content-image",
+      "evidence": {
+        "route": "/solutions",
+        "section": "content.sl-feat-main-s",
+        "rendered": "432x431"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2f9c569c1c48fe158bd45b_Frame 469551-p-500.avif",
+      "bytes": 6342,
+      "role": "content-image",
+      "evidence": {
+        "route": "/solutions",
+        "section": "content.sl-feat-main-s",
+        "rendered": "432x431"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/673d93f0962ccfa8094973f0_takko_logo.svg.svg",
+      "bytes": 5679,
+      "role": "logo",
+      "evidence": {
+        "route": "/",
+        "section": "hero.hp-hero-c",
+        "rendered": "118x38"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6728ea56786208229f9b7f93_hp-lemon.lottie",
+      "bytes": 5239,
+      "role": "animation",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/68cabaf1e809a492fb9c70f1_67a322e81b93f4d1aa723485_light-p-500.webp",
+      "bytes": 5236,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/672a131dfafc147b9759936a_zimmer-logo.svg",
+      "bytes": 5232,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "proof.hp-customer-s",
+        "rendered": "0x0"
+      }
+    },
+    {
+      "path": "_ext/upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_München_logo_(2017).svg",
+      "bytes": 5155,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67af113d106673720ad3610a_Landesbausparkassen_w.svg",
+      "bytes": 5095,
+      "role": "logo",
+      "evidence": {
+        "route": "/",
+        "section": "hero.hp-hero-c",
+        "rendered": "99x38"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2f9c56181722592a0e1f2d_Frame 469552-p-500.avif",
+      "bytes": 4902,
+      "role": "content-image",
+      "evidence": {
+        "route": "/solutions",
+        "section": "content.sl-feat-main-s",
+        "rendered": "432x431"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/678fd0697c0cd4f09dfc471a_webclip_localyzer.png",
+      "bytes": 4856,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67ae24740d599f2546de6708_Jeans-Fritz_Logo_b.png",
+      "bytes": 4710,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "proof.hp-customer-s",
+        "rendered": "0x0"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67af0a34143040879d7e8e3f_Jeans-Fritz_Logo_w.svg",
+      "bytes": 4262,
+      "role": "logo",
+      "evidence": {
+        "route": "/",
+        "section": "hero.hp-hero-c",
+        "rendered": "138x38"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67af1379babdf9dca722189b_subaru_w.svg",
+      "bytes": 4202,
+      "role": "logo",
+      "evidence": {
+        "route": "/",
+        "section": "hero.hp-hero-c",
+        "rendered": "140x38"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67d839a5fa5357b21f71392f_Sparda_Bank_logo_w.svg",
+      "bytes": 4116,
+      "role": "logo",
+      "evidence": {
+        "route": "/",
+        "section": "hero.hp-hero-c",
+        "rendered": "203x38"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/673d93c7ddce559bb80392e4_electrolux_logo.svg.svg",
+      "bytes": 3922,
+      "role": "logo",
+      "evidence": {
+        "route": "/",
+        "section": "hero.hp-hero-c",
+        "rendered": "163x38"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/674d73a5c9f3ea39719c8f8a_electrolux_logo.svg",
+      "bytes": 3769,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "proof.hp-customer-s",
+        "rendered": "0x0"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/flag-icons/flags/4x3/al.svg",
+      "bytes": 3126,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg",
+      "bytes": 3071,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+      "bytes": 2749,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/673d93b79a3e6c5ac60706c9_canon_logo.svg.svg",
+      "bytes": 2680,
+      "role": "logo",
+      "evidence": {
+        "route": "/",
+        "section": "hero.hp-hero-c",
+        "rendered": "171x38"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67af11b29d33dced8cc6e117_zaunteam_w.svg",
+      "bytes": 2363,
+      "role": "logo",
+      "evidence": {
+        "route": "/",
+        "section": "hero.hp-hero-c",
+        "rendered": "223x38"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/67d83cf9b7064f006e49d1b7_Sparda_Bank_logo_b.png",
+      "bytes": 2193,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "proof.hp-customer-s",
+        "rendered": "215x41"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/674d73c9d1e1077c7d5c3d5e_sparkasse.svg",
+      "bytes": 1970,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "proof.hp-customer-s",
+        "rendered": "0x0"
+      }
+    },
+    {
+      "path": "_ext/upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+      "bytes": 1840,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a2abf275fc3038ec3c94878_localyzer-checkmark.svg",
+      "bytes": 1589,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/upload.wikimedia.org/wikipedia/commons/8/81/Borussia_Mönchengladbach_logo.svg",
+      "bytes": 1242,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/upload.wikimedia.org/wikipedia/commons/f/f3/Logo-VfL-Wolfsburg.svg",
+      "bytes": 1192,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/674d725f5b4c6b1830843447_Landesbausparkassen 1.png",
+      "bytes": 974,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "proof.hp-customer-s",
+        "rendered": "0x0"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a7b6406f19b0c999f6e0de9_Group 427321626.svg",
+      "bytes": 945,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/flag-icons/flags/4x3/gr.svg",
+      "bytes": 868,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+      "bytes": 867,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/678fd066d4ac9eeb5edd69b8_localyzer_fav.png",
+      "bytes": 757,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a7b5c3c977fb1857787a886_Group 427321622.svg",
+      "bytes": 722,
+      "role": "illustration",
+      "evidence": {
+        "route": "/solutions",
+        "section": "content.nsl-local-s",
+        "rendered": "560x252"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a7b6406e389a3838fbc5251_Group 427321627.svg",
+      "bytes": 576,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/6720ad3401ceca1f613a8361/673d93e6c8930f09f6fcdd3c_Mitsubishi_motors_new_logo 1.svg",
+      "bytes": 572,
+      "role": "logo",
+      "evidence": {
+        "route": "/",
+        "section": "hero.hp-hero-c",
+        "rendered": "43x38"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/flag-icons/flags/4x3/tr.svg",
+      "bytes": 549,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/flag-icons/flags/4x3/is.svg",
+      "bytes": 509,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6a7b5c3c758a5f2939606abf_Group 427321621.svg",
+      "bytes": 457,
+      "role": "illustration",
+      "evidence": {
+        "route": "/solutions",
+        "section": "content.nsl-local-s",
+        "rendered": "570x104"
+      }
+    },
+    {
+      "path": "_ext/d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon-d2.89e12c322e.svg",
+      "bytes": 421,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/flag-icons/flags/4x3/no.svg",
+      "bytes": 318,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/flag-icons/flags/4x3/ie.svg",
+      "bytes": 289,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/flag-icons/flags/4x3/it.svg",
+      "bytes": 289,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/flag-icons/flags/4x3/dk.svg",
+      "bytes": 236,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/flag-icons/flags/4x3/bg.svg",
+      "bytes": 225,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6718f6b7f76fdf27512d9d54_deco-style-3.svg",
+      "bytes": 216,
+      "role": "illustration",
+      "evidence": {
+        "route": "/",
+        "section": "content.hp-trust-s",
+        "rendered": "325x332"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6728fac2eed8c2e6959aa221_mask.svg",
+      "bytes": 208,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/static.dwcdn.net/css/flag-icons/flags/4x3/at.svg",
+      "bytes": 195,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/6718f6b5ffa5be802b696e39_deco-style-1.svg",
+      "bytes": 182,
+      "role": "illustration",
+      "evidence": {
+        "route": "/de",
+        "section": "content.hp-trust-s",
+        "rendered": "325x357"
+      }
+    },
+    {
+      "path": "_ext/d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg",
+      "bytes": 167,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.prod.website-files.com/671511cf4e0de2cd564eaa9d/678e780b80470c62310469df_fs-cc-toggle.svg",
+      "bytes": 149,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/pt.dwcdn.net/8fGCE/datawrapper__d800a501.gif",
+      "bytes": 43,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/pt.dwcdn.net/fctq3/datawrapper__d800a501.gif",
+      "bytes": 43,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/pt.dwcdn.net/7II1T/datawrapper__d800a501.gif",
+      "bytes": 43,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/pt.dwcdn.net/T8x3P/datawrapper__b59b5bef.gif",
+      "bytes": 43,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/pt.dwcdn.net/KnHgO/datawrapper__d800a501.gif",
+      "bytes": 43,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/pt.dwcdn.net/Ma3OA/datawrapper__d800a501.gif",
+      "bytes": 43,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/pt.dwcdn.net/QiUkV/datawrapper__d800a501.gif",
+      "bytes": 43,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "mailto:info@localyzer.com",
+      "bytes": 0,
+      "role": "founder-contact-email",
+      "evidence": {
+        "route": "/contact",
+        "section": "support.ct-main-s",
+        "note": "mailto: link found in page content"
+      }
+    },
+    {
+      "path": "mailto:datenschutz@localyzer.de",
+      "bytes": 0,
+      "role": "founder-contact-email",
+      "evidence": {
+        "route": "/legal/privacy-policy",
+        "section": "content.legal-s",
+        "note": "mailto: link found in page content"
+      }
+    },
+    {
+      "path": "mailto:experts@localyzer.de",
+      "bytes": 0,
+      "role": "founder-contact-email",
+      "evidence": {
+        "route": "/open-positions/senior-sales-consultant",
+        "section": "content.job-main-s",
+        "note": "mailto: link found in page content"
+      }
+    }
+  ],
+  "embeds": [
+    {
+      "type": "form",
+      "url": "https://dc49f71b.sibforms.com/serve/MUIFAIjCXXBTf5jf2Opvm-gXB8TJ4QtrxPwB4q1qT-TmgX5OP_37sSLXVpUwiXQSSydpS8yArYMrmQFTmglDdlGX7YP7eLPLbmHjJfUOsMoQiplkSfwCDbFSpe37HGaVaEA56HBxzsZLnDEZEPkDpdsaKjlsj9ISbvMuFKhE2J0Yma7xZVY_yU3_nI08SP9WnemMJOB_Puo6up1u",
+      "route": "/blog"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/CfpOy/1/",
+      "route": "/blog/world-cup-2026-sponsor-stocks-analysis"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/VqGUH/1/",
+      "route": "/blog/world-cup-2026-sponsor-stocks-analysis"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/Kwj8H/1/",
+      "route": "/blog/world-cup-2026-sponsor-stocks-analysis"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/WhVww/1/",
+      "route": "/blog/click-and-collect-fashion-retail-study-germany"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/8y6qR/10/",
+      "route": "/blog/click-and-collect-fashion-retail-study-germany"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/QXhQf/1/",
+      "route": "/blog/click-and-collect-fashion-retail-study-germany"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/OEoi7/11/",
+      "route": "/blog/click-and-collect-fashion-retail-study-germany"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/fFPCP/5/",
+      "route": "/blog/valentines-day-index-2026-city-ranking-supply-demand-germany"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/v7sff/3/",
+      "route": "/blog/valentines-day-index-2026-city-ranking-supply-demand-germany"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/IOAXD/3/",
+      "route": "/blog/valentines-day-index-2026-city-ranking-supply-demand-germany"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/myQta/2/",
+      "route": "/blog/valentines-day-index-2026-city-ranking-supply-demand-germany"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/Tu4pD/1/",
+      "route": "/blog/christmas-market-analysis-germany-2025"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/LSg3t/1/",
+      "route": "/blog/bundesliga-advent-calendars-prices-2025"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/mTL9s/4/",
+      "route": "/blog/bundesliga-advent-calendars-prices-2025"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/m9F69/2/",
+      "route": "/blog/digital-visibility-east-vs-west-how-germanys-federal-states-perform-online"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/bm18T/2/",
+      "route": "/blog/digital-visibility-east-vs-west-how-germanys-federal-states-perform-online"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/fWXHW/2/",
+      "route": "/blog/digital-visibility-east-vs-west-how-germanys-federal-states-perform-online"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/pKNyz/3/",
+      "route": "/blog/tradespeople-online-availability-germany"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/v8KDl/3/",
+      "route": "/blog/tradespeople-online-availability-germany"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/kM8c0/1/",
+      "route": "/blog/social-media-analysis-top-100-sme"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/4Dqwc/1/",
+      "route": "/blog/social-media-analysis-top-100-sme"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/EB3OL/1/",
+      "route": "/blog/city-center-check-germany"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/JPbcg/1/",
+      "route": "/blog/city-center-check-germany"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/ujz24/1/",
+      "route": "/blog/germany-business-analysis"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/fMz8e/4/",
+      "route": "/blog/vacation-check-these-are-the-germans-most-popular-travel-destinations"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/KkjIZ/4/",
+      "route": "/blog/vacation-check-these-are-the-germans-most-popular-travel-destinations"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/8fGCE/2/",
+      "route": "/blog/location-analysis-german-cardealership-hotspots"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/fctq3/1/",
+      "route": "/blog/location-analysis-german-cardealership-hotspots"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/7II1T/2/",
+      "route": "/blog/these-textile-retailers-dominate-germany"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/KnHgO/1/",
+      "route": "/blog/these-textile-retailers-dominate-germany"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/T8x3P/1/",
+      "route": "/blog/these-textile-retailers-dominate-germany"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/QiUkV/3/",
+      "route": "/blog/local-online-marketing-these-cities-lead-in-advertising-reach"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/Ma3OA/3/",
+      "route": "/blog/local-online-marketing-these-cities-lead-in-advertising-reach"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/Iu8Kx/5/",
+      "route": "/de/blog/wm-2026-sponsoren-aktien-analyse"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/DMNvu/5/",
+      "route": "/de/blog/wm-2026-sponsoren-aktien-analyse"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/A8QFa/9/",
+      "route": "/de/blog/wm-2026-sponsoren-aktien-analyse"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/Fqnff/1/",
+      "route": "/de/blog/wm-2026-sponsoren-aktien-analyse"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/ye6Rm/6/",
+      "route": "/de/blog/click-and-collect-modehandel-studie-deutschland"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/PB6lO/1/",
+      "route": "/de/blog/click-and-collect-modehandel-studie-deutschland"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/1ojPw/3/",
+      "route": "/de/blog/click-and-collect-modehandel-studie-deutschland"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/u1aX6/1/",
+      "route": "/de/blog/click-and-collect-modehandel-studie-deutschland"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/2uiKj/4/",
+      "route": "/de/blog/valentinstag-index-2026-staedte-ranking-angebot-nachfrage"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/oqzGx/1/",
+      "route": "/de/blog/valentinstag-index-2026-staedte-ranking-angebot-nachfrage"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/e5g6K/7/",
+      "route": "/de/blog/valentinstag-index-2026-staedte-ranking-angebot-nachfrage"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/26uTP/4/",
+      "route": "/de/blog/valentinstag-index-2026-staedte-ranking-angebot-nachfrage"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/JcGMk/2/",
+      "route": "/de/blog/weihnachtsmark-analyse-deutschland-2025"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/MygHs/1/",
+      "route": "/de/blog/social-media-analyse-die-top-100-mittelstaendler"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/FkZw1/1/",
+      "route": "/de/blog/social-media-analyse-die-top-100-mittelstaendler"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/7Q06R/4/",
+      "route": "/de/blog/innenstadt-check-was-deutsche-einkaufsstrassen-an-shoppingerlebnis-bieten-"
+    },
+    {
+      "type": "iframe",
+      "url": "https://datawrapper.dwcdn.net/qmOk2/6/",
+      "route": "/de/blog/innenstadt-check-was-deutsche-einkaufsstrassen-an-shoppingerlebnis-bieten-"
+    }
+  ]
+}

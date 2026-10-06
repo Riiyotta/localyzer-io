@@ -1,0 +1,10 @@
+{
+  "id": "fs-cc-button-text",
+  "name": "fs-cc-button_text",
+  "occurrences": 364,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

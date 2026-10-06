@@ -1,0 +1,10 @@
+{
+  "id": "local-link",
+  "name": "local-link",
+  "occurrences": 178,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

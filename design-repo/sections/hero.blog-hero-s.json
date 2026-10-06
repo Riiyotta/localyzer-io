@@ -1,0 +1,88 @@
+{
+  "id": "hero.blog-hero-s",
+  "category": "HERO",
+  "label": "blog-hero-s",
+  "tag": "section",
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"CURATED MARKETING CONTENT FOR YOU\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 2,
+    "routes": 2,
+    "measuredFrom": [
+      "src/blog/index.html:403-536",
+      "src/de/blog/index.html:403-536"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 5
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 2
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 6,
+        "maxWords": 2
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 2,
+        "titleMaxWords": 16,
+        "bodyMaxWords": 83
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 2,
+        "assetRoles": [
+          "hero-image"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 1706,
+      "columns": 5
+    },
+    "mobile": {
+      "heightPx": 1784,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "5 columns collapse to a single column"
+    ]
+  },
+  "assetRoles": [
+    "hero-image"
+  ],
+  "implementedBy": "src/sections/BlogHeroS.jsx"
+}

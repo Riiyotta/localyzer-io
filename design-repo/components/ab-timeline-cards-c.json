@@ -1,0 +1,16 @@
+{
+  "id": "ab-timeline-cards-c",
+  "name": "ab-timeline-cards-c",
+  "occurrences": 2,
+  "composedOf": [
+    "heading",
+    "image",
+    "link",
+    "paragraph",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/about"
+  }
+}

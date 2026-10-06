@@ -1,0 +1,16 @@
+{
+  "id": "ab-timeline-card-w",
+  "name": "ab-timeline-card-w",
+  "occurrences": 32,
+  "composedOf": [
+    "heading",
+    "image",
+    "link",
+    "paragraph",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/about"
+  }
+}

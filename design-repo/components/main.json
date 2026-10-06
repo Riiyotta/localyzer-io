@@ -1,0 +1,14 @@
+{
+  "id": "main",
+  "name": "main",
+  "occurrences": 75,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/careers"
+  }
+}

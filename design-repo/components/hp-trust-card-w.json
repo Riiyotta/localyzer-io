@@ -1,0 +1,14 @@
+{
+  "id": "hp-trust-card-w",
+  "name": "hp-trust-card-w",
+  "occurrences": 8,
+  "composedOf": [
+    "heading",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

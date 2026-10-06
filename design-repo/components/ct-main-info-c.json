@@ -1,0 +1,16 @@
+{
+  "id": "ct-main-info-c",
+  "name": "ct-main-info-c",
+  "occurrences": 2,
+  "composedOf": [
+    "heading",
+    "image",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/contact"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "global-header-c",
+  "name": "global-header-c",
+  "occurrences": 89,
+  "composedOf": [
+    "form",
+    "input",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

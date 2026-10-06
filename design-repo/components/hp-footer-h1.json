@@ -1,0 +1,10 @@
+{
+  "id": "hp-footer-h1",
+  "name": "hp-footer-h1",
+  "occurrences": 356,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

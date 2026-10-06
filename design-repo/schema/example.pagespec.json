@@ -1,0 +1,218 @@
+{
+  "pageSpecVersion": "0.1.0",
+  "template": "template.group-7",
+  "route": "/blog/world-cup-2026-sponsor-stocks-analysis",
+  "nodes": [
+    {
+      "type": "support.global-header-c",
+      "content": {
+        "body": [
+          "One of our team members will be in touch shortly to schedule your demo and answer any questions you might have. In the meantime, feel free to explore our website"
+        ],
+        "ctas": [
+          {
+            "label": "Book a Demo"
+          },
+          {
+            "label": "BOOK A DEMO"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.art-header-w",
+      "content": {
+        "heading": "STOCK ANALYSIS: THE WINNERS AND LOSERS OF THE 2026 FIFA WORLD CUP – SPONSORS",
+        "body": [
+          "Report",
+          "August 17, 2026"
+        ],
+        "ctas": [
+          {
+            "label": "BACK TO BLOG",
+            "href": "/blog"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.art-image-w",
+      "content": {
+        "images": [
+          {
+            "assetRole": "content-image"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.art-content-w",
+      "content": {
+        "body": [
+          "Hyundai suffered the sharpest drop in stock value during the 2026 FIFA World Cup (-38.96 percent). The biggest share price gain, by contrast, went to Visa, up 11.31 percent. That's according to our current analysis of price movements among the 15 official World Cup sponsors and FIFA partners between the tournament's opening match and its final.",
+          "‍As mentioned, the sharpest decline in share value over the course of the entire tournament was recorded by carmaker Hyundai, down 38.96 percent. Behind it follow fellow automaker Kia (-10.91 percent) and telecommunications company Verizon (-7.17 percent). Beverage and snack company Frito-Lay/PepsiCo (-5.91 percent) and McDonald's (-5.03 percent) round out the bottom five.",
+          "‍",
+          "Payment card company Visa recorded the tournament's strongest gain with a share price increase of 11.31 percent. Close behind in second place is Chinese dairy company Mengniu Dairy (+11.22 percent), followed by Bank of America in third (+10.46 percent). Sporting goods manufacturer Adidas, which is ending its long-standing partnership with the German Football Association (DFB) after the World Cup, gained 5.67 percent, landing in fourth place. Consumer goods company Unilever (+1.57 percent) comple",
+          "‍On June 30, the first trading day after the German national team's elimination in the round of 32 against Paraguay, ten of the 15 sponsor stocks lost value. No share price is available for Hisense on that day. Consumer goods company Unilever saw the steepest decline (-8.52 percent). Smaller losses were recorded by Mengniu Dairy (-4.34 percent) and Verizon (-3.99 percent). Fourth and fifth place among the biggest losers went to Frito-Lay/PepsiCo (-2.37 percent) and Kia (-1.85 percent). At the sa",
+          "\"The share price performance shows how many different factors affect international brands during a major global event. For local retailers, it is therefore less important whether a sponsor's stock rises or falls. What matters much more is leveraging the heightened attention surrounding well-known brands for one's own local visibility – for example, through well-maintained business listings, current offers, or local campaigns. Especially when millions of people come into contact with a brand over",
+          "About the analysis For this analysis, Localyzer evaluated the share prices of the 15 official sponsors and partners of the 2026 FIFA World Cup over the entire course of the tournament. The starting point was the closing price on the opening day, June 11, 2026, and the endpoint was the closing price on July 20, 2026. The price data comes from the companies' respective home exchanges, including Xetra, the New York Stock Exchange, the Korea Exchange, the Hong Kong Stock Exchange, the Saudi Exchange"
+        ],
+        "items": [
+          {
+            "title": "BIGGEST LOSS: HYUNDAI SHEDS MORE THAN A THIRD OF ITS MARKET VALUE"
+          },
+          {
+            "title": "THE STOCK MARKET WINNER IS VISA"
+          },
+          {
+            "title": "TEN OF 15 SPONSOR STOCKS FALL AFTER GERMANY'S WORLD CUP EXIT"
+          },
+          {
+            "title": "ALL 15 SPONSORS AT A GLANCE"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "support.art-newsletter-s",
+      "content": {
+        "heading": "SUBSCRIBE TO GET MARKETING INSIGHTS TO HELP YOU LEVEL UP YOUR ADS REACH",
+        "body": [
+          "Increase your visibility and attract new customers. Improve your global advertising for local success.",
+          "By clicking Subscribe, you will receive our newsletter – revocable at any time. See our privacy policy for details."
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.art-related-s",
+      "content": {
+        "heading": "RELATED STORIES",
+        "items": [
+          {
+            "title": "Click & Collect in Fashion Retail: More Than Every Second Fashion Retailer Offers the Service",
+            "body": "Localyzer examined the Click & Collect offerings of 306 fashion retailers across the 20 largest German cities. The findings show that six in ten stores provide the service yet visibility and ease of access remain a significant challenge. Hamburg leads the city ranking, while Berlin comes last. H&M is the only chain among the ten examined that offers no Click & Collect whatsoever. Independent retailers show the greatest room for improvement."
+          },
+          {
+            "title": "Advent Calendar Comparison: This Bundesliga Club charges the most for its Chocolate Advent Calendar",
+            "body": "Localyzer analyzed the prices and Google search interest of Advent calendars offered by Bundesliga clubs. Hoffenheim sells the most expensive calendar, while Werder Bremen offers the cheapest. However online demand is driven less by price and more by brand strength Bayern Munich leads by a wide margin in search volume. The study highlights that brand power outweighs pricing strategy."
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "hero-image",
+            "alt": "Click & Collect in Fashion Retail: More Than Every Second Fashion Retailer Offers the Service"
+          },
+          {
+            "assetRole": "content-image",
+            "alt": "Valentine’s Day Analysis: This City Offers the Widest Selection - and the Highest Demand"
+          },
+          {
+            "assetRole": "content-image",
+            "alt": "Advent Calendar Comparison: This Bundesliga Club charges the most for its Chocolate Advent Calendar"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "shell.footer-s",
+      "content": {
+        "body": [
+          "Boost efficiency, save time, and enhance your campaigns with Localyzer."
+        ],
+        "ctas": [
+          {
+            "label": "GET STARTED"
+          },
+          {
+            "label": "HOME",
+            "href": "/?r=0"
+          },
+          {
+            "label": "ABOUT",
+            "href": "/about"
+          },
+          {
+            "label": "SOLUTIONS",
+            "href": "/solutions"
+          },
+          {
+            "label": "BLOG",
+            "href": "/blog"
+          },
+          {
+            "label": "CAREERS",
+            "href": "/careers"
+          },
+          {
+            "label": "CONTACT",
+            "href": "/contact"
+          },
+          {
+            "label": "Imprint",
+            "href": "/legal/imprint"
+          },
+          {
+            "label": "Terms & Conditions",
+            "href": "/legal/terms-conditions"
+          },
+          {
+            "label": "Privacy",
+            "href": "/legal/privacy-policy"
+          },
+          {
+            "label": "Close Cookie Popup"
+          },
+          {
+            "label": "privacy policy",
+            "href": "/legal/privacy-policy"
+          },
+          {
+            "label": "CUSTOMIZE"
+          },
+          {
+            "label": "Save"
+          },
+          {
+            "label": "DECLINE ALL"
+          },
+          {
+            "label": "ACCEPT ALL"
+          }
+        ],
+        "items": [
+          {
+            "title": "LEVEL UP YOUR ADS REACH"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    }
+  ]
+}

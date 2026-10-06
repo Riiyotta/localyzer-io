@@ -1,0 +1,13 @@
+{
+  "id": "ct-info-card-text",
+  "name": "ct-info-card-text",
+  "occurrences": 4,
+  "composedOf": [
+    "heading",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/contact"
+  }
+}
